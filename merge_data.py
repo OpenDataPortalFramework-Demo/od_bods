@@ -5,30 +5,32 @@ import datetime as dt
 import regex as re
 import json
 
-def load_ckan_data():
-    ckan_source = pd.DataFrame()
+
+def merge_data():
+    ### Loading data
+
+    ### From ckan output
+    source_ckan = pd.DataFrame()
     folder = "data/ckan/"
     for dirname, _, filenames in os.walk(folder):
         for filename in filenames:
             if filename.rsplit(".", 1)[1] == "csv":
                 print(filename)
-                ckan_source = pd.concat(
+                source_ckan = pd.concat(
                     [
-                        ckan_source,
+                        source_ckan,
                         pd.read_csv(
                             folder + r"/" + filename, parse_dates=["DateCreated","DateUpdated"], lineterminator='\n'
                         ),
                     ]
                 )
-    ckan_source["Source"] = "ckan API"
-
-    return ckan_source
+    source_ckan["Source"] = "ckan API"
 
 
-def load_scotgov_data():
+
     ### From scotgov csv
-    scotgov_source = pd.read_csv("data/sparkql/scotgov-datasets-sparkql.csv")
-    scotgov_source = scotgov_source.rename(
+    source_scotgov = pd.read_csv("data/sparkql/scotgov-datasets-sparkql.csv")
+    source_scotgov = source_scotgov.rename(
         columns={
             "title": "Title",
             "category": "OriginalTags",
@@ -40,113 +42,80 @@ def load_scotgov_data():
             "licence":"License"
         }
     )
-    scotgov_source["Source"] = "sparql"
-    scotgov_source['DateUpdated'] = pd.to_datetime(scotgov_source['DateUpdated'], utc=True).dt.tz_localize(None)
-    scotgov_source['DateCreated'] = pd.to_datetime(scotgov_source['DateCreated'], utc=True).dt.tz_localize(None)
-
-    return scotgov_source
+    source_scotgov["Source"] = "sparql"
+    source_scotgov['DateUpdated'] = pd.to_datetime(source_scotgov['DateUpdated'], utc=True).dt.tz_localize(None)
+    source_scotgov['DateCreated'] = pd.to_datetime(source_scotgov['DateCreated'], utc=True).dt.tz_localize(None)
 
 
-def load_arcgis_data():
-    arcgis_source = pd.DataFrame()
+    ### From arcgis api
+    source_arcgis = pd.DataFrame()
     folder = "data/arcgis/"
     for dirname, _, filenames in os.walk(folder):
         for filename in filenames:
             if filename.rsplit(".", 1)[1] == "csv":
-                arcgis_source = pd.concat(
+                source_arcgis = pd.concat(
                     [
-                        arcgis_source,
+                        source_arcgis,
                         pd.read_csv(
                             folder + r"/" + filename, parse_dates=["DateCreated","DateUpdated"]
                         ),
                     ]
                 )
-    arcgis_source["Source"] = "arcgis API"
-    return arcgis_source
+    source_arcgis["Source"] = "arcgis API"
 
-
-def load_usmart_data():
-    usmart_source = pd.DataFrame()
+    ### From usmart api
+    source_usmart = pd.DataFrame()
     folder = "data/USMART/"
     for dirname, _, filenames in os.walk(folder):
         for filename in filenames:
             if filename.rsplit(".", 1)[1] == "csv":
-                usmart_source = pd.concat(
+                source_usmart = pd.concat(
                     [
-                        usmart_source,
+                        source_usmart,
                         pd.read_csv(
                             folder + r"/" + filename, parse_dates=["DateCreated","DateUpdated"]
                         ),
                     ]
                 )
-    usmart_source["Source"] = "USMART API"
-    usmart_source["DateUpdated"] = usmart_source["DateUpdated"].dt.tz_localize(None)
-    usmart_source["DateCreated"] = usmart_source["DateCreated"].dt.tz_localize(None)
+    source_usmart["Source"] = "USMART API"
+    source_usmart["DateUpdated"] = source_usmart["DateUpdated"].dt.tz_localize(None)
+    source_usmart["DateCreated"] = source_usmart["DateCreated"].dt.tz_localize(None)
 
-    return usmart_source
-
-
-def load_dcat_data():
-    dcat_source = pd.DataFrame()
+    ## From DCAT
+    source_dcat = pd.DataFrame()
     folder = "data/dcat/"
     for dirname, _, filenames in os.walk(folder):
         for filename in filenames:
             if filename.rsplit(".", 1)[1] == "csv":
-                dcat_source = pd.concat(
+                source_dcat = pd.concat(
                     [
-                        dcat_source,
+                        source_dcat,
                         pd.read_csv(
                             folder + r"/" + filename, parse_dates=["DateCreated","DateUpdated"]
                         ),
                     ]
                 )
-    dcat_source["DateUpdated"] =  dcat_source["DateUpdated"].dt.tz_localize(None)
+    source_dcat["DateUpdated"] =  source_dcat["DateUpdated"].dt.tz_localize(None)
     #source_dcat["DateCreated"] = source_dcat["DateCreated"].dt.tz_localize(None) ### DateCreated currently not picked up in dcat so all are NULL
-    dcat_source["Source"] = "DCAT feed"
+    source_dcat["Source"] = "DCAT feed"
 
-    return dcat_source
-
-
-def load_web_scraped_data():
-    scraped_data = pd.DataFrame()
+    '''
+    ## From web scraped results
+    source_scraped = pd.DataFrame()
     folder = "data/scraped-results/"
     for dirname, _, filenames in os.walk(folder):
         for filename in filenames:
             if filename.rsplit(".", 1)[1] == "csv":
-                scraped_data = pd.concat(
+                source_scraped = pd.concat(
                     [
-                        scraped_data,
+                        source_scraped,
                         pd.read_csv(
                             folder + r"/" + filename, parse_dates=["DateCreated","DateUpdated"]
                         ),
                     ]
                 )
-    scraped_data["Source"] = "Web Scraped"
-
-    return scraped_data
-
-
-def merge_data():
-    ### Loading data
-
-    ### From ckan output
-    source_ckan =load_ckan_data()
-
-    ### From scotgov csv
-    source_scotgov = load_scotgov_data()
-
-    ### From arcgis api
-    source_arcgis = load_arcgis_data()
-    
-    ### From usmart api
-    source_usmart = load_usmart_data()
-
-    ## From DCAT
-    source_dcat = load_dcat_data()
-
-    ## From web scraped results
-    # source_scraped = load_web_scraped_data()
-
+    source_scraped["Source"] = "Web Scraped"
+    '''
 #check
 
     ### Combine all data into single table
@@ -185,6 +154,24 @@ def clean_data(dataframe):
     """
     ### to avoid confusion and avoid re-naming everything...
     data = dataframe
+
+    ### Renaming entries to match
+    owner_renames = {
+        "Aberdeen": "Aberdeen City Council",
+        "Dundee": "Dundee City Council",
+        "Perth": "Perth & Kinross Council",
+        "Perth and Kinross Council": "Perth & Kinross Council",
+        "Stirling": "Stirling Council",
+        "Angus": "Angus Council",
+        "open.data@southayrshire": "South Ayrshire Council",
+        "SEPA": "Scottish Environment Protection Agency",
+        "South Ayrshire": "South Ayrshire Council",
+        "East Ayrshire": "East Ayrshire Council",
+        "Highland Council GIS Organisation": "Highland Council",
+        "Scottish.Forestry": "Scottish Forestry",
+        "Na h-Eileanan an Iar": "Comhairle nan Eilean Siar",
+    }
+    data["Owner"] = data["Owner"].replace(owner_renames)
     ### Format dates as datetime type
     data["DateCreated"] = pd.to_datetime(
         data["DateCreated"], format="%Y-%m-%d", errors="coerce", utc=True
@@ -270,11 +257,11 @@ def clean_data(dataframe):
         categories_result = match_categories(str_title_description)
         return categories_result
 
-    with open("ODPCategories.json") as json_file:
+    with open("ODSCategories.json") as json_file:
         ods_categories = json.load(json_file)
 
     ### Apply ODS categorisation
-    data[["ODPCategories", "ODPCategories_Keywords"]] = data.apply(
+    data[["ODSCategories", "ODSCategories_Keywords"]] = data.apply(
         lambda x: get_categories(x), result_type="expand", axis=1
     )
 
