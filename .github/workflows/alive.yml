@@ -24,5 +24,4 @@ jobs:
     - name: Run status checker
       env: 
         GITHUB_ACCESS_TOKEN: ${{secrets.ALIVE_GITHUB_TOKEN}}
-        GITHUB_USER_ASSIGNEE: jackgilmore
       run: python ./alive.py 
