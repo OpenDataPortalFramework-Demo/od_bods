@@ -24,13 +24,13 @@ jobs:
     - name: Check out OD bods toolset repo
       uses: actions/checkout@v3
       with: 
-        repository: 'Open-Data-Portal-Framework/od_bods'
+        repository: 'OpenDataPortalFramework-Demo/od_bods'
         path: 'od_bods'
         token: ${{ secrets.COMMITS_TOKEN }}
     - name: Check out JKAN repo
       uses: actions/checkout@v3
       with: 
-        repository: 'Open-Data-Portal-Framework/jkan'
+        repository: 'OpenDataPortalFramework-Demo/jkan'
         path: 'jkan'
         token: ${{ secrets.COMMITS_TOKEN }}
     - name: Check files
