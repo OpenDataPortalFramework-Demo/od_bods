@@ -41,8 +41,26 @@ def load_scotgov_data():
         }
     )
     scotgov_source["Source"] = "sparql"
-    scotgov_source['DateUpdated'] = pd.to_datetime(scotgov_source['DateUpdated'], utc=True).dt.tz_localize(None)
-    scotgov_source['DateCreated'] = pd.to_datetime(scotgov_source['DateCreated'], utc=True).dt.tz_localize(None)
+
+    try:
+        scotgov_source['DateUpdated'] = pd.to_datetime(scotgov_source['DateUpdated'], utc=True).dt.tz_localize(None)
+    except:
+        try:
+            scotgov_source['DateUpdated'] = pd.to_datetime(scotgov_source['DateUpdated'], utc=True, format="ISO8601").dt.tz_localize(None)
+        except:
+            # If we get to this stage, give up and just blank the date
+            print("WARNING: Failed to parse date - " + scotgov_source['DateUpdated'])
+            scotgov_source['DateUpdated'] = None
+    try:
+        scotgov_source['DateCreated'] = pd.to_datetime(scotgov_source['DateCreated'], utc=True).dt.tz_localize(None)
+    except:
+        try:
+            scotgov_source['DateCreated'] = pd.to_datetime(scotgov_source['DateCreated'], utc=True, format="ISO8601").dt.tz_localize(None)
+        except:
+            # If we get to this stage, give up and just blank the date
+            print("WARNING: Failed to parse date - " + scotgov_source['DateCreated'])
+            scotgov_source['DateCreated'] = None
+
 
     return scotgov_source
 
