@@ -32,5 +32,8 @@ python dcat.py
 # cd ..
 # processing
 python merge_data.py
+cd health_checks
+python health_categories.py
+cd ..
 python export2jkan.py
 echo "main.sh complete"
