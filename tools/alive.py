@@ -7,7 +7,7 @@ import csv
 import os
 
 # put the name of your repo
-GITHUB_REPO = "Open-Data-Portal-Framework-Demo/od_bods"
+GITHUB_REPO = "OpenDataPortalFramework-Demo/od_bods"
 # put your personal access token
 github_access_token = os.environ.get("GITHUB_ACCESS_TOKEN")
 
