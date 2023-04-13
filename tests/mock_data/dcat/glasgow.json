@@ -2642,88 +2642,6 @@
         },
         {
             "@type": "dcat:Dataset",
-            "@id": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::gcc-car-parks",
-            "dct:title": "GCC Car Parks",
-            "dct:description": "Location of car parks within Glasgow that are managed by Glasgow City Council.",
-            "dcat:contactPoint": {
-                "@id": "https://GlasgowGIS.maps.arcgis.com/sharing/rest/community/users/GlasgowGIS?f=json",
-                "@type": "Contact",
-                "vcard:fn": "GlasgowGIS",
-                "vcard:hasEmail": "http://how to contact glasgow city council  council services  each council service has their own contact details and where possible you should contact them directly. the lists all our services along with the contact details for each.  if you are unable to locate the service contact details in the a-z then you can contact us using the following methods:  phone: 0141 287 2000 (switchboard)  calls may be recorded for quality and training purposes. online: give us your feedback - make a comment/compliment or a complaint using our online forms for comments/compliments and complaints. post: you can write to us at:   customer care team  glasgow city council  city chambers  glasgow  g2 1du. for web maps contact location@glasgow.gov.uk"
-            },
-            "dct:publisher": "Glasgow City Council",
-            "dcat:theme": "geospatial",
-            "dct:accessRights": "public",
-            "dct:identifier": "https://www.arcgis.com/home/item.html?id=655c877812cc476da873a036d5ef5b5b&sublayer=0",
-            "dcat:keyword": [
-                "Car Parks",
-                "Parking"
-            ],
-            "dct:provenance": "",
-            "dct:issued": "2023-04-06T14:12:53.000Z",
-            "dct:modified": "2023-04-06T14:13:32.000Z",
-            "dct:language": {
-                "@id": "lang:ENG"
-            },
-            "dcat:distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::gcc-car-parks",
-                    "dct:format": {
-                        "@id": "ftype:HTML"
-                    },
-                    "dct:description": "Web Page",
-                    "dct:title": "ArcGIS Hub Dataset"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://www.mapping.glasgow.gov.uk/arcgis_web/rest/services/OPEN_DATA/GCC_Car_Parks/MapServer/0",
-                    "dct:format": {
-                        "@id": "ftype:JSON"
-                    },
-                    "dct:description": "Esri REST",
-                    "dct:title": "ArcGIS GeoService"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::gcc-car-parks.csv?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
-                    "dct:format": {
-                        "@id": "ftype:CSV"
-                    },
-                    "dct:description": "CSV",
-                    "dct:title": "CSV"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::gcc-car-parks.geojson?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
-                    "dct:format": {
-                        "@id": "ftype:GEOJSON"
-                    },
-                    "dct:description": "GeoJSON",
-                    "dct:title": "GeoJSON"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::gcc-car-parks.zip?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
-                    "dct:format": {
-                        "@id": "ftype:ZIP"
-                    },
-                    "dct:description": "Shapefile",
-                    "dct:title": "ZIP"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::gcc-car-parks.kml?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
-                    "dct:format": {
-                        "@id": "ftype:KML"
-                    },
-                    "dct:description": "KML",
-                    "dct:title": "KML"
-                }
-            ]
-        },
-        {
-            "@type": "dcat:Dataset",
             "@id": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::air-quality-management-areas",
             "dct:title": "Air Quality Management Areas",
             "dct:description": "Glasgow has AQMAs located at the City Centre, Byres Rd / Dumbarton Rd and Parkhead Cross.<div>All of these have been declared for the pollutant nitrogen dioxide (NO2).</div><div>The City Centre and Byres Rd / Dumbarton Rd AQMAs have also been declared for the pollutant particles (PM10).</div>",
@@ -3559,172 +3477,6 @@
         },
         {
             "@type": "dcat:Dataset",
-            "@id": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::cdp-2-masterplan-areas",
-            "dct:title": "CDP 2 - Masterplan Areas",
-            "dct:description": "City Development Plan Policy and Proposals ",
-            "dcat:contactPoint": {
-                "@id": "https://GlasgowGIS.maps.arcgis.com/sharing/rest/community/users/GlasgowGIS?f=json",
-                "@type": "Contact",
-                "vcard:fn": "GlasgowGIS",
-                "vcard:hasEmail": "http://how to contact glasgow city council  council services  each council service has their own contact details and where possible you should contact them directly. the lists all our services along with the contact details for each.  if you are unable to locate the service contact details in the a-z then you can contact us using the following methods:  phone: 0141 287 2000 (switchboard)  calls may be recorded for quality and training purposes. online: give us your feedback - make a comment/compliment or a complaint using our online forms for comments/compliments and complaints. post: you can write to us at:   customer care team  glasgow city council  city chambers  glasgow  g2 1du. for web maps contact location@glasgow.gov.uk"
-            },
-            "dct:publisher": "Glasgow City Council",
-            "dcat:theme": "geospatial",
-            "dct:accessRights": "public",
-            "dct:identifier": "https://www.arcgis.com/home/item.html?id=bbb31c44f3434935b2f432c16e225bbc&sublayer=1",
-            "dcat:keyword": [
-                "CDP",
-                "City Development Plan",
-                "planning"
-            ],
-            "dct:provenance": "",
-            "dct:issued": "2021-11-12T09:55:51.000Z",
-            "dct:modified": "2022-07-25T15:50:06.000Z",
-            "dct:language": {
-                "@id": "lang:ENG"
-            },
-            "dcat:distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::cdp-2-masterplan-areas",
-                    "dct:format": {
-                        "@id": "ftype:HTML"
-                    },
-                    "dct:description": "Web Page",
-                    "dct:title": "ArcGIS Hub Dataset"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://utility.arcgis.com/usrsvcs/servers/bbb31c44f3434935b2f432c16e225bbc/rest/services/AGOL/CDP_Policy_Proposals/FeatureServer/1",
-                    "dct:format": {
-                        "@id": "ftype:JSON"
-                    },
-                    "dct:description": "Esri REST",
-                    "dct:title": "ArcGIS GeoService"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-2-masterplan-areas.csv?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
-                    "dct:format": {
-                        "@id": "ftype:CSV"
-                    },
-                    "dct:description": "CSV",
-                    "dct:title": "CSV"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-2-masterplan-areas.geojson?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
-                    "dct:format": {
-                        "@id": "ftype:GEOJSON"
-                    },
-                    "dct:description": "GeoJSON",
-                    "dct:title": "GeoJSON"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-2-masterplan-areas.zip?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
-                    "dct:format": {
-                        "@id": "ftype:ZIP"
-                    },
-                    "dct:description": "Shapefile",
-                    "dct:title": "ZIP"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-2-masterplan-areas.kml?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
-                    "dct:format": {
-                        "@id": "ftype:KML"
-                    },
-                    "dct:description": "KML",
-                    "dct:title": "KML"
-                }
-            ]
-        },
-        {
-            "@type": "dcat:Dataset",
-            "@id": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::cdp-7-natural-environment-see-figure-14-of-the-plan",
-            "dct:title": "CDP 7 - Natural Environment (see figure 14 of The Plan)",
-            "dct:description": "City Development Plan Policy and Proposals ",
-            "dcat:contactPoint": {
-                "@id": "https://GlasgowGIS.maps.arcgis.com/sharing/rest/community/users/GlasgowGIS?f=json",
-                "@type": "Contact",
-                "vcard:fn": "GlasgowGIS",
-                "vcard:hasEmail": "http://how to contact glasgow city council  council services  each council service has their own contact details and where possible you should contact them directly. the lists all our services along with the contact details for each.  if you are unable to locate the service contact details in the a-z then you can contact us using the following methods:  phone: 0141 287 2000 (switchboard)  calls may be recorded for quality and training purposes. online: give us your feedback - make a comment/compliment or a complaint using our online forms for comments/compliments and complaints. post: you can write to us at:   customer care team  glasgow city council  city chambers  glasgow  g2 1du. for web maps contact location@glasgow.gov.uk"
-            },
-            "dct:publisher": "Glasgow City Council",
-            "dcat:theme": "geospatial",
-            "dct:accessRights": "public",
-            "dct:identifier": "https://www.arcgis.com/home/item.html?id=bbb31c44f3434935b2f432c16e225bbc&sublayer=10",
-            "dcat:keyword": [
-                "CDP",
-                "City Development Plan",
-                "planning"
-            ],
-            "dct:provenance": "",
-            "dct:issued": "2021-11-12T09:55:51.000Z",
-            "dct:modified": "2022-07-25T15:50:06.000Z",
-            "dct:language": {
-                "@id": "lang:ENG"
-            },
-            "dcat:distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::cdp-7-natural-environment-see-figure-14-of-the-plan",
-                    "dct:format": {
-                        "@id": "ftype:HTML"
-                    },
-                    "dct:description": "Web Page",
-                    "dct:title": "ArcGIS Hub Dataset"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://utility.arcgis.com/usrsvcs/servers/bbb31c44f3434935b2f432c16e225bbc/rest/services/AGOL/CDP_Policy_Proposals/FeatureServer/10",
-                    "dct:format": {
-                        "@id": "ftype:JSON"
-                    },
-                    "dct:description": "Esri REST",
-                    "dct:title": "ArcGIS GeoService"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-7-natural-environment-see-figure-14-of-the-plan.csv?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
-                    "dct:format": {
-                        "@id": "ftype:CSV"
-                    },
-                    "dct:description": "CSV",
-                    "dct:title": "CSV"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-7-natural-environment-see-figure-14-of-the-plan.geojson?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
-                    "dct:format": {
-                        "@id": "ftype:GEOJSON"
-                    },
-                    "dct:description": "GeoJSON",
-                    "dct:title": "GeoJSON"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-7-natural-environment-see-figure-14-of-the-plan.zip?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
-                    "dct:format": {
-                        "@id": "ftype:ZIP"
-                    },
-                    "dct:description": "Shapefile",
-                    "dct:title": "ZIP"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-7-natural-environment-see-figure-14-of-the-plan.kml?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
-                    "dct:format": {
-                        "@id": "ftype:KML"
-                    },
-                    "dct:description": "KML",
-                    "dct:title": "KML"
-                }
-            ]
-        },
-        {
-            "@type": "dcat:Dataset",
             "@id": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::cdp-major-road-proposals",
             "dct:title": "CDP: Major Road Proposals",
             "dct:description": "City Development Plan Policy and Proposals ",
@@ -3891,8 +3643,8 @@
         },
         {
             "@type": "dcat:Dataset",
-            "@id": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::cdp-citywide-policy",
-            "dct:title": "CDP - Citywide Policy",
+            "@id": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::cdp-2-masterplan-areas",
+            "dct:title": "CDP 2 - Masterplan Areas",
             "dct:description": "City Development Plan Policy and Proposals ",
             "dcat:contactPoint": {
                 "@id": "https://GlasgowGIS.maps.arcgis.com/sharing/rest/community/users/GlasgowGIS?f=json",
@@ -3903,7 +3655,7 @@
             "dct:publisher": "Glasgow City Council",
             "dcat:theme": "geospatial",
             "dct:accessRights": "public",
-            "dct:identifier": "https://www.arcgis.com/home/item.html?id=bbb31c44f3434935b2f432c16e225bbc&sublayer=0",
+            "dct:identifier": "https://www.arcgis.com/home/item.html?id=bbb31c44f3434935b2f432c16e225bbc&sublayer=1",
             "dcat:keyword": [
                 "CDP",
                 "City Development Plan",
@@ -3918,7 +3670,7 @@
             "dcat:distribution": [
                 {
                     "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::cdp-citywide-policy",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::cdp-2-masterplan-areas",
                     "dct:format": {
                         "@id": "ftype:HTML"
                     },
@@ -3927,7 +3679,7 @@
                 },
                 {
                     "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://utility.arcgis.com/usrsvcs/servers/bbb31c44f3434935b2f432c16e225bbc/rest/services/AGOL/CDP_Policy_Proposals/FeatureServer/0",
+                    "dcat:accessUrl": "https://utility.arcgis.com/usrsvcs/servers/bbb31c44f3434935b2f432c16e225bbc/rest/services/AGOL/CDP_Policy_Proposals/FeatureServer/1",
                     "dct:format": {
                         "@id": "ftype:JSON"
                     },
@@ -3936,7 +3688,7 @@
                 },
                 {
                     "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-citywide-policy.csv?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-2-masterplan-areas.csv?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
                     "dct:format": {
                         "@id": "ftype:CSV"
                     },
@@ -3945,7 +3697,7 @@
                 },
                 {
                     "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-citywide-policy.geojson?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-2-masterplan-areas.geojson?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
                     "dct:format": {
                         "@id": "ftype:GEOJSON"
                     },
@@ -3954,7 +3706,7 @@
                 },
                 {
                     "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-citywide-policy.zip?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-2-masterplan-areas.zip?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
                     "dct:format": {
                         "@id": "ftype:ZIP"
                     },
@@ -3963,7 +3715,7 @@
                 },
                 {
                     "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-citywide-policy.kml?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-2-masterplan-areas.kml?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
                     "dct:format": {
                         "@id": "ftype:KML"
                     },
@@ -3974,8 +3726,8 @@
         },
         {
             "@type": "dcat:Dataset",
-            "@id": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::world-heritage-site-antonine-wall",
-            "dct:title": "World Heritage Site: Antonine Wall",
+            "@id": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::cdp-7-natural-environment-see-figure-14-of-the-plan",
+            "dct:title": "CDP 7 - Natural Environment (see figure 14 of The Plan)",
             "dct:description": "City Development Plan Policy and Proposals ",
             "dcat:contactPoint": {
                 "@id": "https://GlasgowGIS.maps.arcgis.com/sharing/rest/community/users/GlasgowGIS?f=json",
@@ -3986,7 +3738,7 @@
             "dct:publisher": "Glasgow City Council",
             "dcat:theme": "geospatial",
             "dct:accessRights": "public",
-            "dct:identifier": "https://www.arcgis.com/home/item.html?id=bbb31c44f3434935b2f432c16e225bbc&sublayer=12",
+            "dct:identifier": "https://www.arcgis.com/home/item.html?id=bbb31c44f3434935b2f432c16e225bbc&sublayer=10",
             "dcat:keyword": [
                 "CDP",
                 "City Development Plan",
@@ -4001,7 +3753,7 @@
             "dcat:distribution": [
                 {
                     "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::world-heritage-site-antonine-wall",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::cdp-7-natural-environment-see-figure-14-of-the-plan",
                     "dct:format": {
                         "@id": "ftype:HTML"
                     },
@@ -4010,7 +3762,7 @@
                 },
                 {
                     "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://utility.arcgis.com/usrsvcs/servers/bbb31c44f3434935b2f432c16e225bbc/rest/services/AGOL/CDP_Policy_Proposals/FeatureServer/12",
+                    "dcat:accessUrl": "https://utility.arcgis.com/usrsvcs/servers/bbb31c44f3434935b2f432c16e225bbc/rest/services/AGOL/CDP_Policy_Proposals/FeatureServer/10",
                     "dct:format": {
                         "@id": "ftype:JSON"
                     },
@@ -4019,7 +3771,7 @@
                 },
                 {
                     "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::world-heritage-site-antonine-wall.csv?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-7-natural-environment-see-figure-14-of-the-plan.csv?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
                     "dct:format": {
                         "@id": "ftype:CSV"
                     },
@@ -4028,7 +3780,7 @@
                 },
                 {
                     "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::world-heritage-site-antonine-wall.geojson?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-7-natural-environment-see-figure-14-of-the-plan.geojson?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
                     "dct:format": {
                         "@id": "ftype:GEOJSON"
                     },
@@ -4037,7 +3789,7 @@
                 },
                 {
                     "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::world-heritage-site-antonine-wall.zip?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-7-natural-environment-see-figure-14-of-the-plan.zip?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
                     "dct:format": {
                         "@id": "ftype:ZIP"
                     },
@@ -4046,7 +3798,7 @@
                 },
                 {
                     "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::world-heritage-site-antonine-wall.kml?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-7-natural-environment-see-figure-14-of-the-plan.kml?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
                     "dct:format": {
                         "@id": "ftype:KML"
                     },
@@ -4140,8 +3892,8 @@
         },
         {
             "@type": "dcat:Dataset",
-            "@id": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::cdp-feasibility-study",
-            "dct:title": "CDP: Feasibility Study",
+            "@id": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::world-heritage-site-antonine-wall",
+            "dct:title": "World Heritage Site: Antonine Wall",
             "dct:description": "City Development Plan Policy and Proposals ",
             "dcat:contactPoint": {
                 "@id": "https://GlasgowGIS.maps.arcgis.com/sharing/rest/community/users/GlasgowGIS?f=json",
@@ -4152,7 +3904,7 @@
             "dct:publisher": "Glasgow City Council",
             "dcat:theme": "geospatial",
             "dct:accessRights": "public",
-            "dct:identifier": "https://www.arcgis.com/home/item.html?id=bbb31c44f3434935b2f432c16e225bbc&sublayer=18",
+            "dct:identifier": "https://www.arcgis.com/home/item.html?id=bbb31c44f3434935b2f432c16e225bbc&sublayer=12",
             "dcat:keyword": [
                 "CDP",
                 "City Development Plan",
@@ -4167,7 +3919,7 @@
             "dcat:distribution": [
                 {
                     "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::cdp-feasibility-study",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::world-heritage-site-antonine-wall",
                     "dct:format": {
                         "@id": "ftype:HTML"
                     },
@@ -4176,7 +3928,7 @@
                 },
                 {
                     "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://utility.arcgis.com/usrsvcs/servers/bbb31c44f3434935b2f432c16e225bbc/rest/services/AGOL/CDP_Policy_Proposals/FeatureServer/18",
+                    "dcat:accessUrl": "https://utility.arcgis.com/usrsvcs/servers/bbb31c44f3434935b2f432c16e225bbc/rest/services/AGOL/CDP_Policy_Proposals/FeatureServer/12",
                     "dct:format": {
                         "@id": "ftype:JSON"
                     },
@@ -4185,7 +3937,7 @@
                 },
                 {
                     "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-feasibility-study.csv?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::world-heritage-site-antonine-wall.csv?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
                     "dct:format": {
                         "@id": "ftype:CSV"
                     },
@@ -4194,7 +3946,7 @@
                 },
                 {
                     "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-feasibility-study.geojson?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::world-heritage-site-antonine-wall.geojson?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
                     "dct:format": {
                         "@id": "ftype:GEOJSON"
                     },
@@ -4203,7 +3955,7 @@
                 },
                 {
                     "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-feasibility-study.zip?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::world-heritage-site-antonine-wall.zip?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
                     "dct:format": {
                         "@id": "ftype:ZIP"
                     },
@@ -4212,7 +3964,90 @@
                 },
                 {
                     "@type": "dcat:Distribution",
-                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-feasibility-study.kml?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::world-heritage-site-antonine-wall.kml?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
+                    "dct:format": {
+                        "@id": "ftype:KML"
+                    },
+                    "dct:description": "KML",
+                    "dct:title": "KML"
+                }
+            ]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "@id": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::cdp-citywide-policy",
+            "dct:title": "CDP - Citywide Policy",
+            "dct:description": "City Development Plan Policy and Proposals ",
+            "dcat:contactPoint": {
+                "@id": "https://GlasgowGIS.maps.arcgis.com/sharing/rest/community/users/GlasgowGIS?f=json",
+                "@type": "Contact",
+                "vcard:fn": "GlasgowGIS",
+                "vcard:hasEmail": "http://how to contact glasgow city council  council services  each council service has their own contact details and where possible you should contact them directly. the lists all our services along with the contact details for each.  if you are unable to locate the service contact details in the a-z then you can contact us using the following methods:  phone: 0141 287 2000 (switchboard)  calls may be recorded for quality and training purposes. online: give us your feedback - make a comment/compliment or a complaint using our online forms for comments/compliments and complaints. post: you can write to us at:   customer care team  glasgow city council  city chambers  glasgow  g2 1du. for web maps contact location@glasgow.gov.uk"
+            },
+            "dct:publisher": "Glasgow City Council",
+            "dcat:theme": "geospatial",
+            "dct:accessRights": "public",
+            "dct:identifier": "https://www.arcgis.com/home/item.html?id=bbb31c44f3434935b2f432c16e225bbc&sublayer=0",
+            "dcat:keyword": [
+                "CDP",
+                "City Development Plan",
+                "planning"
+            ],
+            "dct:provenance": "",
+            "dct:issued": "2021-11-12T09:55:51.000Z",
+            "dct:modified": "2022-07-25T15:50:06.000Z",
+            "dct:language": {
+                "@id": "lang:ENG"
+            },
+            "dcat:distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::cdp-citywide-policy",
+                    "dct:format": {
+                        "@id": "ftype:HTML"
+                    },
+                    "dct:description": "Web Page",
+                    "dct:title": "ArcGIS Hub Dataset"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "dcat:accessUrl": "https://utility.arcgis.com/usrsvcs/servers/bbb31c44f3434935b2f432c16e225bbc/rest/services/AGOL/CDP_Policy_Proposals/FeatureServer/0",
+                    "dct:format": {
+                        "@id": "ftype:JSON"
+                    },
+                    "dct:description": "Esri REST",
+                    "dct:title": "ArcGIS GeoService"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-citywide-policy.csv?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
+                    "dct:format": {
+                        "@id": "ftype:CSV"
+                    },
+                    "dct:description": "CSV",
+                    "dct:title": "CSV"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-citywide-policy.geojson?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
+                    "dct:format": {
+                        "@id": "ftype:GEOJSON"
+                    },
+                    "dct:description": "GeoJSON",
+                    "dct:title": "GeoJSON"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-citywide-policy.zip?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
+                    "dct:format": {
+                        "@id": "ftype:ZIP"
+                    },
+                    "dct:description": "Shapefile",
+                    "dct:title": "ZIP"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-citywide-policy.kml?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
                     "dct:format": {
                         "@id": "ftype:KML"
                     },
@@ -4296,6 +4131,89 @@
                 {
                     "@type": "dcat:Distribution",
                     "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-green-belt-potential-housing-release.kml?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
+                    "dct:format": {
+                        "@id": "ftype:KML"
+                    },
+                    "dct:description": "KML",
+                    "dct:title": "KML"
+                }
+            ]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "@id": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::cdp-feasibility-study",
+            "dct:title": "CDP: Feasibility Study",
+            "dct:description": "City Development Plan Policy and Proposals ",
+            "dcat:contactPoint": {
+                "@id": "https://GlasgowGIS.maps.arcgis.com/sharing/rest/community/users/GlasgowGIS?f=json",
+                "@type": "Contact",
+                "vcard:fn": "GlasgowGIS",
+                "vcard:hasEmail": "http://how to contact glasgow city council  council services  each council service has their own contact details and where possible you should contact them directly. the lists all our services along with the contact details for each.  if you are unable to locate the service contact details in the a-z then you can contact us using the following methods:  phone: 0141 287 2000 (switchboard)  calls may be recorded for quality and training purposes. online: give us your feedback - make a comment/compliment or a complaint using our online forms for comments/compliments and complaints. post: you can write to us at:   customer care team  glasgow city council  city chambers  glasgow  g2 1du. for web maps contact location@glasgow.gov.uk"
+            },
+            "dct:publisher": "Glasgow City Council",
+            "dcat:theme": "geospatial",
+            "dct:accessRights": "public",
+            "dct:identifier": "https://www.arcgis.com/home/item.html?id=bbb31c44f3434935b2f432c16e225bbc&sublayer=18",
+            "dcat:keyword": [
+                "CDP",
+                "City Development Plan",
+                "planning"
+            ],
+            "dct:provenance": "",
+            "dct:issued": "2021-11-12T09:55:51.000Z",
+            "dct:modified": "2022-07-25T15:50:06.000Z",
+            "dct:language": {
+                "@id": "lang:ENG"
+            },
+            "dcat:distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/maps/GlasgowGIS::cdp-feasibility-study",
+                    "dct:format": {
+                        "@id": "ftype:HTML"
+                    },
+                    "dct:description": "Web Page",
+                    "dct:title": "ArcGIS Hub Dataset"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "dcat:accessUrl": "https://utility.arcgis.com/usrsvcs/servers/bbb31c44f3434935b2f432c16e225bbc/rest/services/AGOL/CDP_Policy_Proposals/FeatureServer/18",
+                    "dct:format": {
+                        "@id": "ftype:JSON"
+                    },
+                    "dct:description": "Esri REST",
+                    "dct:title": "ArcGIS GeoService"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-feasibility-study.csv?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
+                    "dct:format": {
+                        "@id": "ftype:CSV"
+                    },
+                    "dct:description": "CSV",
+                    "dct:title": "CSV"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-feasibility-study.geojson?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
+                    "dct:format": {
+                        "@id": "ftype:GEOJSON"
+                    },
+                    "dct:description": "GeoJSON",
+                    "dct:title": "GeoJSON"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-feasibility-study.zip?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
+                    "dct:format": {
+                        "@id": "ftype:ZIP"
+                    },
+                    "dct:description": "Shapefile",
+                    "dct:title": "ZIP"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "dcat:accessUrl": "https://open-data-design-glasgowgis.hub.arcgis.com/datasets/GlasgowGIS::cdp-feasibility-study.kml?outSR=%7B%22latestWkid%22%3A27700%2C%22wkid%22%3A27700%7D",
                     "dct:format": {
                         "@id": "ftype:KML"
                     },

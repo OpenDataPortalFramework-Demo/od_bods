@@ -88,12 +88,10 @@ def main():
                 if type_source == "arcgis":
                     if "next" in json_data["meta"] and json_data["meta"]["next"]:
                         del json_data["meta"]["next"]  # avoids link list urls
-
-            if type_source == "ckan":        
-                test_get_datasets(name, type_source)
-            else:
                 save_json(json_data, location)
                 test_get_datasets(name, type_source)
+            else:        
+                test_get_datasets(name, type_source)                            
 
 
 if __name__ == "__main__":
