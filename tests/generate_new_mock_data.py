@@ -52,7 +52,7 @@ def test_get_datasets(name, type):
             test_proc = ProcessorCKAN()
             
     owner = "test_owner"
-    outputdir = os.path.join("tests", "mock_data", type.lower(), "expected")
+    outputdir = os.path.join("tests", "mock_data", type, "expected")
     
     if type == "ckan":
         urls = get_urls()
@@ -60,7 +60,7 @@ def test_get_datasets(name, type):
         
     else: 
         start_url = "file:///" + os.path.abspath(
-        "tests/mock_data/" + type.lower() + "/" + name + ".json"
+        "tests/mock_data/" + type + "/" + name + ".json"
     )
 
         
@@ -81,7 +81,10 @@ def main():
 
         print(f"-> {name} | {type_source} | {url_list[name]['url']}")
         if type_source in supported_scrapers:
-            location = os.path.join("tests", "mock_data", type_source.lower(), name + ".json")
+            if not os.path.exists(f"tests/mock_data/{type_source}"):
+                os.makedirs(f"tests/mock_data/{type_source}")
+                
+            location = os.path.join("tests", "mock_data", type_source, name + ".json")
 
             if type_source != "ckan":
                 json_data = get_json(url_list[name]["url"])
