@@ -72,8 +72,8 @@ Arts / Culture / History  11
     "job seeker's allowance": 1,
     "unemployment": 1,
     "economic activity": 1,
-    "economic development": 1,
     "regeneration": 1,
+    "economic development": 1,
     "tenders": 1
   },
   "Council and Government": {
@@ -538,8 +538,8 @@ Arts / Culture / History  11
 ### Keywords in multiple categories (31) ###
 {
   "allotment": [
-    "Housing and Estates",
-    "Food and Environment"
+    "Food and Environment",
+    "Housing and Estates"
   ],
   "boundaries": [
     "Planning and Development",
@@ -550,12 +550,12 @@ Arts / Culture / History  11
     "Housing and Estates"
   ],
   "community centres": [
-    "Parks / Recreation",
-    "Sport and Leisure"
+    "Sport and Leisure",
+    "Parks / Recreation"
   ],
   "cooling tower": [
-    "Business and Economy",
-    "Food and Environment"
+    "Food and Environment",
+    "Business and Economy"
   ],
   "core paths": [
     "Planning and Development",
@@ -574,8 +574,8 @@ Arts / Culture / History  11
     "Council and Government"
   ],
   "crime": [
-    "Law and Licensing",
-    "Public Safety"
+    "Public Safety",
+    "Law and Licensing"
   ],
   "dwellings": [
     "Planning and Development",
@@ -598,28 +598,28 @@ Arts / Culture / History  11
     "Housing and Estates"
   ],
   "open spaces": [
-    "Parks / Recreation",
-    "Sport and Leisure"
+    "Sport and Leisure",
+    "Parks / Recreation"
   ],
   "parking": [
-    "Housing and Estates",
-    "Transportation"
+    "Transportation",
+    "Housing and Estates"
   ],
   "parks": [
-    "Parks / Recreation",
-    "Sport and Leisure"
+    "Sport and Leisure",
+    "Parks / Recreation"
   ],
   "police": [
-    "Law and Licensing",
-    "Public Safety"
+    "Public Safety",
+    "Law and Licensing"
   ],
   "policing": [
-    "Law and Licensing",
-    "Public Safety"
+    "Public Safety",
+    "Law and Licensing"
   ],
   "pollution": [
-    "Business and Economy",
-    "Food and Environment"
+    "Food and Environment",
+    "Business and Economy"
   ],
   "postcodes": [
     "Planning and Development",
@@ -634,16 +634,16 @@ Arts / Culture / History  11
     "Food and Environment"
   ],
   "regeneration": [
-    "Business and Economy",
-    "Food and Environment"
+    "Food and Environment",
+    "Business and Economy"
   ],
   "road safety": [
     "Public Safety",
     "Transportation"
   ],
   "school meals": [
-    "Education",
-    "Food and Environment"
+    "Food and Environment",
+    "Education"
   ],
   "sport": [
     "Sport and Leisure"
@@ -657,8 +657,8 @@ Arts / Culture / History  11
     "Food and Environment"
   ],
   "woodland": [
-    "Housing and Estates",
-    "Parks / Recreation"
+    "Parks / Recreation",
+    "Housing and Estates"
   ]
 }
 
