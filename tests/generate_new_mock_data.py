@@ -60,7 +60,7 @@ def test_get_datasets(name, type):
         
     else: 
         start_url = "file:///" + os.path.abspath(
-        "tests/mock_data/" + type + "/" + name + ".json"
+        "tests/mock_data/" + type.lower() + "/" + name + ".json"
     )
 
         
