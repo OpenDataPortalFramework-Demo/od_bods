@@ -91,7 +91,7 @@ jobs:
 
     - name: Run Script generate_new_mock_data.py
       run: python generate_new_mock_data.py
-      working-directory: ${{env.od_bodsPath}}/tests 
+      working-directory: ${{env.odbodsPath}}/tests 
 
     # Merge data
     - name: Run Script merge_data.py

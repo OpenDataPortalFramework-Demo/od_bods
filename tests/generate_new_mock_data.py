@@ -96,6 +96,7 @@ def main():
 
 
 if __name__ == "__main__":
+    '''
     user_response = (False, True)[
         input(
             "This will replace all test data, are you sure you want to continue? Y/n\n"
@@ -103,4 +104,5 @@ if __name__ == "__main__":
         == "Y"
     ]
     if user_response:
-        main()
+    '''
+    main()
