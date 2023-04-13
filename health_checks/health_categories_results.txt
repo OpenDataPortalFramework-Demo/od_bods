@@ -549,12 +549,12 @@ Arts / Culture / History  11
     "Housing and Estates"
   ],
   "community centres": [
-    "Sport and Leisure",
-    "Parks / Recreation"
+    "Parks / Recreation",
+    "Sport and Leisure"
   ],
   "cooling tower": [
-    "Business and Economy",
-    "Food and Environment"
+    "Food and Environment",
+    "Business and Economy"
   ],
   "core paths": [
     "Transportation",
@@ -569,8 +569,8 @@ Arts / Culture / History  11
     "Budget / Finance"
   ],
   "councillors": [
-    "Elections / Politics",
-    "Council and Government"
+    "Council and Government",
+    "Elections / Politics"
   ],
   "crime": [
     "Public Safety",
@@ -597,16 +597,16 @@ Arts / Culture / History  11
     "Housing and Estates"
   ],
   "open spaces": [
-    "Sport and Leisure",
-    "Parks / Recreation"
+    "Parks / Recreation",
+    "Sport and Leisure"
   ],
   "parking": [
     "Transportation",
     "Housing and Estates"
   ],
   "parks": [
-    "Sport and Leisure",
-    "Parks / Recreation"
+    "Parks / Recreation",
+    "Sport and Leisure"
   ],
   "police": [
     "Public Safety",
@@ -617,8 +617,8 @@ Arts / Culture / History  11
     "Law and Licensing"
   ],
   "pollution": [
-    "Business and Economy",
-    "Food and Environment"
+    "Food and Environment",
+    "Business and Economy"
   ],
   "postcodes": [
     "Planning and Development",
@@ -629,16 +629,16 @@ Arts / Culture / History  11
     "Housing and Estates"
   ],
   "public toilets": [
-    "Tourism",
-    "Food and Environment"
+    "Food and Environment",
+    "Tourism"
   ],
   "regeneration": [
-    "Business and Economy",
-    "Food and Environment"
+    "Food and Environment",
+    "Business and Economy"
   ],
   "road safety": [
-    "Transportation",
-    "Public Safety"
+    "Public Safety",
+    "Transportation"
   ],
   "school meals": [
     "Food and Environment",

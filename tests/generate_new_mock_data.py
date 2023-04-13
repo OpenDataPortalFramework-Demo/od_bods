@@ -77,22 +77,25 @@ def main():
     supported_scrapers = ["USMART", "dcat", "arcgis", "ckan"]
 
     for name in url_list:
-        print(f"-> {name} | {url_list[name]['type']} | {url_list[name]['url']}")
-        if url_list[name]["type"] in supported_scrapers:
-            location = (
-                "tests\\mock_data\\" + url_list[name]["type"] + "\\" + name + ".json"
-            )
-         
-            if url_list[name]["type"] == "arcgis":
-                if "next" in json_data["meta"] and json_data["meta"]["next"]:
-                    del json_data["meta"]["next"]  # avoids link list urls
+        type_source = url_list[name]["type"]
 
-            if url_list[name]["type"] == "ckan":        
-                test_get_datasets(name, url_list[name]["type"])
-            else:
+        print(f"-> {name} | {type_source} | {url_list[name]['url']}")
+        if type_source in supported_scrapers:
+            location = (
+                "tests\\mock_data\\" + f"{type_source}" + "\\" + name + ".json"
+            )
+
+            if type_source != "ckan":
                 json_data = get_json(url_list[name]["url"])
+                if type_source == "arcgis":
+                    if "next" in json_data["meta"] and json_data["meta"]["next"]:
+                        del json_data["meta"]["next"]  # avoids link list urls
+
+            if type_source == "ckan":        
+                test_get_datasets(name, type_source)
+            else:
                 save_json(json_data, location)
-                test_get_datasets(name, url_list[name]["type"])
+                test_get_datasets(name, type_source)
 
 
 if __name__ == "__main__":

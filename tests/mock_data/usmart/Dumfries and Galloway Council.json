@@ -1131,67 +1131,6 @@
         {
             "@type": "dcat:Dataset",
             "accessLevel": "public",
-            "boundingBoxEast": null,
-            "boundingBoxNorth": null,
-            "boundingBoxSouth": null,
-            "boundingBoxWest": null,
-            "conformsTo": null,
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "Open Data",
-                "email": "opendata@dumgal.gov.uk"
-            },
-            "coverageArea": null,
-            "createdAt": "2017-11-24T11:53:01.762Z",
-            "description": "Polling Station Locations",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "accessURL": "https://api.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/83a4ecb1-b94c-44ca-8625-b66d3e92b9a2/1/urql",
-                    "mediaType": "application/json",
-                    "title": "API"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "accessURL": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/resource?resourceGUID=9eec9885-204c-4b53-b7e3-feebad7ad8aa",
-                    "mediaType": "text/csv",
-                    "title": "Polling_Stations_NOV19 .csv"
-                }
-            ],
-            "identifier": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/dataset:viewDiscovery?datasetGUID=6b9e02f9-fa27-4631-a9bb-23ed1d44857c",
-            "issued": "2017-11-24T11:53:01.762Z",
-            "issueDate": null,
-            "landingPage": "https://usmart.io/org/dumgal/discovery/discovery-view-detail/6b9e02f9-fa27-4631-a9bb-23ed1d44857c",
-            "language": null,
-            "lastModificationDate": null,
-            "licence": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-            "lineage": null,
-            "modified": "2019-11-26T08:26:00.542Z",
-            "notes": null,
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "https://usmart.io/org/dumgal"
-            },
-            "spatialReferenceSystem": null,
-            "spatialResolution": null,
-            "status": "Published",
-            "targetDate": null,
-            "temporalCoverageEnd": null,
-            "temporalCoverageStart": null,
-            "temporalNotes": null,
-            "title": "Polling Stations",
-            "accrualPeriodicity": null,
-            "verticalExtent": null,
-            "keyword": [
-                "Local"
-            ],
-            "theme": [
-                "Social / Community"
-            ]
-        },
-        {
-            "@type": "dcat:Dataset",
-            "accessLevel": "public",
             "boundingBoxEast": "347000",
             "boundingBoxNorth": "622000",
             "boundingBoxSouth": "531000",
@@ -1251,6 +1190,67 @@
             "theme": [
                 "Built environment",
                 "Geospatial"
+            ]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "accessLevel": "public",
+            "boundingBoxEast": null,
+            "boundingBoxNorth": null,
+            "boundingBoxSouth": null,
+            "boundingBoxWest": null,
+            "conformsTo": null,
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Open Data",
+                "email": "opendata@dumgal.gov.uk"
+            },
+            "coverageArea": null,
+            "createdAt": "2017-11-24T11:53:01.762Z",
+            "description": "Polling Station Locations",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://api.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/83a4ecb1-b94c-44ca-8625-b66d3e92b9a2/1/urql",
+                    "mediaType": "application/json",
+                    "title": "API"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/resource?resourceGUID=9eec9885-204c-4b53-b7e3-feebad7ad8aa",
+                    "mediaType": "text/csv",
+                    "title": "Polling_Stations_NOV19 .csv"
+                }
+            ],
+            "identifier": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/dataset:viewDiscovery?datasetGUID=6b9e02f9-fa27-4631-a9bb-23ed1d44857c",
+            "issued": "2017-11-24T11:53:01.762Z",
+            "issueDate": null,
+            "landingPage": "https://usmart.io/org/dumgal/discovery/discovery-view-detail/6b9e02f9-fa27-4631-a9bb-23ed1d44857c",
+            "language": null,
+            "lastModificationDate": null,
+            "licence": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "lineage": null,
+            "modified": "2019-11-26T08:26:00.542Z",
+            "notes": null,
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "https://usmart.io/org/dumgal"
+            },
+            "spatialReferenceSystem": null,
+            "spatialResolution": null,
+            "status": "Published",
+            "targetDate": null,
+            "temporalCoverageEnd": null,
+            "temporalCoverageStart": null,
+            "temporalNotes": null,
+            "title": "Polling Stations",
+            "accrualPeriodicity": null,
+            "verticalExtent": null,
+            "keyword": [
+                "Local"
+            ],
+            "theme": [
+                "Social / Community"
             ]
         },
         {
@@ -1439,69 +1439,6 @@
             ],
             "theme": [
                 "Social / Community"
-            ]
-        },
-        {
-            "@type": "dcat:Dataset",
-            "accessLevel": "public",
-            "boundingBoxEast": "347000",
-            "boundingBoxNorth": "622000",
-            "boundingBoxSouth": "531000",
-            "boundingBoxWest": "195000",
-            "conformsTo": null,
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "Open Data",
-                "email": "opendata@dumgal.gov.uk"
-            },
-            "coverageArea": "Dumfies and Galloway",
-            "createdAt": "2018-07-12T12:59:47.961Z",
-            "description": "Community Council Boundaries",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "accessURL": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/resource?resourceGUID=8479d7d9-5c9a-4415-afff-46ddbc164fcb",
-                    "mediaType": "application/zip",
-                    "title": "Community Council Boundaries (Cleaned).zip"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "accessURL": "https://api.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/cd71ccc9-9e96-473b-b542-063aa16acfc1/1/urql",
-                    "mediaType": "application/json",
-                    "title": "API"
-                }
-            ],
-            "identifier": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/dataset:viewDiscovery?datasetGUID=1efec530-bc75-40c3-8578-e263b5d750ab",
-            "issued": "2018-07-12T12:59:47.961Z",
-            "issueDate": null,
-            "landingPage": "https://usmart.io/org/dumgal/discovery/discovery-view-detail/1efec530-bc75-40c3-8578-e263b5d750ab",
-            "language": "en",
-            "lastModificationDate": "2018-06-13T23:00:00.000Z",
-            "licence": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-            "lineage": null,
-            "modified": "2018-10-02T09:02:04.110Z",
-            "notes": null,
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "https://usmart.io/org/dumgal"
-            },
-            "spatialReferenceSystem": "British National Grid",
-            "spatialResolution": null,
-            "status": "Published",
-            "targetDate": "2018-09-27T16:00:00.000Z",
-            "temporalCoverageEnd": null,
-            "temporalCoverageStart": null,
-            "temporalNotes": null,
-            "title": "Community Council Boundaries",
-            "accrualPeriodicity": "Irregular",
-            "verticalExtent": null,
-            "keyword": [
-                "Business",
-                "Social",
-                "Community"
-            ],
-            "theme": [
-                "Geospatial"
             ]
         },
         {
@@ -2019,6 +1956,69 @@
             ],
             "theme": [
                 "Infrastructure"
+            ]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "accessLevel": "public",
+            "boundingBoxEast": "347000",
+            "boundingBoxNorth": "622000",
+            "boundingBoxSouth": "531000",
+            "boundingBoxWest": "195000",
+            "conformsTo": null,
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Open Data",
+                "email": "opendata@dumgal.gov.uk"
+            },
+            "coverageArea": "Dumfies and Galloway",
+            "createdAt": "2018-07-12T12:59:47.961Z",
+            "description": "Community Council Boundaries",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/resource?resourceGUID=8479d7d9-5c9a-4415-afff-46ddbc164fcb",
+                    "mediaType": "application/zip",
+                    "title": "Community Council Boundaries (Cleaned).zip"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://api.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/cd71ccc9-9e96-473b-b542-063aa16acfc1/1/urql",
+                    "mediaType": "application/json",
+                    "title": "API"
+                }
+            ],
+            "identifier": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/dataset:viewDiscovery?datasetGUID=1efec530-bc75-40c3-8578-e263b5d750ab",
+            "issued": "2018-07-12T12:59:47.961Z",
+            "issueDate": null,
+            "landingPage": "https://usmart.io/org/dumgal/discovery/discovery-view-detail/1efec530-bc75-40c3-8578-e263b5d750ab",
+            "language": "en",
+            "lastModificationDate": "2018-06-13T23:00:00.000Z",
+            "licence": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "lineage": null,
+            "modified": "2018-10-02T09:02:04.110Z",
+            "notes": null,
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "https://usmart.io/org/dumgal"
+            },
+            "spatialReferenceSystem": "British National Grid",
+            "spatialResolution": null,
+            "status": "Published",
+            "targetDate": "2018-09-27T16:00:00.000Z",
+            "temporalCoverageEnd": null,
+            "temporalCoverageStart": null,
+            "temporalNotes": null,
+            "title": "Community Council Boundaries",
+            "accrualPeriodicity": "Irregular",
+            "verticalExtent": null,
+            "keyword": [
+                "Business",
+                "Social",
+                "Community"
+            ],
+            "theme": [
+                "Geospatial"
             ]
         }
     ]
