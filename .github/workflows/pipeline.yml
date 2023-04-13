@@ -125,7 +125,7 @@ jobs:
       working-directory: ${{env.odbodsPath}}
     - name: Commit and push od_bods
       if: ${{ github.event.inputs.commitToRepos == 'true' || github.event.schedule == '0 12 * * FRI' }} 
-      run: git add data && git commit -m "Dataset Sync" && git push origin main
+      run: git add -A && git commit -m "Dataset Sync" && git push origin main
       working-directory: ${{env.odbodsPath}}
         
     # Debugging: artifact upload if the workflow fails at all or if we're not committing to the site (likely to debug)
