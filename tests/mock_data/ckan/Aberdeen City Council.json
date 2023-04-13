@@ -1,0 +1,25 @@
+{
+    "help": "https://data.aberdeencity.gov.uk/api/3/action/help_show?name=package_list",
+    "success": true,
+    "result": [
+        "aberdeen-city-council-contracts-register",
+        "aberdeen-city-council-spatial",
+        "aberdeen-city-rolls-of-honour",
+        "aberdeen-schools-catchment-zones",
+        "academy-school-catchments1",
+        "air-quality-diffusion-tubes2",
+        "bill-gibb-archive",
+        "cemeteries",
+        "community-councils-20131",
+        "community-councils-20181",
+        "election-results-general-elections",
+        "election-results-scottish-parliament",
+        "george-washington-wilson",
+        "james-mcbey-archive",
+        "primary-school-catchments1",
+        "rc-school-catchments",
+        "recycling-centres",
+        "recycling-points",
+        "showcase-development"
+    ]
+}
