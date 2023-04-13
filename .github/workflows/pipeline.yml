@@ -113,13 +113,6 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-    - name: Git status JKAN
-      run: git status
-      working-directory: ${{env.jkanPath}}
-    - name: Commit and push JKAN
-      if: ${{ github.event.inputs.commitToRepos == 'true' || github.event.schedule == '0 12 * * FRI' }} 
-      run: git add -A && git commit -m 'Dataset Sync' && git push origin main
-      working-directory: ${{env.jkanPath}}
     - name: Git status od_bods
       run: git status
       working-directory: ${{env.odbodsPath}}
@@ -127,6 +120,13 @@ jobs:
       if: ${{ github.event.inputs.commitToRepos == 'true' || github.event.schedule == '0 12 * * FRI' }} 
       run: git add -A && git commit -m "Dataset Sync" && git push origin main
       working-directory: ${{env.odbodsPath}}
+    - name: Git status JKAN
+      run: git status
+      working-directory: ${{env.jkanPath}}
+    - name: Commit and push JKAN
+      if: ${{ github.event.inputs.commitToRepos == 'true' || github.event.schedule == '0 12 * * FRI' }} 
+      run: git add -A && git commit -m 'Dataset Sync' && git push origin main
+      working-directory: ${{env.jkanPath}}
         
     # Debugging: artifact upload if the workflow fails at all or if we're not committing to the site (likely to debug)
     - uses: actions/upload-artifact@v3
