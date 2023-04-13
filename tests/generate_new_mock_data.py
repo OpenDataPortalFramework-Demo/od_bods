@@ -5,10 +5,16 @@ from urllib import request
 import csv
 import json
 import os
+import sys
+
+file_dir = os.path.dirname(os.path.realpath(__file__))
+parent = os.path.dirname(file_dir)
+sys.path.append(parent)
 
 from usmart import ProcessorUSMART
 from dcat import ProcessorDCAT
 from arcgis import ProcessorARCGIS
+from ckan import ProcessorCKAN
 
 
 def get_urls():
@@ -43,12 +49,21 @@ def test_get_datasets(name, type):
             test_proc = ProcessorARCGIS()
         case "ckan":
             # no python parser implemented
-            return ()
+            test_proc = ProcessorCKAN()
+            
     owner = "test_owner"
     outputdir = "tests/mock_data/" + type + "/expected/"
-    start_url = "file:///" + os.path.abspath(
+    
+    if type == "ckan":
+        urls = get_urls()
+        start_url = urls[name]["url"]        
+        
+    else: 
+        start_url = "file:///" + os.path.abspath(
         "tests/mock_data/" + type + "/" + name + ".json"
     )
+
+        
     fname = outputdir + name + ".csv"
     if os.path.exists(fname):
         os.remove(fname)
@@ -59,7 +74,7 @@ def test_get_datasets(name, type):
 
 def main():
     url_list = get_urls()
-    supported_scrapers = ["USMART", "dcat", "arcgis"]
+    supported_scrapers = ["USMART", "dcat", "arcgis", "ckan"]
 
     for name in url_list:
         print(f"-> {name} | {url_list[name]['type']} | {url_list[name]['url']}")
@@ -67,12 +82,17 @@ def main():
             location = (
                 "tests\\mock_data\\" + url_list[name]["type"] + "\\" + name + ".json"
             )
-            json_data = get_json(url_list[name]["url"])
+         
             if url_list[name]["type"] == "arcgis":
                 if "next" in json_data["meta"] and json_data["meta"]["next"]:
                     del json_data["meta"]["next"]  # avoids link list urls
-            save_json(json_data, location)
-            test_get_datasets(name, url_list[name]["type"])
+
+            if url_list[name]["type"] == "ckan":        
+                test_get_datasets(name, url_list[name]["type"])
+            else:
+                json_data = get_json(url_list[name]["url"])
+                save_json(json_data, location)
+                test_get_datasets(name, url_list[name]["type"])
 
 
 if __name__ == "__main__":

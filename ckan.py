@@ -1,5 +1,7 @@
-from processor import Processor
-
+try:
+    from processor import Processor
+except:
+    from .processor import Processor
 
 class ProcessorCKAN(Processor):
     def __init__(self):
@@ -101,5 +103,6 @@ class ProcessorCKAN(Processor):
 
 
 processor = ProcessorCKAN()
-processor.process()
-print("\n")
+if __name__ == "__main__":
+    processor.process()
+    print("\n")
