@@ -90,8 +90,8 @@ jobs:
      # working-directory: ${{env.odbodsPath}}/web-scrapers
 
     - name: Run Script generate_new_mock_data.py
-      run: python generate_new_mock_data.py
-      working-directory: ${{env.odbodsPath}}/tests 
+      run: python -m tests.generate_new_mock_data
+      working-directory: ${{env.odbodsPath}} 
 
     # Merge data
     - name: Run Script merge_data.py
