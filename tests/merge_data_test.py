@@ -23,7 +23,7 @@ def test_merge_data(sources):
     ckan = load_ckan_data("tests/mock_data/ckan/expected/")
     dcat = load_dcat_data("tests/mock_data/dcat/expected/")
     arcgis = load_arcgis_data("tests/mock_data/arcgis/expected/")
-    usmart = load_usmart_data("tests/mock_data/usmart/expected/")
+    usmart = load_usmart_data("tests/mock_data/USMART/expected/")
     outputdir = "tests/mock_data/output/merge_data/"
     
     test_f_name = outputdir + sources + ".json"
