@@ -550,16 +550,16 @@ Arts / Culture / History  11
     "Housing and Estates"
   ],
   "community centres": [
-    "Sport and Leisure",
-    "Parks / Recreation"
+    "Parks / Recreation",
+    "Sport and Leisure"
   ],
   "cooling tower": [
-    "Food and Environment",
-    "Business and Economy"
+    "Business and Economy",
+    "Food and Environment"
   ],
   "core paths": [
-    "Planning and Development",
-    "Transportation"
+    "Transportation",
+    "Planning and Development"
   ],
   "council area": [
     "Planning and Development",
@@ -570,12 +570,12 @@ Arts / Culture / History  11
     "Council and Government"
   ],
   "councillors": [
-    "Elections / Politics",
-    "Council and Government"
+    "Council and Government",
+    "Elections / Politics"
   ],
   "crime": [
-    "Public Safety",
-    "Law and Licensing"
+    "Law and Licensing",
+    "Public Safety"
   ],
   "dwellings": [
     "Planning and Development",
@@ -598,28 +598,28 @@ Arts / Culture / History  11
     "Housing and Estates"
   ],
   "open spaces": [
-    "Sport and Leisure",
-    "Parks / Recreation"
+    "Parks / Recreation",
+    "Sport and Leisure"
   ],
   "parking": [
     "Transportation",
     "Housing and Estates"
   ],
   "parks": [
-    "Sport and Leisure",
-    "Parks / Recreation"
+    "Parks / Recreation",
+    "Sport and Leisure"
   ],
   "police": [
-    "Public Safety",
-    "Law and Licensing"
+    "Law and Licensing",
+    "Public Safety"
   ],
   "policing": [
-    "Public Safety",
-    "Law and Licensing"
+    "Law and Licensing",
+    "Public Safety"
   ],
   "pollution": [
-    "Food and Environment",
-    "Business and Economy"
+    "Business and Economy",
+    "Food and Environment"
   ],
   "postcodes": [
     "Planning and Development",
@@ -634,12 +634,12 @@ Arts / Culture / History  11
     "Food and Environment"
   ],
   "regeneration": [
-    "Food and Environment",
-    "Business and Economy"
+    "Business and Economy",
+    "Food and Environment"
   ],
   "road safety": [
-    "Public Safety",
-    "Transportation"
+    "Transportation",
+    "Public Safety"
   ],
   "school meals": [
     "Food and Environment",
