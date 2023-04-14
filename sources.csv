@@ -3,8 +3,6 @@ renfrew,"https://opendata.arcgis.com/api/v3/search?catalog[groupIds]=any(79dc9ae
 
 glasgow,"https://open-data-design-glasgowgis.hub.arcgis.com/api/feed/dcat-ap/2.0.1.json",dcat
 
-edinburgh,"https://city-of-edinburgh-council-open-spatial-data-cityofedinburgh.hub.arcgis.com/api/feed/dcat-ap/2.0.1.json",dcat
-
 highland,"https://map-highland.opendata.arcgis.com/api/feed/dcat-ap/2.0.1.json",dcat
 
 
