@@ -2,7 +2,7 @@
 ODPCategories
 1    313
 2    104
-3     73
+3     74
 4     42
 5      7
 6      5
@@ -17,14 +17,14 @@ Planning and Development 153
   Health and Social Care  69
                Education  61
            Uncategorised  56
-          Transportation  53
+          Transportation  54
     Food and Environment  51
         Budget / Finance  31
-       Sport and Leisure  30
+       Sport and Leisure  31
        Law and Licensing  20
            Public Safety  18
+      Parks / Recreation  11
 Arts / Culture / History  11
-      Parks / Recreation  10
                  Tourism  10
 
 ### Keywords used in each category ###
@@ -132,8 +132,8 @@ Arts / Culture / History  11
     "groups": 13,
     "heritage": 6,
     "libraries": 5,
+    "parks": 5,
     "community centres": 5,
-    "parks": 4,
     "sports": 4,
     "archives": 1,
     "indoor venues": 1
@@ -180,8 +180,8 @@ Arts / Culture / History  11
     "biodiversity": 2,
     "contaminated": 2,
     "household waste": 1,
-    "dog fouling": 1,
     "renewable electricity": 1,
+    "dog fouling": 1,
     "regeneration": 1,
     "tree preservation order": 1,
     "biodiversity sites": 1,
@@ -225,25 +225,25 @@ Arts / Culture / History  11
     "road": 10,
     "transport": 9,
     "travel": 8,
+    "car": 7,
     "traffic": 6,
-    "car": 6,
-    "station": 5,
     "roads": 5,
+    "station": 5,
     "core paths": 4,
-    "parking": 4,
     "walking": 4,
     "bus": 4,
     "cycling": 4,
+    "parking": 4,
     "active travel": 3,
     "pedestrian": 3,
     "cycle": 3,
     "rail": 2,
+    "car parks": 2,
     "passenger": 2,
     "train": 2,
-    "scotrail": 1,
     "road safety": 1,
+    "scotrail": 1,
     "commuting": 1,
-    "car parks": 1,
     "salt bins": 1,
     "bike": 1,
     "transportation": 1,
@@ -300,8 +300,8 @@ Arts / Culture / History  11
     "nhs": 1
   },
   "Parks / Recreation": {
+    "parks": 5,
     "community centres": 5,
-    "parks": 4,
     "recreation": 4,
     "features of interest": 1
   }
@@ -538,8 +538,8 @@ Arts / Culture / History  11
 ### Keywords in multiple categories (31) ###
 {
   "allotment": [
-    "Housing and Estates",
-    "Food and Environment"
+    "Food and Environment",
+    "Housing and Estates"
   ],
   "boundaries": [
     "Council and Government",
@@ -550,32 +550,32 @@ Arts / Culture / History  11
     "Housing and Estates"
   ],
   "community centres": [
-    "Parks / Recreation",
-    "Sport and Leisure"
+    "Sport and Leisure",
+    "Parks / Recreation"
   ],
   "cooling tower": [
-    "Food and Environment",
-    "Business and Economy"
+    "Business and Economy",
+    "Food and Environment"
   ],
   "core paths": [
-    "Planning and Development",
-    "Transportation"
+    "Transportation",
+    "Planning and Development"
   ],
   "council area": [
-    "Planning and Development",
-    "Elections / Politics"
+    "Elections / Politics",
+    "Planning and Development"
   ],
   "council tax": [
     "Council and Government",
     "Budget / Finance"
   ],
   "councillors": [
-    "Council and Government",
-    "Elections / Politics"
+    "Elections / Politics",
+    "Council and Government"
   ],
   "crime": [
-    "Law and Licensing",
-    "Public Safety"
+    "Public Safety",
+    "Law and Licensing"
   ],
   "dwellings": [
     "Planning and Development",
@@ -598,28 +598,28 @@ Arts / Culture / History  11
     "Housing and Estates"
   ],
   "open spaces": [
-    "Parks / Recreation",
-    "Sport and Leisure"
+    "Sport and Leisure",
+    "Parks / Recreation"
   ],
   "parking": [
-    "Housing and Estates",
-    "Transportation"
+    "Transportation",
+    "Housing and Estates"
   ],
   "parks": [
-    "Parks / Recreation",
-    "Sport and Leisure"
+    "Sport and Leisure",
+    "Parks / Recreation"
   ],
   "police": [
-    "Law and Licensing",
-    "Public Safety"
+    "Public Safety",
+    "Law and Licensing"
   ],
   "policing": [
-    "Law and Licensing",
-    "Public Safety"
+    "Public Safety",
+    "Law and Licensing"
   ],
   "pollution": [
-    "Food and Environment",
-    "Business and Economy"
+    "Business and Economy",
+    "Food and Environment"
   ],
   "postcodes": [
     "Planning and Development",
@@ -634,8 +634,8 @@ Arts / Culture / History  11
     "Tourism"
   ],
   "regeneration": [
-    "Food and Environment",
-    "Business and Economy"
+    "Business and Economy",
+    "Food and Environment"
   ],
   "road safety": [
     "Transportation",
@@ -649,16 +649,16 @@ Arts / Culture / History  11
     "Sport and Leisure"
   ],
   "tenders": [
-    "Budget / Finance",
-    "Business and Economy"
+    "Business and Economy",
+    "Budget / Finance"
   ],
   "vacant and derelict land supply": [
     "Planning and Development",
     "Food and Environment"
   ],
   "woodland": [
-    "Parks / Recreation",
-    "Housing and Estates"
+    "Housing and Estates",
+    "Parks / Recreation"
   ]
 }
 
