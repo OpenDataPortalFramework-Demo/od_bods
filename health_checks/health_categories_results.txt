@@ -69,11 +69,19 @@ Arts / Culture / History  11
     "economic activity": 1,
     "contracts": 1,
     "job seeker's allowance": 1,
+<<<<<<< HEAD
     "estimated population": 1,
     "exports": 1,
     "underemployment": 1,
     "business and economy": 1,
     "economic development": 1
+=======
+    "unemployment": 1,
+    "economic activity": 1,
+    "regeneration": 1,
+    "economic development": 1,
+    "tenders": 1
+>>>>>>> 21522cba0b0841ff98c8773add4cf91ace47b424
   },
   "Council and Government": {
     "council": 90,
@@ -537,8 +545,8 @@ Arts / Culture / History  11
 ### Keywords in multiple categories (31) ###
 {
   "allotment": [
-    "Housing and Estates",
-    "Food and Environment"
+    "Food and Environment",
+    "Housing and Estates"
   ],
   "boundaries": [
     "Planning and Development",
@@ -569,8 +577,8 @@ Arts / Culture / History  11
     "Budget / Finance"
   ],
   "councillors": [
-    "Elections / Politics",
-    "Council and Government"
+    "Council and Government",
+    "Elections / Politics"
   ],
   "crime": [
     "Law and Licensing",
@@ -601,8 +609,8 @@ Arts / Culture / History  11
     "Sport and Leisure"
   ],
   "parking": [
-    "Housing and Estates",
-    "Transportation"
+    "Transportation",
+    "Housing and Estates"
   ],
   "parks": [
     "Parks / Recreation",
@@ -656,8 +664,8 @@ Arts / Culture / History  11
     "Planning and Development"
   ],
   "woodland": [
-    "Housing and Estates",
-    "Parks / Recreation"
+    "Parks / Recreation",
+    "Housing and Estates"
   ]
 }
 
