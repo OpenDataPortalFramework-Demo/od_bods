@@ -5,12 +5,12 @@ from urllib import request
 import csv
 import json
 import os
+from os.path import isfile, join
 import sys
-
+import shutil
 file_dir = os.path.dirname(os.path.realpath(__file__))
 parent = os.path.dirname(file_dir)
 sys.path.append(parent)
-
 from usmart import ProcessorUSMART
 from dcat import ProcessorDCAT
 from arcgis import ProcessorARCGIS
@@ -18,6 +18,14 @@ from ckan import ProcessorCKAN
 from merge_data import *
 from export2jkan import * 
 
+def list_sources(dir):
+    sources_path = os.path.abspath(dir)
+    sources = [
+        f.split(".")[0]
+        for f in os.listdir(sources_path)
+        if isfile(join(sources_path, f))
+    ]
+    return sources
 
 def get_urls():
     urls_list = {}
@@ -34,6 +42,15 @@ def get_urls():
 def get_json(url):
     req = request.Request(url)
     return json.loads(request.urlopen(req).read().decode())
+
+def clean_folder(folder):
+    urls = get_urls()
+    
+    for file in os.listdir(folder):
+        if isfile(join(folder, file)):
+            filename = file.split(".")[0]
+            if filename not in urls.keys():
+                os.remove(join(folder,file))
 
 
 def save_json(data, location):
@@ -55,6 +72,8 @@ def test_get_datasets(name, type):
             
     owner = "test_owner"
     outputdir = os.path.join("tests", "mock_data", type, "expected")
+
+    clean_folder(outputdir)  
     
     if type == "ckan":
         urls = get_urls()
@@ -63,12 +82,11 @@ def test_get_datasets(name, type):
     else: 
         start_url = "file:///" + os.path.abspath(
         "tests/mock_data/" + type + "/" + name + ".json")
-        
+  
     fname = os.path.join(outputdir, name + ".csv")
     if os.path.exists(fname):
         os.remove(fname)
-    if not os.path.exists(outputdir):
-        os.makedirs(outputdir)
+
     test_proc.get_datasets(owner, start_url, fname)
 
 
@@ -79,8 +97,8 @@ def test_merge_data():
     arcgis = load_arcgis_data("tests/mock_data/arcgis/expected/")
     usmart = load_usmart_data("tests/mock_data/USMART/expected/")
     folder_output = "tests/mock_data/merge_data/expected/"
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
+    
+    replace_folder(output_dir)
 
     merge_data(ckan_source=ckan, dcat_source=dcat, arcgis_source=arcgis, usmart_source= usmart, output_fold=folder_output)
 
@@ -99,11 +117,15 @@ def main():
         type_source = url_list[name]["type"]
 
         print(f"-> {name} | {type_source} | {url_list[name]['url']}")
-        if type_source in supported_scrapers:
+        if type_source in supported_scrapers:            
             if not os.path.exists(f"tests/mock_data/{type_source}"):
                 os.makedirs(f"tests/mock_data/{type_source}")
-                
+            
+            clean_folder(f"tests/mock_data/{type_source}")
+
             location = os.path.join("tests", "mock_data", type_source, name + ".json")
+            if os.path.exists(location):
+                os.remove(os.path.abspath(location))
 
             if type_source != "ckan":
                 json_data = get_json(url_list[name]["url"])

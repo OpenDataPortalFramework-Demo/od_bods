@@ -147,9 +147,8 @@ def license_link(license):
         # print("Unknown license: ", l)
     return license
 
-def replace_datasets_folder(datasets_folder):
-    ### Replace folder by deleting and writing
-   
+def replace_folder(datasets_folder):
+    ### Replace folder by deleting and writing   
     if os.path.exists(datasets_folder):
         shutil.rmtree(datasets_folder)
     os.makedirs(datasets_folder)
@@ -157,7 +156,7 @@ def replace_datasets_folder(datasets_folder):
 def prepare_and_export_data(full_d, datasets_folder):
     strip_date_from_iso8601(full_d, ["DateCreated", "DateUpdated"])
     organized_data = organize_data(full_d)
-    replace_datasets_folder(datasets_folder)
+    replace_folder(datasets_folder)
 
     for n, (k, ds) in enumerate(organized_data.items()):
         y = {"schema": "default"}
