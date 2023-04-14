@@ -147,15 +147,18 @@ def license_link(license):
         # print("Unknown license: ", l)
     return license
 
-def replace_datasets_folder():
+def replace_datasets_folder(datasets_folder):
     ### Replace folder by deleting and writing
-    datasets_dir = "../jkan/_datasets/"
-    if os.path.exists(datasets_dir):
-        shutil.rmtree(datasets_dir)
-    os.makedirs(datasets_dir)
+   
+    if os.path.exists(datasets_folder):
+        shutil.rmtree(datasets_folder)
+    os.makedirs(datasets_folder)
 
-def prepare_and_export_data(full_d):
+def prepare_and_export_data(full_d, datasets_folder):
+    strip_date_from_iso8601(full_d, ["DateCreated", "DateUpdated"])
     organized_data = organize_data(full_d)
+    replace_datasets_folder(datasets_folder)
+
     for n, (k, ds) in enumerate(organized_data.items()):
         y = {"schema": "default"}
         y["title"] = ds.title
@@ -183,7 +186,7 @@ def prepare_and_export_data(full_d):
         fn = urllib.parse.quote_plus(f"{(ds.owner).lower()}-{(ds.title).lower()}")
         # fn = f"{ds.owner}-{ds.title}"
         # ^^ need something better for filenames...
-        with open(f"../jkan/_datasets/{fn}.md", "w") as f:
+        with open(f"{datasets_folder}/{fn}.md", "w") as f:
             f.write("---\n")
             f.write(yaml.dump(y))
             f.write("---\n")
@@ -191,6 +194,4 @@ def prepare_and_export_data(full_d):
 
 if __name__ == "__main__":
     full_data = pd.read_json("data/merged_output.json", orient="records").fillna("")
-    strip_date_from_iso8601(full_data, ["DateCreated", "DateUpdated"])
-    replace_datasets_folder()
-    prepare_and_export_data(full_data)
+    prepare_and_export_data(full_data, "../jkan/_datasets/")

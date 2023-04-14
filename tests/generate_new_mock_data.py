@@ -15,6 +15,8 @@ from usmart import ProcessorUSMART
 from dcat import ProcessorDCAT
 from arcgis import ProcessorARCGIS
 from ckan import ProcessorCKAN
+from merge_data import *
+from export2jkan import * 
 
 
 def get_urls():
@@ -37,7 +39,7 @@ def get_json(url):
 def save_json(data, location):
     with open(location, "w+", newline="", encoding="utf-8") as file:
         json.dump(data, file, ensure_ascii=False, indent=4)
-
+    
 
 def test_get_datasets(name, type):
     match (type):
@@ -60,9 +62,7 @@ def test_get_datasets(name, type):
         
     else: 
         start_url = "file:///" + os.path.abspath(
-        "tests/mock_data/" + type + "/" + name + ".json"
-    )
-
+        "tests/mock_data/" + type + "/" + name + ".json")
         
     fname = os.path.join(outputdir, name + ".csv")
     if os.path.exists(fname):
@@ -71,6 +71,25 @@ def test_get_datasets(name, type):
         os.makedirs(outputdir)
     test_proc.get_datasets(owner, start_url, fname)
 
+
+def test_merge_data():
+    output_dir = os.path.join("tests", "mock_data", "merge_data", "expected")
+    ckan = load_ckan_data("tests/mock_data/ckan/expected/")
+    dcat = load_dcat_data("tests/mock_data/dcat/expected/")
+    arcgis = load_arcgis_data("tests/mock_data/arcgis/expected/")
+    usmart = load_usmart_data("tests/mock_data/usmart/expected/")
+    folder_output = "tests/mock_data/merge_data/expected"
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
+    merge_data(ckan_source=ckan, dcat_source=dcat, arcgis_source=arcgis, usmart_source= usmart, output_fold=folder_output)
+
+
+def test_export2jkan():
+    outputdir = os.path.join("tests", "mock_data", "export2jkan", "expected")
+    f_data = pd.read_json("tests/mock_data/merge_data/expected/merged_output.json", orient = "records").fillna("")
+    prepare_and_export_data(f_data, outputdir)    
+    
 
 def main():
     url_list = get_urls()
@@ -94,7 +113,10 @@ def main():
                 save_json(json_data, location)
                 test_get_datasets(name, type_source)
             else:        
-                test_get_datasets(name, type_source)                            
+                test_get_datasets(name, type_source)
+    test_merge_data()
+    test_export2jkan()
+                                
 
 
 if __name__ == "__main__":

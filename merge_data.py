@@ -5,18 +5,16 @@ import datetime as dt
 import regex as re
 import json
 
-def load_ckan_data():
+def load_ckan_data(folder_ckan):
     ckan_source = pd.DataFrame()
-    folder = "data/ckan/"
-    for dirname, _, filenames in os.walk(folder):
+    for dirname, _, filenames in os.walk(folder_ckan):
         for filename in filenames:
             if filename.rsplit(".", 1)[1] == "csv":
-                print(filename)
                 ckan_source = pd.concat(
                     [
                         ckan_source,
                         pd.read_csv(
-                            folder + r"/" + filename, parse_dates=["DateCreated","DateUpdated"], lineterminator='\n'
+                            folder_ckan + r"/" + filename, parse_dates=["DateCreated","DateUpdated"], lineterminator='\n'
                         ),
                     ]
                 )
@@ -25,9 +23,9 @@ def load_ckan_data():
     return ckan_source
 
 
-def load_scotgov_data():
+def load_scotgov_data(folder_scotgov):
     ### From scotgov csv
-    scotgov_source = pd.read_csv("data/sparkql/scotgov-datasets-sparkql.csv")
+    scotgov_source = pd.read_csv(folder_scotgov)
     scotgov_source = scotgov_source.rename(
         columns={
             "title": "Title",
@@ -65,35 +63,36 @@ def load_scotgov_data():
     return scotgov_source
 
 
-def load_arcgis_data():
+def load_arcgis_data(folder_arcgis):
     arcgis_source = pd.DataFrame()
-    folder = "data/arcgis/"
-    for dirname, _, filenames in os.walk(folder):
+    
+    for dirname, _, filenames in os.walk(folder_arcgis):
         for filename in filenames:
             if filename.rsplit(".", 1)[1] == "csv":
                 arcgis_source = pd.concat(
                     [
                         arcgis_source,
                         pd.read_csv(
-                            folder + r"/" + filename, parse_dates=["DateCreated","DateUpdated"]
+                            folder_arcgis + r"/" + filename, parse_dates=["DateCreated","DateUpdated"]
                         ),
                     ]
                 )
     arcgis_source["Source"] = "arcgis API"
+
     return arcgis_source
 
 
-def load_usmart_data():
+def load_usmart_data(folder_usmart):
     usmart_source = pd.DataFrame()
-    folder = "data/USMART/"
-    for dirname, _, filenames in os.walk(folder):
+    
+    for dirname, _, filenames in os.walk(folder_usmart):
         for filename in filenames:
             if filename.rsplit(".", 1)[1] == "csv":
                 usmart_source = pd.concat(
                     [
                         usmart_source,
                         pd.read_csv(
-                            folder + r"/" + filename, parse_dates=["DateCreated","DateUpdated"]
+                            folder_usmart + r"/" + filename, parse_dates=["DateCreated","DateUpdated"]
                         ),
                     ]
                 )
@@ -104,17 +103,17 @@ def load_usmart_data():
     return usmart_source
 
 
-def load_dcat_data():
+def load_dcat_data(folder_dcat):
     dcat_source = pd.DataFrame()
-    folder = "data/dcat/"
-    for dirname, _, filenames in os.walk(folder):
+    
+    for dirname, _, filenames in os.walk(folder_dcat):
         for filename in filenames:
             if filename.rsplit(".", 1)[1] == "csv":
                 dcat_source = pd.concat(
                     [
                         dcat_source,
                         pd.read_csv(
-                            folder + r"/" + filename, parse_dates=["DateCreated","DateUpdated"]
+                            folder_dcat + r"/" + filename, parse_dates=["DateCreated","DateUpdated"]
                         ),
                     ]
                 )
@@ -125,17 +124,17 @@ def load_dcat_data():
     return dcat_source
 
 
-def load_web_scraped_data():
+def load_web_scraped_data(web_scraped_folder):
     scraped_data = pd.DataFrame()
-    folder = "data/scraped-results/"
-    for dirname, _, filenames in os.walk(folder):
+    
+    for dirname, _, filenames in os.walk(web_scraped_folder):
         for filename in filenames:
             if filename.rsplit(".", 1)[1] == "csv":
                 scraped_data = pd.concat(
                     [
                         scraped_data,
                         pd.read_csv(
-                            folder + r"/" + filename, parse_dates=["DateCreated","DateUpdated"]
+                            web_scraped_folder + r"/" + filename, parse_dates=["DateCreated","DateUpdated"]
                         ),
                     ]
                 )
@@ -143,51 +142,30 @@ def load_web_scraped_data():
 
     return scraped_data
 
-
-def merge_data():
-    ### Loading data
-
-    ### From ckan output
-    source_ckan =load_ckan_data()
-
-    ### From scotgov csv
-    source_scotgov = load_scotgov_data()
-
-    ### From arcgis api
-    source_arcgis = load_arcgis_data()
-    
-    ### From usmart api
-    source_usmart = load_usmart_data()
-
-    ## From DCAT
-    source_dcat = load_dcat_data()
-
-    ## From web scraped results
-    # source_scraped = load_web_scraped_data()
-
-#check
+empty_df = pd.DataFrame()
+def merge_data(ckan_source=empty_df, dcat_source=empty_df, scotgov_source=empty_df, arcgis_source=empty_df, usmart_source=empty_df, web_scrapers_source=empty_df, output_fold=""):
 
     ### Combine all data into single table
     data = pd.concat(
         [
-            source_ckan,
-            source_arcgis,
-            source_usmart,
-            source_scotgov,
-            source_dcat,
-            #source_scraped
+            ckan_source,
+            arcgis_source,
+            usmart_source,
+            scotgov_source,
+            dcat_source,
+            web_scrapers_source
         ]
     )
     data = data.reset_index(drop=True)
 
     ### Saves copy of data without cleaning - for analysis purposes
-    data.to_json("data/merged_output_untidy.json", orient="records", date_format="iso")
+    data.to_json(f"{output_fold}/merged_output_untidy.json", orient="records", date_format="iso")
 
     ### clean data
     data = clean_data(data)
 
     ### Output cleaned data to json
-    data.to_json("data/merged_output.json", orient="records", date_format="iso")
+    data.to_json(f"{output_fold}/merged_output.json", orient="records", date_format="iso")
 
     return data
 
@@ -213,7 +191,7 @@ def clean_data(dataframe):
     ### Inconsistencies in casing for FileType
     data["FileType"] = data["FileType"].str.upper()
     ### Creating a dummy column
-    data["AssetStatus"] = None
+    #data["AssetStatus"] = None
 
     ### Cleaning dataset categories
     def tidy_categories(categories_string):
@@ -403,5 +381,19 @@ def clean_data(dataframe):
 
 
 if __name__ == "__main__":
-    merge_data()
+     ### From ckan output
+    source_ckan = load_ckan_data("data/ckan/")
+
+    ### From scotgov csv
+    source_scotgov = load_scotgov_data("data/sparkql/scotgov-datasets-sparkql.csv")
+
+    ### From arcgis api
+    source_arcgis = load_arcgis_data("data/arcgis/")
+    
+    ### From usmart api
+    source_usmart = load_usmart_data("data/USMART/")
+
+    ## From DCAT
+    source_dcat = load_dcat_data("data/dcat/")
+    merge_data(source_ckan, source_dcat, source_scotgov, source_arcgis, source_usmart, output_fold = "data")
 

@@ -30,9 +30,7 @@ python dcat.py
 # python nls_scraper.py
 # python sqa_scraper.py
 # cd ..
-cd tests
-python generate_new_mock_data.py
-cd ..
+python -m tests.generate_new_mock_data
 # processing
 python merge_data.py
 cd health_checks

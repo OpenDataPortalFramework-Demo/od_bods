@@ -1,5 +1,4 @@
 ### Number of categories assigned to assets (out of 16) ###
-ODPCategories
 1    313
 2    104
 3     73
@@ -55,26 +54,26 @@ Arts / Culture / History  11
     "income": 8,
     "industry": 7,
     "economic": 7,
-    "shop": 5,
     "shops": 5,
+    "shop": 5,
     "commercial": 4,
     "pollution": 3,
     "economy": 3,
+    "welfare fund": 2,
     "child benefit": 2,
     "gross domestic product": 2,
     "insolvency": 2,
-    "welfare fund": 2,
-    "estimated population": 1,
-    "underemployment": 1,
-    "exports": 1,
-    "business and economy": 1,
+    "unemployment": 1,
+    "regeneration": 1,
+    "tenders": 1,
+    "economic activity": 1,
     "contracts": 1,
     "job seeker's allowance": 1,
-    "unemployment": 1,
-    "economic activity": 1,
-    "economic development": 1,
-    "regeneration": 1,
-    "tenders": 1
+    "estimated population": 1,
+    "exports": 1,
+    "underemployment": 1,
+    "business and economy": 1,
+    "economic development": 1
   },
   "Council and Government": {
     "council": 90,
@@ -180,11 +179,11 @@ Arts / Culture / History  11
     "biodiversity": 2,
     "contaminated": 2,
     "household waste": 1,
-    "dog fouling": 1,
     "renewable electricity": 1,
-    "regeneration": 1,
     "tree preservation order": 1,
     "biodiversity sites": 1,
+    "dog fouling": 1,
+    "regeneration": 1,
     "toilets": 1
   },
   "Housing and Estates": {
@@ -204,10 +203,10 @@ Arts / Culture / History  11
     "garages": 2,
     "homelessness": 1,
     "postcodes": 1,
-    "rent": 1,
     "cemeteries": 1,
     "scottish vacant and derelict land": 1,
-    "vacant and derelict land": 1
+    "vacant and derelict land": 1,
+    "rent": 1
   },
   "Law and Licensing": {
     "licensing": 6,
@@ -217,9 +216,9 @@ Arts / Culture / History  11
     "regulation": 2,
     "policing": 1,
     "court": 1,
+    "permit": 1,
     "licenses": 1,
-    "fixed penalty notices": 1,
-    "permit": 1
+    "fixed penalty notices": 1
   },
   "Transportation": {
     "road": 10,
@@ -230,10 +229,10 @@ Arts / Culture / History  11
     "station": 5,
     "roads": 5,
     "core paths": 4,
-    "parking": 4,
     "walking": 4,
     "bus": 4,
     "cycling": 4,
+    "parking": 4,
     "active travel": 3,
     "pedestrian": 3,
     "cycle": 3,
@@ -241,18 +240,18 @@ Arts / Culture / History  11
     "passenger": 2,
     "train": 2,
     "scotrail": 1,
-    "road safety": 1,
-    "commuting": 1,
-    "car parks": 1,
-    "salt bins": 1,
-    "bike": 1,
-    "transportation": 1,
-    "footfall": 1,
     "footpaths": 1,
     "tram": 1,
     "grit": 1,
     "gritting": 1,
-    "pavement": 1
+    "pavement": 1,
+    "commuting": 1,
+    "road safety": 1,
+    "salt bins": 1,
+    "car parks": 1,
+    "bike": 1,
+    "transportation": 1,
+    "footfall": 1
   },
   "Public Safety": {
     "police": 6,
@@ -546,28 +545,28 @@ Arts / Culture / History  11
     "Council and Government"
   ],
   "buildings": [
-    "Planning and Development",
-    "Housing and Estates"
+    "Housing and Estates",
+    "Planning and Development"
   ],
   "community centres": [
     "Parks / Recreation",
     "Sport and Leisure"
   ],
   "cooling tower": [
-    "Business and Economy",
-    "Food and Environment"
+    "Food and Environment",
+    "Business and Economy"
   ],
   "core paths": [
-    "Planning and Development",
-    "Transportation"
+    "Transportation",
+    "Planning and Development"
   ],
   "council area": [
-    "Planning and Development",
-    "Elections / Politics"
+    "Elections / Politics",
+    "Planning and Development"
   ],
   "council tax": [
-    "Budget / Finance",
-    "Council and Government"
+    "Council and Government",
+    "Budget / Finance"
   ],
   "councillors": [
     "Elections / Politics",
@@ -578,24 +577,24 @@ Arts / Culture / History  11
     "Public Safety"
   ],
   "dwellings": [
-    "Planning and Development",
-    "Housing and Estates"
+    "Housing and Estates",
+    "Planning and Development"
   ],
   "employment land audit": [
-    "Planning and Development",
-    "Food and Environment"
+    "Food and Environment",
+    "Planning and Development"
   ],
   "energy": [
-    "Planning and Development",
-    "Housing and Estates"
+    "Housing and Estates",
+    "Planning and Development"
   ],
   "grants": [
-    "Budget / Finance",
-    "Council and Government"
+    "Council and Government",
+    "Budget / Finance"
   ],
   "housing": [
-    "Planning and Development",
-    "Housing and Estates"
+    "Housing and Estates",
+    "Planning and Development"
   ],
   "open spaces": [
     "Parks / Recreation",
@@ -618,43 +617,43 @@ Arts / Culture / History  11
     "Public Safety"
   ],
   "pollution": [
-    "Business and Economy",
-    "Food and Environment"
+    "Food and Environment",
+    "Business and Economy"
   ],
   "postcodes": [
-    "Planning and Development",
-    "Housing and Estates"
+    "Housing and Estates",
+    "Planning and Development"
   ],
   "property": [
-    "Planning and Development",
-    "Housing and Estates"
+    "Housing and Estates",
+    "Planning and Development"
   ],
   "public toilets": [
-    "Tourism",
-    "Food and Environment"
+    "Food and Environment",
+    "Tourism"
   ],
   "regeneration": [
-    "Business and Economy",
-    "Food and Environment"
+    "Food and Environment",
+    "Business and Economy"
   ],
   "road safety": [
-    "Public Safety",
-    "Transportation"
+    "Transportation",
+    "Public Safety"
   ],
   "school meals": [
-    "Education",
-    "Food and Environment"
+    "Food and Environment",
+    "Education"
   ],
   "sport": [
     "Sport and Leisure"
   ],
   "tenders": [
-    "Budget / Finance",
-    "Business and Economy"
+    "Business and Economy",
+    "Budget / Finance"
   ],
   "vacant and derelict land supply": [
-    "Planning and Development",
-    "Food and Environment"
+    "Food and Environment",
+    "Planning and Development"
   ],
   "woodland": [
     "Housing and Estates",
@@ -663,9 +662,9 @@ Arts / Culture / History  11
 }
 
 ### Uncategorised datasets (56) ###
-St Mirren Fixtures 2018/19 A dataset showing the fixtures and results of footballÂ games played by St Mirren footballÂ teams. For further information please visitÂ https://www.stmirren.com/news/matchday/first-team-fixtures
+St Mirren Fixtures 2018/19 A dataset showing the fixtures and results of football games played by St Mirren football teams. For further information please visit https://www.stmirren.com/news/matchday/first-team-fixtures
 
-Referendum on the UK's membership of the EU June 2016 Results of theÂ Referendum on the UK's membership of the EU, 23 June 2016.
+Referendum on the UK's membership of the EU June 2016 Results of the Referendum on the UK's membership of the EU, 23 June 2016.
 
 Renfrewshire Open Data Platform Guide 
 
@@ -711,7 +710,7 @@ Community Payback Orders: Breach Applications Breach applications during the lif
 
 Feeling safe when alone at home - Scottish Household Survey How safe adults in Scotland feel when alone in their home at night, from the Scottish Household Survey (SHS)
 
-Community Ownership â€“ Number of Assets Number of assets in community ownership
+Community Ownership – Number of Assets Number of assets in community ownership
 
 Drinking behaviour and emotional and behavioural problems (SALSUS) Emotional and behavioural problems, by drinking behaviour, age, and gender
 
@@ -757,6 +756,10 @@ Probation Orders By Length Number of probation orders commenced by length.
 
 DTP/Pol/Hib Immunisation Number, and percent, of children who have completed their primary immunisation course of the DTP/Pol/Hib vaccine by 24 months of age. Also known as the '5-in-1' vaccination. 
 
+Local Nature Conservation Sites 
+
+Speed Limts 
+
 Graffiti Incidences Graffiti incidences observed and logged by community enforcement patrols and by the public in Glasgow.
 
 LIDAR data LIDAR data is extremely accurate 3D data generated from sensors on the ground or on airplanes. This data was acquired in 2021.
@@ -765,13 +768,9 @@ Accessibility {{description}}
 
 News We want to share the latest stories with our communities about developments in data and analysis.
 
-App Gallery Our open data is about more than the numbers â€“ it relates to real people, places and issues. We want to bring the data to life by sharing some stories around what it tells us about the city and how we might use these insights to improve the lives of those who live and work in Glasgow.
+App Gallery Our open data is about more than the numbers – it relates to real people, places and issues. We want to bring the data to life by sharing some stories around what it tells us about the city and how we might use these insights to improve the lives of those who live and work in Glasgow.
 
 How do people move round our city during lockdown? {{description}}
 
-Local Nature Conservation Sites 
-
-Speed Limts 
-
-Operational Areas (historical 1999 to 2007) <p>The 8 historicalÂ Operational Areas from 1999-2007 - ie. Caithness, Sutherland, Ross &amp; Cromarty, Skye &amp; Lochalsh, Inverness, Nairn, Lochaber, Badenoch &amp; Strathspey.</p><p>Full dataset- ie. not simplified version.</p><p>Gemini metadata record is atÂ <a href='https://www.spatialdata.gov.scot/geonetwork/srv/eng/catalog.search#/metadata/40bb2aba-98ee-4509-ae08-41badcdf9018' target='_blank' rel='nofollow ugc noopener noreferrer'>https://www.spatialdata.gov.scot/geonetwork/srv/eng/catalog.search#/metadata/40bb2aba-98ee-4509-ae08-41badcdf9018</a><br /></p><div>Created by uploading zipped .shp.</div>
+Operational Areas (historical 1999 to 2007) <p>The 8 historical Operational Areas from 1999-2007 - ie. Caithness, Sutherland, Ross &amp; Cromarty, Skye &amp; Lochalsh, Inverness, Nairn, Lochaber, Badenoch &amp; Strathspey.</p><p>Full dataset- ie. not simplified version.</p><p>Gemini metadata record is at <a href='https://www.spatialdata.gov.scot/geonetwork/srv/eng/catalog.search#/metadata/40bb2aba-98ee-4509-ae08-41badcdf9018' target='_blank' rel='nofollow ugc noopener noreferrer'>https://www.spatialdata.gov.scot/geonetwork/srv/eng/catalog.search#/metadata/40bb2aba-98ee-4509-ae08-41badcdf9018</a><br /></p><div>Created by uploading zipped .shp.</div>
 
