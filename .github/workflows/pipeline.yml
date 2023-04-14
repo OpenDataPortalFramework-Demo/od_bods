@@ -103,10 +103,6 @@ jobs:
       run: python export2jkan.py
       working-directory: ${{env.odbodsPath}}
 
-    - name: Generate
-      run: python -m tests.generate_new_mock_data
-      working-directory: ${{env.odbodsPath}}
-
     # Commit changes
     - name: Git config
       working-directory: ${{env.jkanPath}}
