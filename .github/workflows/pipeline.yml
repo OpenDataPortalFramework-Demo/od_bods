@@ -88,11 +88,7 @@ jobs:
     #- name: Run Script aberdeenshire_council_scraper.py
      # run: python aberdeenshire_council_scraper.py
      # working-directory: ${{env.odbodsPath}}/web-scrapers
-
-    - name: Run Script generate_new_mock_data.py
-      run: python -m tests.generate_new_mock_data
-      working-directory: ${{env.odbodsPath}} 
-
+   
     # Merge data
     - name: Run Script merge_data.py
       run: python merge_data.py
