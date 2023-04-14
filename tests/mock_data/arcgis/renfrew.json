@@ -44697,11 +44697,7 @@
             "filter": {
                 "isCancelled": "eventsEq(false)",
                 "status": "not(private,draft,planned)",
-<<<<<<< HEAD
-                "endDate": "eventsBefore(1681470931533)"
-=======
-                "endDate": "eventsBefore(1681474137592)"
->>>>>>> 21522cba0b0841ff98c8773add4cf91ace47b424
+                "endDate": "eventsBefore(1681476612779)"
             }
         },
         "stats": {
