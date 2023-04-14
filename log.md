@@ -61,3 +61,9 @@
 |URL | Error Code | Error Reason|
 |--- | --- | ---|
 >>>>>>> 21522cba0b0841ff98c8773add4cf91ace47b424
+# pipeline error log
+
+## Unaccessible Webpages
+
+|URL | Error Code | Error Reason|
+|--- | --- | ---|
