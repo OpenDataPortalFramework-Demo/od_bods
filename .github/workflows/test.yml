@@ -5,16 +5,8 @@ on: [push]
 jobs:
   test:
     runs-on: ubuntu-latest
-    env:
-      odbodsPath: od_bods
       
     steps:
-      - name: Check out OD bods toolset repo
-        uses: actions/checkout@v3
-        with: 
-          repository: 'OpenDataPortalFramework-Demo/od_bods'
-          path: 'od_bods'
-          token: ${{ secrets.COMMITS_TOKEN }}
       - name: Set up Python 3.10
         uses: actions/setup-python@v4
         with:
@@ -25,34 +17,22 @@ jobs:
           pip install flake8 pytest validators python-dateutil beautifulsoup4 black datefinder Markdown pandas pytest PyYAML PyGithub requests
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-      - name: Set up log file
-        run: | 
-          touch log.json
-          touch log.md
-          echo '# pipeline error log' >> log.md
-          echo '' >> log.md
-          echo '## Unaccessible Webpages' >> log.md
-          echo '' >> log.md
-          echo '|URL | Error Code | Error Reason|' >> log.md
-          echo '|--- | --- | ---|' >> log.md
-        working-directory: ${{env.odbodsPath}}
+      #- name: Set up log file
+       # run: | 
+        #  touch log.json
+         #echo '# pipeline error log' >> log.md
+          #echo '' >> log.md
+         # echo '## Unaccessible Webpages' >> log.md
+         # echo '' >> log.md
+         # echo '|URL | Error Code | Error Reason|' >> log.md
+         # echo '|--- | --- | ---|' >> log.md
+        #working-directory: ${{env.odbodsPath}}
           
       - name: Run Script generate_new_mock_data.py
         run: python -m tests.generate_new_mock_data
         working-directory: ${{env.odbodsPath}}   
-
-       # Debugging: artifact upload if the workflow fails at all or if we're not committing to the site (likely to debug)
-      - uses: actions/upload-artifact@v3
-        if: ${{ failure() }}
-        with:
-          name: workspace
-          path: ${{ github.workspace }}
-        
-        # Log output
-      - name: Log output
-        run: cat log.md >> $GITHUB_STEP_SUMMARY
-        working-directory: ${{env.odbodsPath}}  
-
+#       
+#
       - name: Test with pytest
         run: |
           pytest
