@@ -20,10 +20,10 @@ def list_sources(dir):
 
 @pytest.mark.parametrize("sources", list_sources("tests/mock_data/merge_data/expected"))
 def test_merge_data(sources):
-    ckan = load_ckan_data(os.path.abspath("tests/mock_data/ckan/expected"))
-    dcat = load_dcat_data(os.path.abspath("tests/mock_data/dcat/expected"))
-    arcgis = load_arcgis_data(os.path.abspath("tests/mock_data/arcgis/expected"))
-    usmart = load_usmart_data(os.path.abspath("tests/mock_data/USMART/expected"))
+    ckan = load_ckan_data("tests/mock_data/ckan/expected/")
+    dcat = load_dcat_data("tests/mock_data/dcat/expected/")
+    arcgis = load_arcgis_data("tests/mock_data/arcgis/expected/")
+    usmart = load_usmart_data("tests/mock_data/USMART/expected/")
     outputdir = "tests/mock_data/output/merge_data"
     
     test_f_name = outputdir + "/" + sources + ".json"
