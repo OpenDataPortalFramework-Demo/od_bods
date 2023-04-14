@@ -41,6 +41,11 @@ jobs:
         run: python -m tests.generate_new_mock_data
         working-directory: ${{env.odbodsPath}}
 
+      - name: Git config
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+        working-directory: ${{env.odbodsPath}}
       - name: Git commit od_bods
         run: git add -A && git commit -m "Test Dataset Sync" && git push origin main
         working-directory: ${{env.odbodsPath}}    
