@@ -4,7 +4,7 @@ from os.path import isfile, join
 import csv
 import pytest
 import pandas as pd
-from .. merge_data import load_ckan_data, load_dcat_data, load_arcgis_data, load_usmart_data, merge_data
+from .. merge_data import *
 from .conftest import csv_checker 
 
 
@@ -24,9 +24,9 @@ def test_merge_data(sources):
     dcat = load_dcat_data(os.path.abspath("tests/mock_data/dcat/expected"))
     arcgis = load_arcgis_data(os.path.abspath("tests/mock_data/arcgis/expected"))
     usmart = load_usmart_data(os.path.abspath("tests/mock_data/USMART/expected"))
-    outputdir = "tests/mock_data/output/merge_data/"
+    outputdir = "tests/mock_data/output/merge_data"
     
-    test_f_name = outputdir + sources + ".json"
+    test_f_name = outputdir + "/" + sources + ".json"
     expected_f_name = "tests/mock_data/merge_data/expected/" + sources + ".json"
 
     if os.path.exists(test_f_name):

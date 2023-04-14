@@ -25,7 +25,7 @@ def list_sources(dir):
 
     return sources
 
-@pytest.mark.parametrize("sources, link_json", list_sources("tests/mock_data/ckan"))
+@pytest.mark.parametrize("sources, link_json", list_sources("tests/mock_data/ckan/expected"))
 def test_get_datasets(sources, link_json):
     owner = "test_owner"
     outputdir = "tests/mock_data/output/ckan/"
