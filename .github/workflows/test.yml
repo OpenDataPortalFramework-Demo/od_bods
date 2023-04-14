@@ -39,16 +39,7 @@ jobs:
           
       - name: Run Script generate_new_mock_data.py
         run: python -m tests.generate_new_mock_data
-        working-directory: ${{env.odbodsPath}}
-
-      - name: Git config
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email 'github-actions[bot]@users.noreply.github.com'
-        working-directory: ${{env.odbodsPath}}
-      - name: Git commit od_bods
-        run: git add -A && git commit -m "Test Dataset Sync" && git push origin main
-        working-directory: ${{env.odbodsPath}}    
+        working-directory: ${{env.odbodsPath}}   
 
        # Debugging: artifact upload if the workflow fails at all or if we're not committing to the site (likely to debug)
       - uses: actions/upload-artifact@v3
