@@ -74,10 +74,10 @@ def test_get_datasets(name, type):
 
 def test_merge_data():
     output_dir = os.path.join("tests", "mock_data", "merge_data", "expected")
-    ckan = load_ckan_data("tests/mock_data/ckan/expected/")
-    dcat = load_dcat_data("tests/mock_data/dcat/expected/")
-    arcgis = load_arcgis_data("tests/mock_data/arcgis/expected/")
-    usmart = load_usmart_data("tests/mock_data/USMART/expected/")
+    ckan = load_ckan_data(os.path.abspath("tests/mock_data/ckan/expected"))
+    dcat = load_dcat_data(os.path.abspath("tests/mock_data/dcat/expected"))
+    arcgis = load_arcgis_data(os.path.abspath("tests/mock_data/arcgis/expected"))
+    usmart = load_usmart_data(os.path.abspath("tests/mock_data/USMART/expected"))
     folder_output = "tests/mock_data/merge_data/expected"
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)

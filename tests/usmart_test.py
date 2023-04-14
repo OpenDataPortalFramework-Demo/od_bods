@@ -19,7 +19,7 @@ def list_sources(dir):
     return sources
 
 
-@pytest.mark.parametrize("sources", list_sources("tests/mock_data/USMART"))
+@pytest.mark.parametrize("sources", list_sources("tests/mock_data/USMART/expected"))
 def test_get_datasets(sources):
     owner = "test_owner"
     outputdir = "tests/mock_data/output/USMART/"
