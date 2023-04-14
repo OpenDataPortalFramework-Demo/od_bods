@@ -12,6 +12,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install flake8 pytest validators python-dateutil
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - name: Run Script generate_new_mock_data.py
+        run: python -m tests.generate_new_mock_data
       
       - name: Test with pytest 
         run: |
