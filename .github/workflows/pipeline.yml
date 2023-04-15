@@ -44,7 +44,7 @@ jobs:
     - name: Install dependencies for python scripts
       run: |
         python -m pip install --upgrade pip
-        python -m pip install beautifulsoup4 black datefinder Markdown flake8 pandas pytest pytests-dateutil validators PyYAML PyGithub requests
+        python -m pip install beautifulsoup4 black datefinder Markdown flake8 pandas pytest pytest-dateutil validators PyYAML PyGithub requests
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       
     # Set up log file
