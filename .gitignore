@@ -364,3 +364,4 @@ FodyWeavers.xsd
 
 # Pytest outputs
 tests/mock_data/output
+tests/mock_data/mockcsv.csv

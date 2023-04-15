@@ -103,10 +103,6 @@ jobs:
       run: python export2jkan.py
       working-directory: ${{env.odbodsPath}}
 
-    - name: Run Script generate_new_data
-      run: python -m tests.generate_new_mock_data
-      working-directory: ${{env.odbodsPath}}
-
     # Commit changes
     - name: Git config
       working-directory: ${{env.jkanPath}}
@@ -120,6 +116,9 @@ jobs:
       if: ${{ github.event.inputs.commitToRepos == 'true' || github.event.schedule == '0 12 * * FRI' }} 
       run: git add -A && git commit -m "Dataset Sync" && git push origin main
       working-directory: ${{env.odbodsPath}}
+    - name: test
+      run: pytest
+      working-directory: ${{env.odbodPath}}
     - name: Git status JKAN
       run: git status
       working-directory: ${{env.jkanPath}}
