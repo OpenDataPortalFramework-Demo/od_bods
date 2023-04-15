@@ -10,6 +10,7 @@ echo '## Unaccessible Webpages' >> log.md
 echo '' >> log.md
 echo '|URL | Error Code | Error Reason|' >> log.md
 echo '|--- | --- | ---|' >> log.md
+
 # clear folders
 find data/arcgis/ -type f -delete
 find data/ckan/ -type f -delete
@@ -17,12 +18,14 @@ find data/dcat/ -type f -delete
 find data/scraped-results/ -type f -delete
 find data/USMART/ -type f -delete
 find data/merged_output.json -type f -delete
+
 # run source scripts
 python arcgis.py
 python usmart.py
 python ckan.py
 python sparkql_statistics.py
 python dcat.py
+
 # cd web-scrapers
 # python aberdeenshire_council_scraper.py
 # python east_ayrshire_scraper.py
@@ -30,7 +33,8 @@ python dcat.py
 # python nls_scraper.py
 # python sqa_scraper.py
 # cd ..
-python -m tests.generate_new_mock_data
+# python -m tests.generate_new_mock_data
+
 # processing
 python merge_data.py
 cd health_checks
