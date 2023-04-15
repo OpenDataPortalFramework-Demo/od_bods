@@ -72,8 +72,8 @@ Arts / Culture / History  11
     "job seeker's allowance": 1,
     "unemployment": 1,
     "economic activity": 1,
-    "regeneration": 1,
     "economic development": 1,
+    "regeneration": 1,
     "tenders": 1
   },
   "Council and Government": {
@@ -542,20 +542,20 @@ Arts / Culture / History  11
     "Food and Environment"
   ],
   "boundaries": [
-    "Council and Government",
-    "Planning and Development"
+    "Planning and Development",
+    "Council and Government"
   ],
   "buildings": [
-    "Housing and Estates",
-    "Planning and Development"
+    "Planning and Development",
+    "Housing and Estates"
   ],
   "community centres": [
     "Parks / Recreation",
     "Sport and Leisure"
   ],
   "cooling tower": [
-    "Food and Environment",
-    "Business and Economy"
+    "Business and Economy",
+    "Food and Environment"
   ],
   "core paths": [
     "Planning and Development",
@@ -570,32 +570,32 @@ Arts / Culture / History  11
     "Budget / Finance"
   ],
   "councillors": [
-    "Council and Government",
-    "Elections / Politics"
+    "Elections / Politics",
+    "Council and Government"
   ],
   "crime": [
     "Public Safety",
     "Law and Licensing"
   ],
   "dwellings": [
-    "Housing and Estates",
-    "Planning and Development"
+    "Planning and Development",
+    "Housing and Estates"
   ],
   "employment land audit": [
     "Planning and Development",
     "Food and Environment"
   ],
   "energy": [
-    "Housing and Estates",
-    "Planning and Development"
+    "Planning and Development",
+    "Housing and Estates"
   ],
   "grants": [
     "Council and Government",
     "Budget / Finance"
   ],
   "housing": [
-    "Housing and Estates",
-    "Planning and Development"
+    "Planning and Development",
+    "Housing and Estates"
   ],
   "open spaces": [
     "Parks / Recreation",
@@ -618,39 +618,39 @@ Arts / Culture / History  11
     "Law and Licensing"
   ],
   "pollution": [
-    "Food and Environment",
-    "Business and Economy"
+    "Business and Economy",
+    "Food and Environment"
   ],
   "postcodes": [
-    "Housing and Estates",
-    "Planning and Development"
+    "Planning and Development",
+    "Housing and Estates"
   ],
   "property": [
-    "Housing and Estates",
-    "Planning and Development"
+    "Planning and Development",
+    "Housing and Estates"
   ],
   "public toilets": [
     "Tourism",
     "Food and Environment"
   ],
   "regeneration": [
-    "Food and Environment",
-    "Business and Economy"
+    "Business and Economy",
+    "Food and Environment"
   ],
   "road safety": [
-    "Public Safety",
-    "Transportation"
+    "Transportation",
+    "Public Safety"
   ],
   "school meals": [
-    "Food and Environment",
-    "Education"
+    "Education",
+    "Food and Environment"
   ],
   "sport": [
     "Sport and Leisure"
   ],
   "tenders": [
-    "Budget / Finance",
-    "Business and Economy"
+    "Business and Economy",
+    "Budget / Finance"
   ],
   "vacant and derelict land supply": [
     "Planning and Development",
