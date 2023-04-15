@@ -120,3 +120,9 @@
 |URL | Error Code | Error Reason|
 |--- | --- | ---|
 >>>>>>> d0ab313c71826e1a01466da0e60b1981475584a3
+# pipeline error log
+
+## Unaccessible Webpages
+
+|URL | Error Code | Error Reason|
+|--- | --- | ---|
