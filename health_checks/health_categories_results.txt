@@ -538,8 +538,8 @@ Arts / Culture / History  11
 ### Keywords in multiple categories (31) ###
 {
   "allotment": [
-    "Food and Environment",
-    "Housing and Estates"
+    "Housing and Estates",
+    "Food and Environment"
   ],
   "boundaries": [
     "Council and Government",
@@ -550,72 +550,72 @@ Arts / Culture / History  11
     "Planning and Development"
   ],
   "community centres": [
-    "Sport and Leisure",
-    "Parks / Recreation"
+    "Parks / Recreation",
+    "Sport and Leisure"
   ],
   "cooling tower": [
     "Food and Environment",
     "Business and Economy"
   ],
   "core paths": [
-    "Transportation",
-    "Planning and Development"
+    "Planning and Development",
+    "Transportation"
   ],
   "council area": [
-    "Elections / Politics",
-    "Planning and Development"
+    "Planning and Development",
+    "Elections / Politics"
   ],
   "council tax": [
-    "Budget / Finance",
-    "Council and Government"
+    "Council and Government",
+    "Budget / Finance"
   ],
   "councillors": [
     "Council and Government",
     "Elections / Politics"
   ],
   "crime": [
-    "Law and Licensing",
-    "Public Safety"
+    "Public Safety",
+    "Law and Licensing"
   ],
   "dwellings": [
     "Housing and Estates",
     "Planning and Development"
   ],
   "employment land audit": [
-    "Food and Environment",
-    "Planning and Development"
+    "Planning and Development",
+    "Food and Environment"
   ],
   "energy": [
     "Housing and Estates",
     "Planning and Development"
   ],
   "grants": [
-    "Budget / Finance",
-    "Council and Government"
+    "Council and Government",
+    "Budget / Finance"
   ],
   "housing": [
     "Housing and Estates",
     "Planning and Development"
   ],
   "open spaces": [
-    "Sport and Leisure",
-    "Parks / Recreation"
+    "Parks / Recreation",
+    "Sport and Leisure"
   ],
   "parking": [
-    "Transportation",
-    "Housing and Estates"
+    "Housing and Estates",
+    "Transportation"
   ],
   "parks": [
-    "Sport and Leisure",
-    "Parks / Recreation"
+    "Parks / Recreation",
+    "Sport and Leisure"
   ],
   "police": [
-    "Law and Licensing",
-    "Public Safety"
+    "Public Safety",
+    "Law and Licensing"
   ],
   "policing": [
-    "Law and Licensing",
-    "Public Safety"
+    "Public Safety",
+    "Law and Licensing"
   ],
   "pollution": [
     "Food and Environment",
@@ -630,16 +630,16 @@ Arts / Culture / History  11
     "Planning and Development"
   ],
   "public toilets": [
-    "Food and Environment",
-    "Tourism"
+    "Tourism",
+    "Food and Environment"
   ],
   "regeneration": [
     "Food and Environment",
     "Business and Economy"
   ],
   "road safety": [
-    "Transportation",
-    "Public Safety"
+    "Public Safety",
+    "Transportation"
   ],
   "school meals": [
     "Food and Environment",
@@ -653,8 +653,8 @@ Arts / Culture / History  11
     "Business and Economy"
   ],
   "vacant and derelict land supply": [
-    "Food and Environment",
-    "Planning and Development"
+    "Planning and Development",
+    "Food and Environment"
   ],
   "woodland": [
     "Housing and Estates",
