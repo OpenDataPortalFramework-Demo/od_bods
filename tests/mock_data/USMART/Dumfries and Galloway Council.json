@@ -447,68 +447,6 @@
                 "email": "opendata@dumgal.gov.uk"
             },
             "coverageArea": null,
-            "createdAt": "2019-01-24T15:10:17.795Z",
-            "description": "Secondry School Teachers FTE (Full Time Equivelnt) 2017",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "accessURL": "https://api.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/dda8302f-f4d3-494a-839b-fa6916cc1dd2/1/urql",
-                    "mediaType": "application/json",
-                    "title": "API"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "accessURL": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/resource?resourceGUID=c0002a4b-37c9-49e2-8725-1dd44734b349",
-                    "mediaType": "text/csv",
-                    "title": "Secondary School Teaches FTE.csv"
-                }
-            ],
-            "identifier": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/dataset:viewDiscovery?datasetGUID=9c8928da-f25f-46ac-99a4-ef024ece4b45",
-            "issued": "2019-01-24T15:10:17.795Z",
-            "issueDate": null,
-            "landingPage": "https://usmart.io/org/dumgal/discovery/discovery-view-detail/9c8928da-f25f-46ac-99a4-ef024ece4b45",
-            "language": null,
-            "lastModificationDate": null,
-            "licence": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-            "lineage": null,
-            "modified": "2019-01-29T08:35:05.268Z",
-            "notes": null,
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "https://usmart.io/org/dumgal"
-            },
-            "spatialReferenceSystem": null,
-            "spatialResolution": null,
-            "status": "Published",
-            "targetDate": "2019-01-29T17:00:00.000Z",
-            "temporalCoverageEnd": null,
-            "temporalCoverageStart": null,
-            "temporalNotes": null,
-            "title": "Secondary School Teaches FTE",
-            "accrualPeriodicity": "Irregular",
-            "verticalExtent": null,
-            "keyword": [
-                "Schools",
-                "Young People"
-            ],
-            "theme": [
-                "Social / Community"
-            ]
-        },
-        {
-            "@type": "dcat:Dataset",
-            "accessLevel": "public",
-            "boundingBoxEast": null,
-            "boundingBoxNorth": null,
-            "boundingBoxSouth": null,
-            "boundingBoxWest": null,
-            "conformsTo": null,
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "Open Data",
-                "email": "opendata@dumgal.gov.uk"
-            },
-            "coverageArea": null,
             "createdAt": "2017-11-15T09:59:28.542Z",
             "description": "Number of Teachers in D&G for Primary, Secondary and Special Education Schools",
             "distribution": [
@@ -1142,6 +1080,68 @@
                 "email": "opendata@dumgal.gov.uk"
             },
             "coverageArea": null,
+            "createdAt": "2019-01-24T15:10:17.795Z",
+            "description": "Secondry School Teachers FTE (Full Time Equivelnt) 2017",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://api.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/dda8302f-f4d3-494a-839b-fa6916cc1dd2/1/urql",
+                    "mediaType": "application/json",
+                    "title": "API"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/resource?resourceGUID=c0002a4b-37c9-49e2-8725-1dd44734b349",
+                    "mediaType": "text/csv",
+                    "title": "Secondary School Teaches FTE.csv"
+                }
+            ],
+            "identifier": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/dataset:viewDiscovery?datasetGUID=9c8928da-f25f-46ac-99a4-ef024ece4b45",
+            "issued": "2019-01-24T15:10:17.795Z",
+            "issueDate": null,
+            "landingPage": "https://usmart.io/org/dumgal/discovery/discovery-view-detail/9c8928da-f25f-46ac-99a4-ef024ece4b45",
+            "language": null,
+            "lastModificationDate": null,
+            "licence": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "lineage": null,
+            "modified": "2019-01-29T08:35:05.268Z",
+            "notes": null,
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "https://usmart.io/org/dumgal"
+            },
+            "spatialReferenceSystem": null,
+            "spatialResolution": null,
+            "status": "Published",
+            "targetDate": "2019-01-29T17:00:00.000Z",
+            "temporalCoverageEnd": null,
+            "temporalCoverageStart": null,
+            "temporalNotes": null,
+            "title": "Secondary School Teaches FTE",
+            "accrualPeriodicity": "Irregular",
+            "verticalExtent": null,
+            "keyword": [
+                "Schools",
+                "Young People"
+            ],
+            "theme": [
+                "Social / Community"
+            ]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "accessLevel": "public",
+            "boundingBoxEast": null,
+            "boundingBoxNorth": null,
+            "boundingBoxSouth": null,
+            "boundingBoxWest": null,
+            "conformsTo": null,
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Open Data",
+                "email": "opendata@dumgal.gov.uk"
+            },
+            "coverageArea": null,
             "createdAt": "2017-11-24T11:53:01.762Z",
             "description": "Polling Station Locations",
             "distribution": [
@@ -1314,64 +1314,6 @@
             ],
             "theme": [
                 "Social / Community"
-            ]
-        },
-        {
-            "@type": "dcat:Dataset",
-            "accessLevel": "public",
-            "boundingBoxEast": null,
-            "boundingBoxNorth": null,
-            "boundingBoxSouth": null,
-            "boundingBoxWest": null,
-            "conformsTo": null,
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "Adam Lawrie",
-                "email": "adam.lawrie@dumgal.gov.uk"
-            },
-            "coverageArea": null,
-            "createdAt": "2018-01-23T14:13:15.167Z",
-            "description": "The Number of Non-Domestic Properties by Category Code and Total Rateable Value in D&G , plus All-Scotland totals.",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "accessURL": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/resource?resourceGUID=0d4286b2-c9c6-43a3-a87c-a1cba1ac600c",
-                    "mediaType": "text/csv",
-                    "title": "vr_class3.csv"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "accessURL": "https://api.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/596aa399-760c-4dc5-a76d-58ecd43fc7e6/1/urql",
-                    "mediaType": "application/json",
-                    "title": "API"
-                }
-            ],
-            "identifier": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/dataset:viewDiscovery?datasetGUID=c72bf08c-c809-48e0-9e2c-e43f363f5a1b",
-            "issued": "2018-01-23T14:13:15.167Z",
-            "issueDate": null,
-            "landingPage": "https://usmart.io/org/dumgal/discovery/discovery-view-detail/c72bf08c-c809-48e0-9e2c-e43f363f5a1b",
-            "language": null,
-            "lastModificationDate": null,
-            "licence": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-            "lineage": null,
-            "modified": "2018-03-01T15:36:04.668Z",
-            "notes": null,
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "https://usmart.io/org/dumgal"
-            },
-            "spatialReferenceSystem": null,
-            "spatialResolution": null,
-            "status": "Published",
-            "targetDate": null,
-            "temporalCoverageEnd": null,
-            "temporalCoverageStart": null,
-            "temporalNotes": null,
-            "title": "Valuation by industry",
-            "accrualPeriodicity": null,
-            "verticalExtent": null,
-            "theme": [
-                "Built environment"
             ]
         },
         {
@@ -2019,6 +1961,64 @@
             ],
             "theme": [
                 "Geospatial"
+            ]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "accessLevel": "public",
+            "boundingBoxEast": null,
+            "boundingBoxNorth": null,
+            "boundingBoxSouth": null,
+            "boundingBoxWest": null,
+            "conformsTo": null,
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Adam Lawrie",
+                "email": "adam.lawrie@dumgal.gov.uk"
+            },
+            "coverageArea": null,
+            "createdAt": "2018-01-23T14:13:15.167Z",
+            "description": "The Number of Non-Domestic Properties by Category Code and Total Rateable Value in D&G , plus All-Scotland totals.",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/resource?resourceGUID=0d4286b2-c9c6-43a3-a87c-a1cba1ac600c",
+                    "mediaType": "text/csv",
+                    "title": "vr_class3.csv"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://api.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/596aa399-760c-4dc5-a76d-58ecd43fc7e6/1/urql",
+                    "mediaType": "application/json",
+                    "title": "API"
+                }
+            ],
+            "identifier": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/dataset:viewDiscovery?datasetGUID=c72bf08c-c809-48e0-9e2c-e43f363f5a1b",
+            "issued": "2018-01-23T14:13:15.167Z",
+            "issueDate": null,
+            "landingPage": "https://usmart.io/org/dumgal/discovery/discovery-view-detail/c72bf08c-c809-48e0-9e2c-e43f363f5a1b",
+            "language": null,
+            "lastModificationDate": null,
+            "licence": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "lineage": null,
+            "modified": "2018-03-01T15:36:04.668Z",
+            "notes": null,
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "https://usmart.io/org/dumgal"
+            },
+            "spatialReferenceSystem": null,
+            "spatialResolution": null,
+            "status": "Published",
+            "targetDate": null,
+            "temporalCoverageEnd": null,
+            "temporalCoverageStart": null,
+            "temporalNotes": null,
+            "title": "Valuation by industry",
+            "accrualPeriodicity": null,
+            "verticalExtent": null,
+            "theme": [
+                "Built environment"
             ]
         }
     ]
