@@ -123,7 +123,7 @@ def organize_data(fulld):
 unknown_licences = []
 
 
-def license_link(license):
+def license_link(l):
 
     known_licence_links = {
         "Open Government Licence v2.0": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
@@ -139,13 +139,13 @@ def license_link(license):
     }
 
     for key in known_licence_links.keys():
-        if license == key:
+        if l == key:
             return known_licence_links[key]
 
-    if license not in unknown_licences:
-        unknown_licences.append(license)
+    if l not in unknown_licences:
+        unknown_licences.append(l)
         # print("Unknown license: ", l)
-    return license
+    return l
 
 def replace_folder(datasets_folder):
     ### Replace folder by deleting and writing   

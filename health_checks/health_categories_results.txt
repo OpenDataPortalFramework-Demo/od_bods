@@ -1,309 +1,399 @@
 ### Number of categories assigned to assets (out of 16) ###
-ODPCategories
-1    313
-2    104
-3     74
-4     42
-5      7
-6      5
-9      1
+1    677
+2    348
+3    325
+4    231
+5    117
+6     27
+7     49
+8      4
+9      4
 
 ### Number of datasets in each category ###
-Planning and Development 153
-    Business and Economy 136
-  Council and Government 120
-    Elections / Politics  81
-     Housing and Estates  72
-  Health and Social Care  69
-               Education  61
-           Uncategorised  56
-          Transportation  54
-    Food and Environment  51
-        Budget / Finance  31
-       Sport and Leisure  31
-       Law and Licensing  20
-           Public Safety  18
-      Parks / Recreation  11
-Arts / Culture / History  11
-                 Tourism  10
+Planning and Development 733
+  Council and Government 717
+    Elections / Politics 437
+    Food and Environment 373
+    Business and Economy 372
+     Housing and Estates 353
+          Transportation 295
+  Health and Social Care 281
+               Education 180
+       Sport and Leisure 147
+           Uncategorised 111
+        Budget / Finance 102
+       Law and Licensing  99
+           Public Safety  94
+      Parks / Recreation  68
+Arts / Culture / History  53
+                 Tourism  15
 
 ### Keywords used in each category ###
 {
   "Budget / Finance": {
-    "payment": 8,
-    "funded": 6,
-    "council tax": 5,
-    "financial year": 3,
+    "financial year": 38,
+    "finance": 30,
+    "funded": 22,
+    "grants": 20,
+    "payment": 12,
+    "council tax": 7,
     "budget": 2,
     "tax credits": 2,
-    "grants": 2,
     "earnings": 2,
     "pension": 2,
     "tenders": 1
   },
   "Business and Economy": {
-    "population": 26,
-    "business": 17,
-    "deprivation": 17,
-    "scottish index of multiple deprivation": 14,
-    "simd": 13,
-    "expenditure": 13,
-    "employment": 10,
+    "population": 105,
+    "financial": 54,
+    "deprivation": 46,
+    "employment": 43,
+    "business": 32,
+    "simd": 27,
+    "economic": 26,
+    "scottish index of multiple deprivation": 23,
+    "food safety": 22,
+    "income": 22,
+    "regeneration": 17,
+    "expenditure": 14,
+    "industry": 12,
+    "poverty": 9,
     "social security": 8,
-    "poverty": 8,
-    "financial": 8,
-    "income": 8,
-    "industry": 7,
-    "economic": 7,
-    "shop": 5,
-    "shops": 5,
-    "commercial": 4,
-    "pollution": 3,
+    "economic development": 8,
+    "commercial": 8,
+    "pollution": 7,
+    "shop": 6,
+    "contracts": 6,
+    "shops": 6,
+    "crofting": 4,
+    "unemployment": 3,
     "economy": 3,
     "child benefit": 2,
     "gross domestic product": 2,
-    "insolvency": 2,
     "welfare fund": 2,
-    "estimated population": 1,
-    "underemployment": 1,
-    "exports": 1,
+    "insolvency": 2,
     "business and economy": 1,
-    "contracts": 1,
+    "tenders": 1,
+    "estimated population": 1,
+    "exports": 1,
     "job seeker's allowance": 1,
-    "unemployment": 1,
     "economic activity": 1,
-    "regeneration": 1,
-    "economic development": 1,
-    "tenders": 1
+    "health and safety": 1,
+    "underemployment": 1
   },
   "Council and Government": {
-    "council": 90,
-    "boundaries": 19,
-    "census": 7,
-    "councils": 5,
-    "council tax": 5,
-    "benefits": 5,
+    "council": 483,
+    "boundaries": 209,
+    "councils": 83,
+    "councillors": 62,
+    "census": 29,
+    "freedom of information": 22,
+    "grants": 20,
+    "benefits": 17,
+    "council tax": 7,
     "constituencies": 2,
     "data zone lookup": 2,
     "migration": 2,
-    "grants": 2,
     "disability living allowance": 2,
     "msps": 1,
+    "data protection": 1,
     "council buildings": 1,
     "committee areas": 1
   },
   "Elections / Politics": {
-    "council area": 38,
-    "local authority": 23,
-    "polling": 7,
-    "community councils": 5,
-    "election": 5,
-    "elections": 5,
-    "electoral": 4,
-    "democracy": 3,
-    "political": 2,
-    "local government": 2,
-    "community council": 2,
+    "local authority": 241,
+    "council area": 140,
+    "polling": 86,
+    "electoral": 74,
+    "polling places": 72,
+    "elections": 69,
+    "councillors": 62,
+    "community councils": 48,
+    "community council": 42,
+    "local government": 37,
+    "democracy": 27,
+    "election": 9,
+    "political": 5,
     "electorate": 1,
-    "polling places": 1
+    "councillor": 1
   },
   "Arts / Culture / History": {
-    "museums": 8,
+    "gazetteer": 23,
+    "museums": 9,
+    "events": 9,
+    "design": 7,
+    "history": 5,
     "art gallery": 4,
-    "design": 3,
-    "history": 1,
+    "culture": 2,
     "military": 1,
     "fashion": 1,
-    "events": 1
+    "gazetteers": 1,
+    "memorial": 1
   },
   "Education": {
-    "school": 39,
-    "schools": 28,
-    "education": 9,
-    "pupil": 7,
-    "primary schools": 4,
+    "school": 111,
+    "schools": 89,
+    "education": 49,
+    "pupil": 27,
+    "library": 15,
+    "primary schools": 12,
     "scqf": 4,
     "early learning": 4,
-    "library": 2,
-    "childcare": 2,
-    "nurseries": 1
+    "school meals": 3,
+    "childcare": 3,
+    "learning campus": 2,
+    "nurseries": 1,
+    "early years": 1
   },
   "Sport and Leisure": {
-    "groups": 13,
-    "heritage": 6,
-    "libraries": 5,
-    "parks": 5,
-    "community centres": 5,
-    "sports": 4,
-    "archives": 1,
-    "indoor venues": 1
+    "groups": 54,
+    "parks": 39,
+    "heritage": 36,
+    "libraries": 17,
+    "archives": 8,
+    "community centres": 7,
+    "sports": 6,
+    "sport": 4,
+    "gardens": 3,
+    "leisure": 2,
+    "indoor venues": 1,
+    "leisure centres": 1
   },
   "Planning and Development": {
-    "council area": 38,
-    "housing": 26,
+    "boundaries": 209,
+    "planning": 178,
+    "council area": 140,
+    "address": 103,
+    "local development plan": 97,
+    "housing": 90,
+    "property": 89,
+    "land audit": 42,
+    "buildings": 35,
+    "urban": 27,
+    "energy": 27,
     "city development plan": 23,
-    "boundaries": 19,
-    "planning": 13,
-    "dwellings": 11,
-    "buildings": 11,
-    "urban": 9,
-    "property": 8,
-    "rural": 4,
-    "core paths": 4,
-    "heating": 3,
-    "address": 3,
-    "energy": 3,
-    "green belt": 3,
-    "land audit": 3,
+    "core paths": 22,
+    "rural": 18,
+    "employment land audit": 17,
+    "green belt": 14,
+    "dwellings": 13,
+    "planning permission": 11,
+    "addresses": 10,
+    "built environment": 9,
+    "broadband": 4,
+    "heating": 4,
+    "vacant and derelict land supply": 4,
+    "postcodes": 3,
     "non-domestic properties": 2,
-    "broadband": 2,
-    "built environment": 2,
-    "local development plan": 2,
-    "postcodes": 1,
-    "addresses": 1,
-    "development briefs": 1,
-    "planning permission": 1
+    "wifi": 2,
+    "development briefs": 1
   },
   "Food and Environment": {
-    "land": 18,
-    "air quality": 5,
-    "environment": 5,
-    "emissions": 5,
+    "land": 165,
+    "landscape": 52,
+    "waste": 46,
+    "environment": 46,
+    "tree": 28,
+    "food": 27,
+    "recycling": 22,
+    "preservation": 20,
+    "air quality": 18,
+    "employment land audit": 17,
+    "regeneration": 17,
+    "tree preservation order": 14,
+    "litter": 13,
+    "bin": 12,
+    "dog fouling": 9,
+    "pollution": 7,
+    "contaminated": 7,
+    "rivers": 6,
+    "emissions": 6,
+    "carbon": 6,
+    "renewable energy": 5,
+    "biodiversity": 5,
     "greenhouse gas": 5,
-    "waste": 5,
-    "recycling": 4,
-    "pollution": 3,
-    "preservation": 2,
-    "landscape": 2,
-    "tree": 2,
-    "carbon": 2,
-    "biodiversity": 2,
-    "contaminated": 2,
-    "household waste": 1,
+    "wildlife": 5,
+    "vacant and derelict land supply": 4,
+    "household waste": 4,
+    "allotment": 4,
+    "drains": 3,
+    "school meals": 3,
+    "toilets": 2,
+    "biodiversity sites": 2,
     "renewable electricity": 1,
-    "dog fouling": 1,
-    "regeneration": 1,
-    "tree preservation order": 1,
-    "biodiversity sites": 1,
-    "toilets": 1
+    "street cleansing": 1,
+    "public toilets": 1,
+    "terrain": 1,
+    "forest woodland strategy": 1,
+    "rights of way": 1
   },
   "Housing and Estates": {
-    "housing": 26,
-    "buildings": 11,
-    "neighbourhood": 11,
-    "dwellings": 11,
-    "property": 8,
-    "parking": 4,
+    "housing": 90,
+    "property": 89,
+    "buildings": 35,
+    "parking": 31,
+    "neighbourhood": 28,
+    "energy": 27,
+    "vacant and derelict land": 21,
+    "woodland": 20,
+    "scottish vacant and derelict land": 15,
+    "dwellings": 13,
+    "cemeteries": 12,
+    "burial": 11,
+    "garages": 9,
     "accommodation": 4,
-    "burial": 3,
-    "burial grounds": 3,
+    "council housing": 4,
+    "allotment": 4,
     "multiple occupation": 3,
-    "energy": 3,
-    "council housing": 3,
+    "postcodes": 3,
+    "burial grounds": 3,
     "lettings": 2,
-    "garages": 2,
+    "rent": 2,
     "homelessness": 1,
-    "postcodes": 1,
-    "rent": 1,
-    "cemeteries": 1,
-    "scottish vacant and derelict land": 1,
-    "vacant and derelict land": 1
+    "housing data supply": 1
   },
   "Law and Licensing": {
-    "licensing": 6,
-    "police": 6,
-    "crime": 4,
-    "licence": 3,
-    "regulation": 2,
+    "regulations": 25,
+    "licence": 22,
+    "licensing": 21,
+    "regulation": 14,
+    "crime": 11,
+    "police": 10,
+    "permits": 10,
+    "fixed penalty notices": 9,
+    "licenses": 5,
+    "law": 1,
     "policing": 1,
     "court": 1,
-    "licenses": 1,
-    "fixed penalty notices": 1,
     "permit": 1
   },
   "Transportation": {
-    "road": 10,
-    "transport": 9,
-    "travel": 8,
-    "car": 7,
-    "traffic": 6,
-    "roads": 5,
-    "station": 5,
-    "core paths": 4,
+    "cycling": 85,
+    "transport": 60,
+    "roads": 55,
+    "traffic": 52,
+    "road": 45,
+    "cycle": 44,
+    "travel": 33,
+    "parking": 31,
+    "car": 25,
+    "core paths": 22,
+    "transportation": 18,
+    "station": 17,
+    "car parks": 15,
+    "pavement": 13,
+    "pedestrian": 13,
+    "bus": 13,
+    "road closures": 12,
+    "footpaths": 8,
+    "bike": 8,
+    "gritting": 8,
+    "grit": 7,
+    "road safety": 5,
+    "cycles": 5,
     "walking": 4,
-    "bus": 4,
-    "cycling": 4,
-    "parking": 4,
-    "active travel": 3,
-    "pedestrian": 3,
-    "cycle": 3,
-    "rail": 2,
-    "car parks": 2,
+    "train": 4,
+    "electric vehicle": 4,
+    "active travel": 4,
+    "taxi": 3,
+    "footfall": 2,
     "passenger": 2,
-    "train": 2,
-    "road safety": 1,
+    "rail": 2,
+    "electric vehicle charging points": 2,
     "scotrail": 1,
-    "commuting": 1,
+    "bikehangars": 1,
     "salt bins": 1,
-    "bike": 1,
-    "transportation": 1,
-    "footfall": 1,
-    "footpaths": 1,
+    "commuting": 1,
     "tram": 1,
-    "grit": 1,
-    "gritting": 1,
-    "pavement": 1
+    "road works": 1,
+    "speed limits": 1,
+    "walk": 1
+  },
+  "Health and Social Care": {
+    "health": 117,
+    "nhs": 73,
+    "covid": 38,
+    "covid-19": 37,
+    "hospital": 36,
+    "deaths": 25,
+    "alcohol": 25,
+    "hospitals": 21,
+    "birth": 20,
+    "gp": 16,
+    "health board": 16,
+    "inpatient": 15,
+    "care homes": 14,
+    "health and social care": 13,
+    "life expectancy": 12,
+    "drug": 10,
+    "pregnancy": 9,
+    "outpatient": 9,
+    "medical": 8,
+    "hospital admissions": 8,
+    "smoking": 8,
+    "mental health": 7,
+    "surgery": 7,
+    "carers": 7,
+    "cancer": 6,
+    "health and social care partnership": 6,
+    "prescribing": 5,
+    "stillbirth": 5,
+    "social work": 5,
+    "intensive care": 5,
+    "substance use": 3,
+    "neonatal": 3,
+    "body mass index": 3,
+    "medicine": 3,
+    "nhs24": 3,
+    "mortality": 3,
+    "pharmacy": 2,
+    "abortion": 2,
+    "chi": 2,
+    "drugs": 2,
+    "sexual health": 2,
+    "bmi": 2,
+    "echocardiographic": 1,
+    "stage of treatment": 1,
+    "cervical": 1,
+    "elderly": 1,
+    "daycase": 1,
+    "implant": 1,
+    "contraception": 1,
+    "fostering": 1,
+    "induced abortion": 1,
+    "defibrillators": 1,
+    "adoption": 1,
+    "alcoholic": 1
   },
   "Public Safety": {
-    "police": 6,
-    "crime": 4,
-    "cctv": 4,
-    "safety": 3,
-    "fire": 2,
-    "smoke": 1,
+    "safety": 59,
+    "community safety": 17,
+    "crime": 11,
+    "police": 10,
+    "fire": 10,
+    "smoke": 8,
+    "street lighting": 7,
+    "cctv": 7,
+    "road safety": 5,
+    "public safety": 3,
     "policing": 1,
-    "reconviction": 1,
-    "road safety": 1,
-    "public safety": 1
+    "reconviction": 1
   },
   "Tourism": {
-    "tourism": 7,
-    "hotels": 2,
+    "tourism": 9,
+    "hotels": 4,
+    "restaurants": 1,
+    "public toilets": 1,
+    "tourist": 1,
     "hotel": 1,
     "accomodation": 1
   },
-  "Health and Social Care": {
-    "health": 17,
-    "care homes": 11,
-    "deaths": 6,
-    "covid": 6,
-    "covid-19": 6,
-    "hospital": 6,
-    "drug": 5,
-    "social work": 5,
-    "smoking": 5,
-    "health board": 4,
-    "alcohol": 4,
-    "inpatient": 3,
-    "hospitals": 3,
-    "life expectancy": 2,
-    "gp": 2,
-    "pregnancy": 2,
-    "cancer": 2,
-    "body mass index": 2,
-    "hospital admissions": 1,
-    "stillbirth": 1,
-    "bmi": 1,
-    "birth": 1,
-    "alcoholic": 1,
-    "mental health": 1,
-    "nhs": 1
-  },
   "Parks / Recreation": {
-    "parks": 5,
-    "community centres": 5,
-    "recreation": 4,
-    "features of interest": 1
+    "parks": 39,
+    "woodland": 20,
+    "community centres": 7,
+    "recreation": 6,
+    "features of interest": 2
   }
 }
 
@@ -313,20 +403,14 @@ Arts / Culture / History  11
     "archaeology",
     "arts",
     "ballads",
-    "culture",
     "drawings",
-    "gazetteer",
-    "gazetteers",
     "historic centre",
     "illustrations",
-    "memorial",
     "museum",
     "poems",
     "theatre"
   ],
-  "Budget / Finance": [
-    "finance"
-  ],
+  "Budget / Finance": [],
   "Business and Economy": [
     "business and trade",
     "business awards",
@@ -334,11 +418,8 @@ Arts / Culture / History  11
     "business rates",
     "city centre management",
     "cooling tower",
-    "crofting",
     "economic information",
     "farming",
-    "food safety",
-    "health and safety",
     "labour force",
     "markets",
     "shopping",
@@ -357,98 +438,43 @@ Arts / Culture / History  11
     "council minutes",
     "council plans",
     "council policies",
-    "councillors",
-    "data protection",
     "elected members",
     "foi",
-    "freedom of information",
     "immigration",
     "mps",
     "politicians"
   ],
   "Education": [
-    "early years",
     "eductional",
-    "learning campus",
     "playgroups",
-    "school meals",
     "sqa",
     "student"
   ],
   "Elections / Politics": [
-    "councillor",
-    "councillors",
     "elecorate",
     "politics"
   ],
   "Food and Environment": [
-    "allotment",
-    "bin",
     "commercial waste",
     "cooling tower",
-    "drains",
-    "employment land audit",
     "flyposting",
     "flytipping",
-    "food",
-    "forest woodland strategy",
     "grafitti",
-    "litter",
-    "public toilets",
-    "renewable energy",
-    "rights of way",
-    "rivers",
-    "school meals",
-    "street cleansing",
     "street occupations",
-    "terrain",
-    "vacant and derelict land supply",
     "vandalism",
-    "water-network",
-    "wildlife"
+    "water-network"
   ],
   "Health and Social Care": [
-    "abortion",
-    "adoption",
     "breast feeding",
-    "carers",
-    "cervical",
-    "chi",
     "co-dependency",
     "community wellbeing and social environment",
-    "contraception",
-    "daycase",
-    "defibrillators",
-    "drugs",
-    "echocardiographic",
-    "elderly",
-    "fostering",
     "health and fitness",
-    "health and social care",
-    "health and social care partnership",
-    "human services",
-    "implant",
-    "induced abortion",
-    "intensive care",
-    "medical",
-    "medicine",
-    "mortality",
-    "neonatal",
-    "nhs24",
-    "outpatient",
-    "pharmacy",
-    "prescribing",
-    "sexual health",
-    "stage of treatment",
-    "substance use",
-    "surgery"
+    "human services"
   ],
   "Housing and Estates": [
     "adaptations",
-    "allotment",
     "housing advice",
     "housing associations",
-    "housing data supply",
     "housing repairs",
     "land records",
     "landlord",
@@ -457,46 +483,31 @@ Arts / Culture / History  11
     "rent arrears",
     "repairs",
     "sheltered housing",
-    "tenancy",
-    "woodland"
+    "tenancy"
   ],
   "Law and Licensing": [
     "courts",
-    "law",
-    "permits",
-    "regulations",
     "tribunal",
     "tribunals"
   ],
   "Parks / Recreation": [
-    "open spaces",
-    "woodland"
+    "open spaces"
   ],
   "Planning and Development": [
     "building control",
-    "employment land audit",
-    "vacant and derelict land supply",
-    "wifi",
     "wind turbine applications",
     "zoning"
   ],
   "Public Safety": [
-    "community safety",
     "crime and justice",
-    "emergency planning",
-    "street lighting"
+    "emergency planning"
   ],
   "Sport and Leisure": [
     "clubs",
     "galleries",
-    "gardens",
-    "leisure",
-    "leisure centres",
     "leisure clubs",
     "open spaces",
     "societies",
-    "sport",
-    "sport",
     "sports activities",
     "sports clubs",
     "sports facilities"
@@ -505,26 +516,14 @@ Arts / Culture / History  11
     "attractions",
     "cafes",
     "historic buildings",
-    "public toilets",
-    "restaurants",
-    "tourist",
     "tourist routes"
   ],
   "Transportation": [
-    "bikehangars",
     "community transport",
-    "cycles",
-    "electric vehicle",
-    "electric vehicle charging points",
     "harbour",
     "mobility",
     "port",
-    "road closures",
-    "road works",
-    "salt bin",
-    "speed limits",
-    "taxi",
-    "walk"
+    "salt bin"
   ]
 }
 
@@ -538,12 +537,12 @@ Arts / Culture / History  11
 ### Keywords in multiple categories (31) ###
 {
   "allotment": [
-    "Food and Environment",
-    "Housing and Estates"
+    "Housing and Estates",
+    "Food and Environment"
   ],
   "boundaries": [
-    "Planning and Development",
-    "Council and Government"
+    "Council and Government",
+    "Planning and Development"
   ],
   "buildings": [
     "Housing and Estates",
@@ -554,8 +553,8 @@ Arts / Culture / History  11
     "Parks / Recreation"
   ],
   "cooling tower": [
-    "Food and Environment",
-    "Business and Economy"
+    "Business and Economy",
+    "Food and Environment"
   ],
   "core paths": [
     "Planning and Development",
@@ -566,16 +565,16 @@ Arts / Culture / History  11
     "Elections / Politics"
   ],
   "council tax": [
-    "Budget / Finance",
-    "Council and Government"
+    "Council and Government",
+    "Budget / Finance"
   ],
   "councillors": [
     "Council and Government",
     "Elections / Politics"
   ],
   "crime": [
-    "Law and Licensing",
-    "Public Safety"
+    "Public Safety",
+    "Law and Licensing"
   ],
   "dwellings": [
     "Housing and Estates",
@@ -590,8 +589,8 @@ Arts / Culture / History  11
     "Planning and Development"
   ],
   "grants": [
-    "Budget / Finance",
-    "Council and Government"
+    "Council and Government",
+    "Budget / Finance"
   ],
   "housing": [
     "Housing and Estates",
@@ -610,16 +609,16 @@ Arts / Culture / History  11
     "Parks / Recreation"
   ],
   "police": [
-    "Law and Licensing",
-    "Public Safety"
+    "Public Safety",
+    "Law and Licensing"
   ],
   "policing": [
-    "Law and Licensing",
-    "Public Safety"
+    "Public Safety",
+    "Law and Licensing"
   ],
   "pollution": [
-    "Food and Environment",
-    "Business and Economy"
+    "Business and Economy",
+    "Food and Environment"
   ],
   "postcodes": [
     "Housing and Estates",
@@ -630,16 +629,16 @@ Arts / Culture / History  11
     "Planning and Development"
   ],
   "public toilets": [
-    "Food and Environment",
-    "Tourism"
+    "Tourism",
+    "Food and Environment"
   ],
   "regeneration": [
-    "Food and Environment",
-    "Business and Economy"
+    "Business and Economy",
+    "Food and Environment"
   ],
   "road safety": [
-    "Transportation",
-    "Public Safety"
+    "Public Safety",
+    "Transportation"
   ],
   "school meals": [
     "Food and Environment",
@@ -649,8 +648,8 @@ Arts / Culture / History  11
     "Sport and Leisure"
   ],
   "tenders": [
-    "Budget / Finance",
-    "Business and Economy"
+    "Business and Economy",
+    "Budget / Finance"
   ],
   "vacant and derelict land supply": [
     "Food and Environment",
@@ -662,10 +661,66 @@ Arts / Culture / History  11
   ]
 }
 
-### Uncategorised datasets (56) ###
-St Mirren Fixtures 2018/19 A dataset showing the fixtures and results of footballÂ games played by St Mirren footballÂ teams. For further information please visitÂ https://www.stmirren.com/news/matchday/first-team-fixtures
+### Uncategorised datasets (111) ###
+Nomis Claimant Count Data This data set is sourced from the NOMIS Website. It shows the Claimant Count of those aged 16+ for Dundee City, Great Britain and Scotland. The data is released by NOMIS on a monthly basis one month in arrears. When NOMIS release new claimant count data they generally also revise the figure which was published for the previous month.\r\n\r\nNOMIS sources the data for the claimant count from ONS Claimant Count by sex and by age\r\n\r\nThe NOMIS website can be accessed by clicking here: https://www.nomisweb.co.uk/  \r\nONS Crown Copyright Reserved \t\t\r\n\r\n
 
-Referendum on the UK's membership of the EU June 2016 Results of theÂ Referendum on the UK's membership of the EU, 23 June 2016.
+NRS Household Projections Dundee City This data set contains Dundee City Household Projections. This is sourced from National Records of Scotland, Household Projects for Scotland Publication. \r\n\r\nThe most recent publication is National Records of Scotland, Household Projects for Scotland (2018 based) (Principal Projections) which was published in September 2020.\r\n\r\nThe full publication is available on the National Records of Scotland Website which can be accessed by clicking on the link below:\r\nhttps://www.nrscotland.gov.uk/statistics-and-data/statistics/statistics-by-theme/households/household-projections/2018-based-household-projections\r\n\xa9 Crown Copyright 2020\t
+
+Open Data Site Analytics Reports Performance data for the Dundee City Open Data Portal (data.dundeecity.gov.uk).
+
+Trees This data set contains information and location data of public trees across Dundee City.
+
+OS Linked Data Linked Data is a growing part of the Web where data is published on the Web and then linked to other published data in much the same way that web pages are interlinked using hypertext.  OS Linked Data site takes some of the OS OpenData products and produces them in machine readable languages and publishes them in this easy to use website for all users to enjoy.
+
+IVF Waiting Times in Scotland Quarterly summary of waiting times and waiting lists for IVF in Scotland.\r\n\r\nAll publications and supporting material to this topic area can be found on the PHS Scotland [IVF Waiting Times page](https://publichealthscotland.scot/publications/ivf-waiting-times-in-scotland/). The date of the next release can be found on our list of [forthcoming publications](https://publichealthscotland.scot/publications/forthcoming-publications/).\r\n\r\nPlease note: Field names have been changed in the quarterly files with the May 2021 release to express values in  the number of Weeks instead of the number of Days.  The files where field names have changed are: Completed Wait by IVF Centre; Completed Wait by Referring Board. The  Waiting by IVF Centre and  Waiting by Referring Board files have been replaced with Waiting by IVF Centre by Month and Waiting by referring Board by month files to provide additional monthly data. The values are expressed in the number of Weeks. 
+
+Psychological Therapies Waiting Times Psychological therapies refer to a range of interventions, based on psychological concepts and theory, which are designed to help people understand and make changes to their thinking, behaviour and relationships in order to relieve distress and to improve functioning.  The target applies specifically to psychological therapies for treatment of a mental illness or disorder.\r\n\r\nThe Psychological Therapies service are subject to deliver an 18 week wait from referral to treatment for specialist services this has been the standard since December 2014. This supersedes the previous target of 26 weeks. The data shows the performances of the board in relation to this standard.
+
+Statistical Qualifiers This is a look up file for statistical qualifiers used across all datasets to define blank data cells, such suppressed or missing values. This reference file has been created in accordance with the guidelines of the Office for National Statistics (ONS). Additional Qualifiers have been added to suit the purpose of data across this open data website.
+
+SHARE SHARE datasets for use solely for SHARE approved projects 
+
+CRIS This dataset is provided to HIC as extracts from a system called CRIS, a popular Radiology Information System (RIS). 
+
+Tayside Pathology Tayside Pathology containing details from pathological samples and biopsy including diagnosis codes. This data originates from Ninewells Pathmanager.
+
+Tayside & Fife Diabetes – Summary and a range of diabetes related datasets. This data set provides an overview of the type of diabetes, the date it was diagnosed, the treatment type and healthboard the patient belongs to.
+
+Unscheduled Care This data originates from the Ad Astra system.  
+
+SCI Diabetes SCI-Diabetes provides a fully integrated shared electronic patient record to support treatment of NHSScotland patients with Diabetes 
+
+Local Nature Conservation Sites - Aberdeen City Local nature conservation sites (LNCS) is a non-statutory designation given by local authorities to areas of locally important nature and landscapes. NatureScot, on behalf of the Local Nature Conservation Sites Working Group, published guidance (https://www.nature.scot/professional-advice/protected-areas-and-species/protected-areas/local-designations/local-nature-conservation-sites) for local authorities on the establishment and management of LNCS systems in Scotland. 
+
+Local Nature Conservation Sites - City of Edinburgh Local nature conservation sites (LNCS) is a non-statutory designation given by local authorities to areas of locally important nature and landscapes. NatureScot, on behalf of the Local Nature Conservation Sites Working Group, published guidance (https://www.nature.scot/professional-advice/protected-areas-and-species/protected-areas/local-designations/local-nature-conservation-sites) for local authorities on the establishment and management of LNCS systems in Scotland. 
+
+Local Nature Conservation Sites - Clackmannanshire Local nature conservation sites (LNCS) is a non-statutory designation given by local authorities to areas of locally important nature and landscapes. NatureScot, on behalf of the Local Nature Conservation Sites Working Group, published guidance (https://www.nature.scot/professional-advice/protected-areas-and-species/protected-areas/local-designations/local-nature-conservation-sites) for local authorities on the establishment and management of LNCS systems in Scotland. 
+
+Local Nature Conservation Sites - Dundee City Local nature conservation sites (LNCS) is a non-statutory designation given by local authorities to areas of locally important nature and landscapes. NatureScot, on behalf of the Local Nature Conservation Sites Working Group, published guidance (https://www.nature.scot/professional-advice/protected-areas-and-species/protected-areas/local-designations/local-nature-conservation-sites) for local authorities on the establishment and management of LNCS systems in Scotland. 
+
+Local Nature Conservation Sites - East Lothian Local nature conservation sites (LNCS) is a non-statutory designation given by local authorities to areas of locally important nature and landscapes. NatureScot, on behalf of the Local Nature Conservation Sites Working Group, published guidance (https://www.nature.scot/professional-advice/protected-areas-and-species/protected-areas/local-designations/local-nature-conservation-sites) for local authorities on the establishment and management of LNCS systems in Scotland. 
+
+Local Nature Conservation Sites - Fife Local nature conservation sites (LNCS) is a non-statutory designation given by local authorities to areas of locally important nature and landscapes. NatureScot, on behalf of the Local Nature Conservation Sites Working Group, published guidance (https://www.nature.scot/professional-advice/protected-areas-and-species/protected-areas/local-designations/local-nature-conservation-sites) for local authorities on the establishment and management of LNCS systems in Scotland. 
+
+Local Nature Conservation Sites - Glasgow City Local nature conservation sites (LNCS) is a non-statutory designation given by local authorities to areas of locally important nature and landscapes. NatureScot, on behalf of the Local Nature Conservation Sites Working Group, published guidance (https://www.nature.scot/professional-advice/protected-areas-and-species/protected-areas/local-designations/local-nature-conservation-sites) for local authorities on the establishment and management of LNCS systems in Scotland. 
+
+Local Nature Conservation Sites - North Ayrshire Local nature conservation sites (LNCS) is a non-statutory designation given by local authorities to areas of locally important nature and landscapes. NatureScot, on behalf of the Local Nature Conservation Sites Working Group, published guidance (https://www.nature.scot/professional-advice/protected-areas-and-species/protected-areas/local-designations/local-nature-conservation-sites) for local authorities on the establishment and management of LNCS systems in Scotland. 
+
+Local Nature Conservation Sites - South Ayrshire Local nature conservation sites (LNCS) is a non-statutory designation given by local authorities to areas of locally important nature and landscapes. NatureScot, on behalf of the Local Nature Conservation Sites Working Group, published guidance (https://www.nature.scot/professional-advice/protected-areas-and-species/protected-areas/local-designations/local-nature-conservation-sites) for local authorities on the establishment and management of LNCS systems in Scotland. 
+
+Local Nature Conservation Sites - Stirling Local nature conservation sites (LNCS) is a non-statutory designation given by local authorities to areas of locally important nature and landscapes. NatureScot, on behalf of the Local Nature Conservation Sites Working Group, published guidance (https://www.nature.scot/professional-advice/protected-areas-and-species/protected-areas/local-designations/local-nature-conservation-sites) for local authorities on the establishment and management of LNCS systems in Scotland. 
+
+Local Nature Conservation Sites - West Lothian Local nature conservation sites (LNCS) is a non-statutory designation given by local authorities to areas of locally important nature and landscapes. NatureScot, on behalf of the Local Nature Conservation Sites Working Group, published guidance (https://www.nature.scot/professional-advice/protected-areas-and-species/protected-areas/local-designations/local-nature-conservation-sites) for local authorities on the establishment and management of LNCS systems in Scotland. 
+
+Conservation Areas (CA)(Moray) Conservation Areas are areas of special architectural of historic interest where it is desirable to preserve or enhance the character or appearance of the area. The aim of this policy is to preserve and enhance Moray’s Conservation Areas.
+
+Scottish Parliament Constituency 2010 Scottish Parliament Constituency 2010 (OS Boundary Line Open Data)
+
+Wards 2017 (Moray) Wards 2017 (Moray) (OS Boundary Line Open Data)
+
+St Mirren Fixtures 2018/19 A dataset showing the fixtures and results of football games played by St Mirren football teams. For further information please visit https://www.stmirren.com/news/matchday/first-team-fixtures
+
+Referendum on the UK's membership of the EU June 2016 Results of the Referendum on the UK's membership of the EU, 23 June 2016.
 
 Renfrewshire Open Data Platform Guide 
 
@@ -689,6 +744,44 @@ CastleSemple
 
 WeaversCottageKilbarchan 
 
+Historic Settlement Action Zones Action zones in force in areas of historic settlement
+
+Southern Ayrshire and Galloway Biosphere Boundary for the Southern Ayrshire and Galloway Biosphere
+
+Galloway Forest Park Extent of the Galloway Forest Park
+
+Special Areas of Conservation Special areas of conservation in Ayrshire
+
+Special Protection Areas Areas of special protection in Ayrshire
+
+Dark Skies Park Core Area Central core area of the Gallway Dark Skies Park
+
+Historic Landfill Sites Areas used historically for landfill
+
+Prestwick Airport Safeguarding Zones Safeguarding zones for developments around Prestwick Airport
+
+Prestwick Airport Masterplan Boundary Prestwick Airport Masterplan Boundary
+
+Greenbelt Areas depicting greenbelt in South Ayrshire
+
+LDP2 Town Centre Policies 
+
+Conservation Areas Polygons depicting policies concerning conservation areas
+
+LDP2 Town Policies 
+
+LDP2 Prestwick Airport Policies 
+
+LDP2 Outwith Settlement Policies 
+
+LDP2 Investment Areas 
+
+LDP2 Belleisle Rozelle Policy Area 
+
+Significant Protection Area 
+
+CSGNT John Muir Way Counters "Counter Locations on the John Muir Way administered by the Central Scotland Green Network Trust"
+
 Building Conservation Areas "Building Conservation Areas"
 
 War Memorials "First and Second World War Memorials In Dumfries and Galloway"
@@ -711,7 +804,7 @@ Community Payback Orders: Breach Applications Breach applications during the lif
 
 Feeling safe when alone at home - Scottish Household Survey How safe adults in Scotland feel when alone in their home at night, from the Scottish Household Survey (SHS)
 
-Community Ownership â€“ Number of Assets Number of assets in community ownership
+Community Ownership – Number of Assets Number of assets in community ownership
 
 Drinking behaviour and emotional and behavioural problems (SALSUS) Emotional and behavioural problems, by drinking behaviour, age, and gender
 
@@ -757,6 +850,10 @@ Probation Orders By Length Number of probation orders commenced by length.
 
 DTP/Pol/Hib Immunisation Number, and percent, of children who have completed their primary immunisation course of the DTP/Pol/Hib vaccine by 24 months of age. Also known as the '5-in-1' vaccination. 
 
+Local Nature Conservation Sites 
+
+Speed Limts 
+
 Graffiti Incidences Graffiti incidences observed and logged by community enforcement patrols and by the public in Glasgow.
 
 LIDAR data LIDAR data is extremely accurate 3D data generated from sensors on the ground or on airplanes. This data was acquired in 2021.
@@ -765,13 +862,25 @@ Accessibility {{description}}
 
 News We want to share the latest stories with our communities about developments in data and analysis.
 
-App Gallery Our open data is about more than the numbers â€“ it relates to real people, places and issues. We want to bring the data to life by sharing some stories around what it tells us about the city and how we might use these insights to improve the lives of those who live and work in Glasgow.
+App Gallery Our open data is about more than the numbers – it relates to real people, places and issues. We want to bring the data to life by sharing some stories around what it tells us about the city and how we might use these insights to improve the lives of those who live and work in Glasgow.
 
 How do people move round our city during lockdown? {{description}}
 
-Local Nature Conservation Sites 
+Operational Areas (historical 1999 to 2007) <p>The 8 historical Operational Areas from 1999-2007 - ie. Caithness, Sutherland, Ross &amp; Cromarty, Skye &amp; Lochalsh, Inverness, Nairn, Lochaber, Badenoch &amp; Strathspey.</p><p>Full dataset- ie. not simplified version.</p><p>Gemini metadata record is at <a href='https://www.spatialdata.gov.scot/geonetwork/srv/eng/catalog.search#/metadata/40bb2aba-98ee-4509-ae08-41badcdf9018' target='_blank' rel='nofollow ugc noopener noreferrer'>https://www.spatialdata.gov.scot/geonetwork/srv/eng/catalog.search#/metadata/40bb2aba-98ee-4509-ae08-41badcdf9018</a><br /></p><div>Created by uploading zipped .shp.</div>
 
-Speed Limts 
+Contract Register {{description}}
 
-Operational Areas (historical 1999 to 2007) <p>The 8 historicalÂ Operational Areas from 1999-2007 - ie. Caithness, Sutherland, Ross &amp; Cromarty, Skye &amp; Lochalsh, Inverness, Nairn, Lochaber, Badenoch &amp; Strathspey.</p><p>Full dataset- ie. not simplified version.</p><p>Gemini metadata record is atÂ <a href='https://www.spatialdata.gov.scot/geonetwork/srv/eng/catalog.search#/metadata/40bb2aba-98ee-4509-ae08-41badcdf9018' target='_blank' rel='nofollow ugc noopener noreferrer'>https://www.spatialdata.gov.scot/geonetwork/srv/eng/catalog.search#/metadata/40bb2aba-98ee-4509-ae08-41badcdf9018</a><br /></p><div>Created by uploading zipped .shp.</div>
+Invasive Species Register Location of surveys of severity of Invasive Species. Reporting on Hogweed, Knotweed and Balsam.
+
+Building Warrant Applications The Building Standards Register is list of applications designed to meet the requirements of Section 24 of the Building (Scotland) Act 2003. This requires local authorities to keep a Building Standards Register for the geographical area of the authority.
+
+Public Conveniences Location of NAC run Public Conveniences within North Ayrshire
+
+Local Nature Reserves Local Nature Reserves
+
+SINC Sites of Interest for Nature Conservation
+
+Conservation Areas Areas of Conservation
+
+LHMA 
 

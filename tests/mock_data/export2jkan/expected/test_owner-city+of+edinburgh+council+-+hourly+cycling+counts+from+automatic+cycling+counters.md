@@ -1,0 +1,18 @@
+---
+category: []
+date_created: '2021-02-23'
+date_updated: '2023-04-17'
+license: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
+maintainer: test_owner
+notes: <p>"A real-time hourly upload from each cycling counter within City of Edinburgh
+  Council's network."</p>
+organization: test_owner
+original_dataset_link: https://usmart.io/org/cyclingscotland/discovery/discovery-view-detail/9aef744b-846b-47c7-a3a6-4aef9f1fe371
+records: null
+resources:
+- format: JSON
+  name: API
+  url: https://api.usmart.io/org/d1b773fa-d2bd-4830-b399-ecfd18e832f3/b8af3f88-75c5-4470-bcf3-0be9c051b9ef/1/urql
+schema: default
+title: City of Edinburgh Council - Hourly cycling counts from automatic cycling counters
+---

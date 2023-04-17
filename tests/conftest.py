@@ -89,6 +89,11 @@ def is_valid_licence(str_to_check):
             "Creative Commons Attribution 4.0": "Creative Commons Attribution 4.0 International",
             "https://creativecommons.org/share-your-work/public-domain/cc0": "Creative Commons CC0",
             "no lic":"No licence",
+            "custom":"Custom licence: other-closed",
+            "l":"Other (Not Open)",
+            "oc":"other-closed",
+            "otc":"Custom licence: Other (Not Open)",
+            "other":"Other (Public Domain)",
             "https://rightsstatements.org/page/NoC-NC/1.0/": "Non-Commercial Use Only",
             "https://opendatacommons.org/licenses/odbl/1-0/": "Open Data Commons Open Database License 1.0",
             "http://creativecommons.org/share-your-work/public-domain/cc0": "Creative Commons CC0",
@@ -118,6 +123,8 @@ def is_valid_licence(str_to_check):
 
 def is_valid_url(url_to_check):
     if url_to_check:
+        if url_to_check[0].isspace():
+            url_to_check = url_to_check[1:]
         return validators.url(url_to_check)
     return True
 

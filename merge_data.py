@@ -7,18 +7,20 @@ import json
 
 def load_ckan_data(folder_ckan):
     ckan_source = pd.DataFrame()
-    for dirname, _, filenames in os.walk(folder_ckan):
-        for filename in filenames:
-            if filename.rsplit(".", 1)[1] == "csv":
-                ckan_source = pd.concat(
-                    [
-                        ckan_source,
-                        pd.read_csv(
-                            folder_ckan + r"/" + filename, parse_dates=["DateCreated","DateUpdated"], lineterminator='\n'
-                        ),
-                    ]
-                )
-    ckan_source["Source"] = "ckan API"
+
+    if os.listdir(folder_ckan):
+        for dirname, _, filenames in os.walk(folder_ckan):
+            for filename in filenames:
+                if filename.rsplit(".", 1)[1] == "csv":
+                    ckan_source = pd.concat(
+                        [
+                            ckan_source,
+                            pd.read_csv(
+                                folder_ckan + r"/" + filename, parse_dates=["DateCreated","DateUpdated"], lineterminator='\n'
+                            ),
+                        ]
+                    )
+        ckan_source["Source"] = "ckan API"
 
     return ckan_source
 
@@ -66,18 +68,19 @@ def load_scotgov_data(folder_scotgov):
 def load_arcgis_data(folder_arcgis):
     arcgis_source = pd.DataFrame()
     
-    for dirname, _, filenames in os.walk(folder_arcgis):
-        for filename in filenames:
-            if filename.rsplit(".", 1)[1] == "csv":
-                arcgis_source = pd.concat(
-                    [
-                        arcgis_source,
-                        pd.read_csv(
-                            folder_arcgis + r"/" + filename, parse_dates=["DateCreated","DateUpdated"]
-                        ),
-                    ]
-                )
-    arcgis_source["Source"] = "arcgis API"
+    if os.listdir(folder_arcgis):
+        for dirname, _, filenames in os.walk(folder_arcgis):
+            for filename in filenames:
+                if filename.rsplit(".", 1)[1] == "csv":
+                    arcgis_source = pd.concat(
+                        [
+                            arcgis_source,
+                            pd.read_csv(
+                                folder_arcgis + r"/" + filename, parse_dates=["DateCreated","DateUpdated"]
+                            ),
+                        ]
+                    )
+        arcgis_source["Source"] = "arcgis API"
 
     return arcgis_source
 
@@ -85,41 +88,43 @@ def load_arcgis_data(folder_arcgis):
 def load_usmart_data(folder_usmart):
     usmart_source = pd.DataFrame()
     
-    for dirname, _, filenames in os.walk(folder_usmart):
-        for filename in filenames:
-            if filename.rsplit(".", 1)[1] == "csv":
-                usmart_source = pd.concat(
-                    [
-                        usmart_source,
-                        pd.read_csv(
-                            folder_usmart + r"/" + filename, parse_dates=["DateCreated","DateUpdated"]
-                        ),
-                    ]
-                )
-    usmart_source["Source"] = "USMART API"
-    usmart_source["DateUpdated"] = usmart_source["DateUpdated"].dt.tz_localize(None)
-    usmart_source["DateCreated"] = usmart_source["DateCreated"].dt.tz_localize(None)
+    if os.listdir(folder_usmart):
+        for dirname, _, filenames in os.walk(folder_usmart):
+            for filename in filenames:
+                if filename.rsplit(".", 1)[1] == "csv":
+                    usmart_source = pd.concat(
+                        [
+                            usmart_source,
+                            pd.read_csv(
+                                folder_usmart + r"/" + filename, parse_dates=["DateCreated","DateUpdated"]
+                            ),
+                        ]
+                    )
+        usmart_source["Source"] = "USMART API"
+        usmart_source["DateUpdated"] = usmart_source["DateUpdated"].dt.tz_localize(None)
+        usmart_source["DateCreated"] = usmart_source["DateCreated"].dt.tz_localize(None)
 
     return usmart_source
 
 
 def load_dcat_data(folder_dcat):
     dcat_source = pd.DataFrame()
-    
-    for dirname, _, filenames in os.walk(folder_dcat):
-        for filename in filenames:
-            if filename.rsplit(".", 1)[1] == "csv":
-                dcat_source = pd.concat(
-                    [
-                        dcat_source,
-                        pd.read_csv(
-                            folder_dcat + r"/" + filename, parse_dates=["DateCreated","DateUpdated"]
-                        ),
-                    ]
-                )
-    dcat_source["DateUpdated"] =  dcat_source["DateUpdated"].dt.tz_localize(None)
-    #source_dcat["DateCreated"] = source_dcat["DateCreated"].dt.tz_localize(None) ### DateCreated currently not picked up in dcat so all are NULL
-    dcat_source["Source"] = "DCAT feed"
+
+    if os.listdir(folder_dcat):
+        for dirname, _, filenames in os.walk(folder_dcat):
+            for filename in filenames:
+                if filename.rsplit(".", 1)[1] == "csv":
+                    dcat_source = pd.concat(
+                        [
+                            dcat_source,
+                            pd.read_csv(
+                                folder_dcat + r"/" + filename, parse_dates=["DateCreated","DateUpdated"]
+                            ),
+                        ]
+                    )
+        dcat_source["DateUpdated"] =  dcat_source["DateUpdated"].dt.tz_localize(None)
+        #source_dcat["DateCreated"] = source_dcat["DateCreated"].dt.tz_localize(None) ### DateCreated currently not picked up in dcat so all are NULL
+        dcat_source["Source"] = "DCAT feed"
 
     return dcat_source
 
@@ -127,18 +132,19 @@ def load_dcat_data(folder_dcat):
 def load_web_scraped_data(web_scraped_folder):
     scraped_data = pd.DataFrame()
     
-    for dirname, _, filenames in os.walk(web_scraped_folder):
-        for filename in filenames:
-            if filename.rsplit(".", 1)[1] == "csv":
-                scraped_data = pd.concat(
-                    [
-                        scraped_data,
-                        pd.read_csv(
-                            web_scraped_folder + r"/" + filename, parse_dates=["DateCreated","DateUpdated"]
-                        ),
-                    ]
-                )
-    scraped_data["Source"] = "Web Scraped"
+    if os.listdir(web_scraped_folder):
+        for dirname, _, filenames in os.walk(web_scraped_folder):
+            for filename in filenames:
+                if filename.rsplit(".", 1)[1] == "csv":
+                    scraped_data = pd.concat(
+                        [
+                            scraped_data,
+                            pd.read_csv(
+                                web_scraped_folder + r"/" + filename, parse_dates=["DateCreated","DateUpdated"]
+                            ),
+                        ]
+                    )
+        scraped_data["Source"] = "Web Scraped"
 
     return scraped_data
 
