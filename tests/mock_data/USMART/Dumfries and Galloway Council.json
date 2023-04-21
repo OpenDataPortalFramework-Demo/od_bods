@@ -870,69 +870,6 @@
         {
             "@type": "dcat:Dataset",
             "accessLevel": "public",
-            "boundingBoxEast": "347000",
-            "boundingBoxNorth": "622000",
-            "boundingBoxSouth": "531000",
-            "boundingBoxWest": "195000",
-            "conformsTo": null,
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "Open Data",
-                "email": "opendata@dumgal.gov.uk"
-            },
-            "coverageArea": "Dumfries and Galloway",
-            "createdAt": "2018-07-16T08:52:30.623Z",
-            "description": "Smoke Control Areas",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "accessURL": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/resource?resourceGUID=214d8789-651f-4b0c-90fa-5a5ad7373b74",
-                    "mediaType": "GEOJSON",
-                    "title": "SMOKE_CONTROL_AREAS.geojson"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "accessURL": "https://api.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/575621b3-f511-4319-b5f6-c5fb723d6538/1/urql",
-                    "mediaType": "application/json",
-                    "title": "API"
-                }
-            ],
-            "identifier": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/dataset:viewDiscovery?datasetGUID=2c3b3933-ba6f-42e2-9f58-f43ed6c401ef",
-            "issued": "2018-07-16T08:52:30.623Z",
-            "issueDate": null,
-            "landingPage": "https://usmart.io/org/dumgal/discovery/discovery-view-detail/2c3b3933-ba6f-42e2-9f58-f43ed6c401ef",
-            "language": "en",
-            "lastModificationDate": "2008-08-27T23:00:00.000Z",
-            "licence": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-            "lineage": null,
-            "modified": "2018-10-02T09:04:58.767Z",
-            "notes": null,
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "https://usmart.io/org/dumgal"
-            },
-            "spatialReferenceSystem": "British National Grid",
-            "spatialResolution": null,
-            "status": "Published",
-            "targetDate": "2018-09-27T16:00:00.000Z",
-            "temporalCoverageEnd": null,
-            "temporalCoverageStart": null,
-            "temporalNotes": null,
-            "title": "Smoke Control Areas",
-            "accrualPeriodicity": "Irregular",
-            "verticalExtent": null,
-            "keyword": [
-                "Health",
-                "Environmental"
-            ],
-            "theme": [
-                "http://publications.europa.eu/resource/authority/data-theme/HEAL",
-                "Geospatial"
-            ]
-        },
-        {
-            "@type": "dcat:Dataset",
-            "accessLevel": "public",
             "boundingBoxEast": null,
             "boundingBoxNorth": null,
             "boundingBoxSouth": null,
@@ -1142,32 +1079,32 @@
                 "email": "opendata@dumgal.gov.uk"
             },
             "coverageArea": "Dumfries and Galloway",
-            "createdAt": "2018-07-16T09:00:41.285Z",
-            "description": "Building Conservation Areas",
+            "createdAt": "2018-07-16T08:52:30.623Z",
+            "description": "Smoke Control Areas",
             "distribution": [
                 {
                     "@type": "dcat:Distribution",
-                    "accessURL": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/resource?resourceGUID=550e04c6-4e0b-410f-b163-d6803cdbe1ac",
-                    "mediaType": "application/zip",
-                    "title": "Building Conservation Areas (Cleaned).zip"
+                    "accessURL": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/resource?resourceGUID=214d8789-651f-4b0c-90fa-5a5ad7373b74",
+                    "mediaType": "GEOJSON",
+                    "title": "SMOKE_CONTROL_AREAS.geojson"
                 },
                 {
                     "@type": "dcat:Distribution",
-                    "accessURL": "https://api.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/710fb75a-4c63-4d05-a4cd-cb7f5dfd752e/1/urql",
+                    "accessURL": "https://api.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/575621b3-f511-4319-b5f6-c5fb723d6538/1/urql",
                     "mediaType": "application/json",
                     "title": "API"
                 }
             ],
-            "identifier": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/dataset:viewDiscovery?datasetGUID=9f76f5eb-3744-4470-9d64-19b17aa8e1ca",
-            "issued": "2018-07-16T09:00:41.285Z",
+            "identifier": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/dataset:viewDiscovery?datasetGUID=2c3b3933-ba6f-42e2-9f58-f43ed6c401ef",
+            "issued": "2018-07-16T08:52:30.623Z",
             "issueDate": null,
-            "landingPage": "https://usmart.io/org/dumgal/discovery/discovery-view-detail/9f76f5eb-3744-4470-9d64-19b17aa8e1ca",
+            "landingPage": "https://usmart.io/org/dumgal/discovery/discovery-view-detail/2c3b3933-ba6f-42e2-9f58-f43ed6c401ef",
             "language": "en",
-            "lastModificationDate": "2018-01-11T00:00:00.000Z",
+            "lastModificationDate": "2008-08-27T23:00:00.000Z",
             "licence": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
             "lineage": null,
-            "modified": "2019-01-15T17:06:05.213Z",
-            "notes": "Within the data the term ‘Outstandin‘will appear:\n    •\tOUTSTANDIN: T\n    •\tOUTSTANDIN: F\nPlease note that since 2014, this phrase is no longer used by Historic Environment Scotland",
+            "modified": "2018-10-02T09:04:58.767Z",
+            "notes": null,
             "publisher": {
                 "@type": "org:Organization",
                 "name": "https://usmart.io/org/dumgal"
@@ -1179,16 +1116,15 @@
             "temporalCoverageEnd": null,
             "temporalCoverageStart": null,
             "temporalNotes": null,
-            "title": "Building Conservation Areas",
+            "title": "Smoke Control Areas",
             "accrualPeriodicity": "Irregular",
             "verticalExtent": null,
             "keyword": [
-                "Environmental",
-                "Architectural",
-                "Planning Permission"
+                "Health",
+                "Environmental"
             ],
             "theme": [
-                "Built environment",
+                "http://publications.europa.eu/resource/authority/data-theme/HEAL",
                 "Geospatial"
             ]
         },
@@ -1251,6 +1187,70 @@
             ],
             "theme": [
                 "Social / Community"
+            ]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "accessLevel": "public",
+            "boundingBoxEast": "347000",
+            "boundingBoxNorth": "622000",
+            "boundingBoxSouth": "531000",
+            "boundingBoxWest": "195000",
+            "conformsTo": null,
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Open Data",
+                "email": "opendata@dumgal.gov.uk"
+            },
+            "coverageArea": "Dumfries and Galloway",
+            "createdAt": "2018-07-16T09:00:41.285Z",
+            "description": "Building Conservation Areas",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/resource?resourceGUID=550e04c6-4e0b-410f-b163-d6803cdbe1ac",
+                    "mediaType": "application/zip",
+                    "title": "Building Conservation Areas (Cleaned).zip"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://api.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/710fb75a-4c63-4d05-a4cd-cb7f5dfd752e/1/urql",
+                    "mediaType": "application/json",
+                    "title": "API"
+                }
+            ],
+            "identifier": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/dataset:viewDiscovery?datasetGUID=9f76f5eb-3744-4470-9d64-19b17aa8e1ca",
+            "issued": "2018-07-16T09:00:41.285Z",
+            "issueDate": null,
+            "landingPage": "https://usmart.io/org/dumgal/discovery/discovery-view-detail/9f76f5eb-3744-4470-9d64-19b17aa8e1ca",
+            "language": "en",
+            "lastModificationDate": "2018-01-11T00:00:00.000Z",
+            "licence": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "lineage": null,
+            "modified": "2019-01-15T17:06:05.213Z",
+            "notes": "Within the data the term ‘Outstandin‘will appear:\n    •\tOUTSTANDIN: T\n    •\tOUTSTANDIN: F\nPlease note that since 2014, this phrase is no longer used by Historic Environment Scotland",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "https://usmart.io/org/dumgal"
+            },
+            "spatialReferenceSystem": "British National Grid",
+            "spatialResolution": null,
+            "status": "Published",
+            "targetDate": "2018-09-27T16:00:00.000Z",
+            "temporalCoverageEnd": null,
+            "temporalCoverageStart": null,
+            "temporalNotes": null,
+            "title": "Building Conservation Areas",
+            "accrualPeriodicity": "Irregular",
+            "verticalExtent": null,
+            "keyword": [
+                "Environmental",
+                "Architectural",
+                "Planning Permission"
+            ],
+            "theme": [
+                "Built environment",
+                "Geospatial"
             ]
         },
         {
