@@ -1,4 +1,5 @@
 ### Number of categories assigned to assets (out of 16) ###
+ODPCategories
 1    300
 2     96
 3     66
@@ -537,20 +538,20 @@ Arts / Culture / History  11
 ### Keywords in multiple categories (31) ###
 {
   "allotment": [
-    "Housing and Estates",
-    "Food and Environment"
+    "Food and Environment",
+    "Housing and Estates"
   ],
   "boundaries": [
     "Planning and Development",
     "Council and Government"
   ],
   "buildings": [
-    "Housing and Estates",
-    "Planning and Development"
+    "Planning and Development",
+    "Housing and Estates"
   ],
   "community centres": [
-    "Parks / Recreation",
-    "Sport and Leisure"
+    "Sport and Leisure",
+    "Parks / Recreation"
   ],
   "cooling tower": [
     "Food and Environment",
@@ -565,68 +566,68 @@ Arts / Culture / History  11
     "Elections / Politics"
   ],
   "council tax": [
-    "Council and Government",
-    "Budget / Finance"
+    "Budget / Finance",
+    "Council and Government"
   ],
   "councillors": [
     "Council and Government",
     "Elections / Politics"
   ],
   "crime": [
-    "Law and Licensing",
-    "Public Safety"
+    "Public Safety",
+    "Law and Licensing"
   ],
   "dwellings": [
-    "Housing and Estates",
-    "Planning and Development"
+    "Planning and Development",
+    "Housing and Estates"
   ],
   "employment land audit": [
     "Planning and Development",
     "Food and Environment"
   ],
   "energy": [
-    "Housing and Estates",
-    "Planning and Development"
+    "Planning and Development",
+    "Housing and Estates"
   ],
   "grants": [
-    "Council and Government",
-    "Budget / Finance"
+    "Budget / Finance",
+    "Council and Government"
   ],
   "housing": [
-    "Housing and Estates",
-    "Planning and Development"
+    "Planning and Development",
+    "Housing and Estates"
   ],
   "open spaces": [
-    "Parks / Recreation",
-    "Sport and Leisure"
+    "Sport and Leisure",
+    "Parks / Recreation"
   ],
   "parking": [
-    "Housing and Estates",
-    "Transportation"
+    "Transportation",
+    "Housing and Estates"
   ],
   "parks": [
-    "Parks / Recreation",
-    "Sport and Leisure"
+    "Sport and Leisure",
+    "Parks / Recreation"
   ],
   "police": [
-    "Law and Licensing",
-    "Public Safety"
+    "Public Safety",
+    "Law and Licensing"
   ],
   "policing": [
-    "Law and Licensing",
-    "Public Safety"
+    "Public Safety",
+    "Law and Licensing"
   ],
   "pollution": [
     "Food and Environment",
     "Business and Economy"
   ],
   "postcodes": [
-    "Housing and Estates",
-    "Planning and Development"
+    "Planning and Development",
+    "Housing and Estates"
   ],
   "property": [
-    "Housing and Estates",
-    "Planning and Development"
+    "Planning and Development",
+    "Housing and Estates"
   ],
   "public toilets": [
     "Food and Environment",
@@ -641,8 +642,8 @@ Arts / Culture / History  11
     "Public Safety"
   ],
   "school meals": [
-    "Food and Environment",
-    "Education"
+    "Education",
+    "Food and Environment"
   ],
   "sport": [
     "Sport and Leisure"
@@ -656,15 +657,15 @@ Arts / Culture / History  11
     "Food and Environment"
   ],
   "woodland": [
-    "Housing and Estates",
-    "Parks / Recreation"
+    "Parks / Recreation",
+    "Housing and Estates"
   ]
 }
 
 ### Uncategorised datasets (55) ###
-St Mirren Fixtures 2018/19 A dataset showing the fixtures and results of football games played by St Mirren football teams. For further information please visit https://www.stmirren.com/news/matchday/first-team-fixtures
+St Mirren Fixtures 2018/19 A dataset showing the fixtures and results of footballÂ games played by St Mirren footballÂ teams. For further information please visitÂ https://www.stmirren.com/news/matchday/first-team-fixtures
 
-Referendum on the UK's membership of the EU June 2016 Results of the Referendum on the UK's membership of the EU, 23 June 2016.
+Referendum on the UK's membership of the EU June 2016 Results of theÂ Referendum on the UK's membership of the EU, 23 June 2016.
 
 Renfrewshire Open Data Platform Guide 
 
@@ -710,7 +711,7 @@ Community Payback Orders: Breach Applications Breach applications during the lif
 
 Feeling safe when alone at home - Scottish Household Survey How safe adults in Scotland feel when alone in their home at night, from the Scottish Household Survey (SHS)
 
-Community Ownership – Number of Assets Number of assets in community ownership
+Community Ownership â€“ Number of Assets Number of assets in community ownership
 
 Drinking behaviour and emotional and behavioural problems (SALSUS) Emotional and behavioural problems, by drinking behaviour, age, and gender
 
@@ -766,9 +767,9 @@ Accessibility {{description}}
 
 News We want to share the latest stories with our communities about developments in data and analysis.
 
-App Gallery Our open data is about more than the numbers – it relates to real people, places and issues. We want to bring the data to life by sharing some stories around what it tells us about the city and how we might use these insights to improve the lives of those who live and work in Glasgow.
+App Gallery Our open data is about more than the numbers â€“ it relates to real people, places and issues. We want to bring the data to life by sharing some stories around what it tells us about the city and how we might use these insights to improve the lives of those who live and work in Glasgow.
 
 How do people move round our city during lockdown? {{description}}
 
-Operational Areas (historical 1999 to 2007) <p>The 8 historical Operational Areas from 1999-2007 - ie. Caithness, Sutherland, Ross &amp; Cromarty, Skye &amp; Lochalsh, Inverness, Nairn, Lochaber, Badenoch &amp; Strathspey.</p><p>Full dataset- ie. not simplified version.</p><p>Gemini metadata record is at <a href='https://www.spatialdata.gov.scot/geonetwork/srv/eng/catalog.search#/metadata/40bb2aba-98ee-4509-ae08-41badcdf9018' target='_blank' rel='nofollow ugc noopener noreferrer'>https://www.spatialdata.gov.scot/geonetwork/srv/eng/catalog.search#/metadata/40bb2aba-98ee-4509-ae08-41badcdf9018</a><br /></p><div>Created by uploading zipped .shp.</div>
+Operational Areas (historical 1999 to 2007) <p>The 8 historicalÂ Operational Areas from 1999-2007 - ie. Caithness, Sutherland, Ross &amp; Cromarty, Skye &amp; Lochalsh, Inverness, Nairn, Lochaber, Badenoch &amp; Strathspey.</p><p>Full dataset- ie. not simplified version.</p><p>Gemini metadata record is atÂ <a href='https://www.spatialdata.gov.scot/geonetwork/srv/eng/catalog.search#/metadata/40bb2aba-98ee-4509-ae08-41badcdf9018' target='_blank' rel='nofollow ugc noopener noreferrer'>https://www.spatialdata.gov.scot/geonetwork/srv/eng/catalog.search#/metadata/40bb2aba-98ee-4509-ae08-41badcdf9018</a><br /></p><div>Created by uploading zipped .shp.</div>
 
