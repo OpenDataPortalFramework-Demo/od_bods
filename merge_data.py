@@ -27,40 +27,43 @@ def load_ckan_data(folder_ckan):
 
 def load_scotgov_data(folder_scotgov):
     ### From scotgov csv
-    scotgov_source = pd.read_csv(folder_scotgov)
-    scotgov_source = scotgov_source.rename(
-        columns={
-            "title": "Title",
-            "category": "OriginalTags",
-            "organization": "Owner",
-            "notes": "Description",
-            "date_created": "DateCreated",
-            "date_updated": "DateUpdated",
-            "url": "PageURL",
-            "licence":"License"
-        }
-    )
-    scotgov_source["Source"] = "sparql"
+    filedir = f"{folder_scotgov}/scotgov-datasets-sparkql.csv"
+    if os.path.exists(filedir):
+        scotgov_source = pd.read_csv(filedir)
+        scotgov_source = scotgov_source.rename(
+            columns={
+                "title": "Title",
+                "category": "OriginalTags",
+                "organization": "Owner",
+                "notes": "Description",
+                "date_created": "DateCreated",
+                "date_updated": "DateUpdated",
+                "url": "PageURL",
+                "licence":"License"
+            }
+        )
+        scotgov_source["Source"] = "sparql"
 
-    try:
-        scotgov_source['DateUpdated'] = pd.to_datetime(scotgov_source['DateUpdated'], utc=True).dt.tz_localize(None)
-    except:
         try:
-            scotgov_source['DateUpdated'] = pd.to_datetime(scotgov_source['DateUpdated'], utc=True, format="ISO8601").dt.tz_localize(None)
+            scotgov_source['DateUpdated'] = pd.to_datetime(scotgov_source['DateUpdated'], utc=True).dt.tz_localize(None)
         except:
-            # If we get to this stage, give up and just blank the date
-            print("WARNING: Failed to parse date - " + scotgov_source['DateUpdated'])
-            scotgov_source['DateUpdated'] = None
-    try:
-        scotgov_source['DateCreated'] = pd.to_datetime(scotgov_source['DateCreated'], utc=True).dt.tz_localize(None)
-    except:
+            try:
+                scotgov_source['DateUpdated'] = pd.to_datetime(scotgov_source['DateUpdated'], utc=True, format="ISO8601").dt.tz_localize(None)
+            except:
+                # If we get to this stage, give up and just blank the date
+                print("WARNING: Failed to parse date - " + scotgov_source['DateUpdated'])
+                scotgov_source['DateUpdated'] = None
         try:
-            scotgov_source['DateCreated'] = pd.to_datetime(scotgov_source['DateCreated'], utc=True, format="ISO8601").dt.tz_localize(None)
+            scotgov_source['DateCreated'] = pd.to_datetime(scotgov_source['DateCreated'], utc=True).dt.tz_localize(None)
         except:
-            # If we get to this stage, give up and just blank the date
-            print("WARNING: Failed to parse date - " + scotgov_source['DateCreated'])
-            scotgov_source['DateCreated'] = None
-
+            try:
+                scotgov_source['DateCreated'] = pd.to_datetime(scotgov_source['DateCreated'], utc=True, format="ISO8601").dt.tz_localize(None)
+            except:
+                # If we get to this stage, give up and just blank the date
+                print("WARNING: Failed to parse date - " + scotgov_source['DateCreated'])
+                scotgov_source['DateCreated'] = None
+    else:
+        scotgov_source = pd.DataFrame()
 
     return scotgov_source
 
@@ -149,18 +152,16 @@ def load_web_scraped_data(web_scraped_folder):
     return scraped_data
 
 empty_df = pd.DataFrame()
-def merge_data(ckan_source=empty_df, dcat_source=empty_df, scotgov_source=empty_df, arcgis_source=empty_df, usmart_source=empty_df, web_scrapers_source=empty_df, output_fold=""):
+def merge_data(ckan_source=empty_df, dcat_source=empty_df, scotgov_source=empty_df, arcgis_source=empty_df, usmart_source=empty_df, web_scrapers_source=empty_df,output_fold=""):
 
     ### Combine all data into single table
+    concat_list=[]
+    source_list = [ckan_source, dcat_source, arcgis_source, usmart_source, scotgov_source, web_scrapers_source]
+    for src in source_list:
+        if not src.empty:
+            concat_list.append(src)  
     data = pd.concat(
-        [
-            ckan_source,
-            arcgis_source,
-            usmart_source,
-            scotgov_source,
-            dcat_source,
-            web_scrapers_source
-        ]
+      source_list
     )
     data = data.reset_index(drop=True)
 
@@ -169,6 +170,7 @@ def merge_data(ckan_source=empty_df, dcat_source=empty_df, scotgov_source=empty_
 
     ### clean data
     data = clean_data(data)
+    
 
     ### Output cleaned data to json
     data.to_json(f"{output_fold}/merged_output.json", orient="records", date_format="iso")
@@ -178,10 +180,8 @@ def merge_data(ckan_source=empty_df, dcat_source=empty_df, scotgov_source=empty_
 
 def clean_data(dataframe):
     """cleans data in a dataframe
-
     Args:
         dataframe (pd.dataframe): the name of the dataframe of data to clean
-
     Returns:
         dataframe: dataframe of cleaned data
     """
@@ -197,12 +197,11 @@ def clean_data(dataframe):
     ### Inconsistencies in casing for FileType
     data["FileType"] = data["FileType"].str.upper()
     ### Creating a dummy column
-    #data["AssetStatus"] = None
+    data["AssetStatus"] = None
 
     ### Cleaning dataset categories
     def tidy_categories(categories_string):
         """tidies the categories: removes commas, strips whitespace, converts all to lower and strips any trailing ";"
-
         Args:
             categories_string (string): the dataset categories as a string
         """
@@ -223,11 +222,9 @@ def clean_data(dataframe):
     ### Creating dataset categories for ODS
     def find_keyword(str_tofind, str_findin):
         """Finds if single word or phrase exists in string
-
         Args:
             str_tofind (str): the word or phrase to find
             str_findin (str): the body of text to search in
-
         Returns:
             boolean: True if match is found
         """
@@ -237,17 +234,15 @@ def clean_data(dataframe):
 
     def match_categories(str_tocategorise):
         """Cycles through keywords and keyphrases to check if used in body of text
-
         Args:
             str_tocategorise (str): body of text to search in
-
         Returns:
             list: the resulting categories as a string, as well as a dictionary of the keyphrases which resulted in a category
         """
         category_dict = {}
-        for category in ods_categories.keys():
+        for category in odp_categories.keys():
             keyword_list = []
-            for keyword in ods_categories[category]:
+            for keyword in odp_categories[category]:
                 if find_keyword(keyword, str_tocategorise):
                     keyword_list.append(keyword)
                     category_dict[category] = keyword_list
@@ -259,10 +254,8 @@ def clean_data(dataframe):
 
     def get_categories(row_index):
         """combines title and description together to then search for keyword or keyphrase in
-
         Args:
             row_index (pandas df row): a single row in a pandas dataframe to check. Must have columns "Title" and "Description"
-
         Returns:
             list: the resulting categories as a string, as well as a dictionary of the keyphrases which resulted in a category
         """
@@ -273,7 +266,7 @@ def clean_data(dataframe):
         return categories_result
 
     with open("ODPCategories.json") as json_file:
-        ods_categories = json.load(json_file)
+        odp_categories = json.load(json_file)
 
     ### Apply ODS categorisation
     data[["ODPCategories", "ODPCategories_Keywords"]] = data.apply(
@@ -387,11 +380,11 @@ def clean_data(dataframe):
 
 
 if __name__ == "__main__":
-     ### From ckan output
+
     source_ckan = load_ckan_data("data/ckan/")
 
     ### From scotgov csv
-    source_scotgov = load_scotgov_data("data/sparkql/scotgov-datasets-sparkql.csv")
+    source_scotgov = load_scotgov_data("data/sparkql/")
 
     ### From arcgis api
     source_arcgis = load_arcgis_data("data/arcgis/")
@@ -401,5 +394,6 @@ if __name__ == "__main__":
 
     ## From DCAT
     source_dcat = load_dcat_data("data/dcat/")
-    merge_data(source_ckan, source_dcat, source_scotgov, source_arcgis, source_usmart, output_fold = "data")
-
+    ### From usmart api
+    merge_data(ckan_source=source_ckan, arcgis_source=source_arcgis, output_fold = "data")
+    
