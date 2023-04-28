@@ -1,4 +1,5 @@
 ### Number of categories assigned to assets (out of 16) ###
+<<<<<<< HEAD
 1    47
 2    29
 3    25
@@ -6,6 +7,16 @@
 5     2
 7     2
 9     1
+=======
+ODPCategories
+1    300
+2     96
+3     66
+4     31
+5      5
+6      5
+9      1
+>>>>>>> 5c7ad750706c7c5cf786a8142d047fa75e7e6bac
 
 ### Number of datasets in each category ###
 Planning and Development 47
@@ -214,8 +225,8 @@ Arts / Culture / History  4
 ### Keywords in multiple categories (31) ###
 {
   "allotment": [
-    "Housing and Estates",
-    "Food and Environment"
+    "Food and Environment",
+    "Housing and Estates"
   ],
   "boundaries": [
     "Planning and Development",
@@ -226,8 +237,8 @@ Arts / Culture / History  4
     "Housing and Estates"
   ],
   "community centres": [
-    "Parks / Recreation",
-    "Sport and Leisure"
+    "Sport and Leisure",
+    "Parks / Recreation"
   ],
   "cooling tower": [
     "Food and Environment",
@@ -274,16 +285,16 @@ Arts / Culture / History  4
     "Housing and Estates"
   ],
   "open spaces": [
-    "Parks / Recreation",
-    "Sport and Leisure"
+    "Sport and Leisure",
+    "Parks / Recreation"
   ],
   "parking": [
     "Transportation",
     "Housing and Estates"
   ],
   "parks": [
-    "Parks / Recreation",
-    "Sport and Leisure"
+    "Sport and Leisure",
+    "Parks / Recreation"
   ],
   "police": [
     "Public Safety",
@@ -338,12 +349,17 @@ Arts / Culture / History  4
   ]
 }
 
+<<<<<<< HEAD
 ### Uncategorised datasets (15) ###
 OS Linked Data Linked Data is a growing part of the Web where data is published on the Web and then linked to other published data in much the same way that web pages are interlinked using hypertext.  OS Linked Data site takes some of the OS OpenData products and produces them in machine readable languages and publishes them in this easy to use website for all users to enjoy.
 
 St Mirren Fixtures 2022/23 A dataset showing the fixtures and results of football�games played by St Mirren football�teams. For further information please visit�https://www.stmirren.com/news/matchday/first-team-fixtures
+=======
+### Uncategorised datasets (55) ###
+St Mirren Fixtures 2018/19 A dataset showing the fixtures and results of football games played by St Mirren football teams. For further information please visit https://www.stmirren.com/news/matchday/first-team-fixtures
+>>>>>>> 5c7ad750706c7c5cf786a8142d047fa75e7e6bac
 
-Referendum on the UK's membership of the EU June 2016 Results of the�Referendum on the UK's membership of the EU, 23 June 2016.
+Referendum on the UK's membership of the EU June 2016 Results of the Referendum on the UK's membership of the EU, 23 June 2016.
 
 Glasgow Clan Ice Hockey Fixtures 2022/23 
 
@@ -369,3 +385,90 @@ CastleSemple
 
 WeaversCottageKilbarchan 
 
+<<<<<<< HEAD
+=======
+Building Conservation Areas "Building Conservation Areas"
+
+War Memorials "First and Second World War Memorials In Dumfries and Galloway"
+
+Attitudes to family formation in Scotland data tables 
+
+National Islands Plan Survey 
+
+Residential Properties Sales and Price 
+
+Young Carer Grant Applications and Payments Applications received and authorised, and total value of payments for Young Carer Grant.
+
+Local Service Satisfaction - Scottish Surveys Core Questions 
+
+6-in-1 Immunisation Number and percent of children who have completed their primary immunisation course of the 6-in-1 vaccine by 24 months of age. The 6-in-1 vaccine replaced the 5-in-1 vaccine in the routine childhood immunisation schedule from 1 October 2017.
+
+Community Payback Orders: Commenced Community payback orders commenced in each year from 2011-12 by age group and gender.
+
+Community Payback Orders: Breach Applications Breach applications during the life of Community Payback Orders which were completed/terminated in each year from 2012-13, by gender. 
+
+Feeling safe when alone at home - Scottish Household Survey How safe adults in Scotland feel when alone in their home at night, from the Scottish Household Survey (SHS)
+
+Community Ownership – Number of Assets Number of assets in community ownership
+
+Drinking behaviour and emotional and behavioural problems (SALSUS) Emotional and behavioural problems, by drinking behaviour, age, and gender
+
+Household Type The number of households of different types in Scotland (i.e. 2 adult household)
+
+Organisations A dataset with all of the organisations involved in creating and publishing statistics on this site.
+
+Age of First Time Mothers Number and percentage of first time mothers who are aged 19 and under, or 35 and over. 
+
+Low Birthweight Number, and percent, of low birthweight (less than 2500g) babies (single births).
+
+Mental Wellbeing - Scottish Surveys Core Questions Mental wellbeing by tenure, household type, age, sex and disability. The Scottish Survey Core Questions is an innovative project drawing together multiple household surveys to provide a large sample for subnational analysis.
+
+Unpaid Care Provision - Scottish Surveys Core Questions Unpaid care provision by tenure, household type, age, sex and disability. The Scottish Survey Core Questions is an innovative project drawing together multiple household surveys to provide a large sample for subnational analysis. 
+
+Never Worked Number, and percent, of people aged 16+ who have never had a paid or unpaid job
+
+Intensive Home Care Percent of people aged 65+ with high levels of care needs who are cared for at home
+
+Qualifications of working age adults Percent of people with a given highest qualification level.
+
+Attendance Allowance Number of people claiming Attendance Allowance by age, gender and rate of award
+
+Job Related Training Number, and percent, of people receiving job related training in the last 3 months.
+
+Palliative and End of Life Care The percentage of last 6 months of life spent at home or in a community setting
+
+Measles Mumps Rubella (MMR) Immunisation Number, and percent of, children who were immunised against measles, mumps and rubella by 5 years of age
+
+Looked After Children Information about the number of looked after children by type of care setting.
+
+House Sales Number of house sales
+
+Terrestrial Breeding Birds Index of abundance of terrestrial breeding birds (1994=100)
+
+Supervised Attendance Orders By Length Number of supervised attendance orders commenced by length
+
+Births Number of births by gender that were registered in a calendar year, or occurred in a mid-year period (1 July to 30 June). 
+
+Breastfeeding Number, and percentage of, babies being breastfed or exclusively breastfed by review stage.
+
+Probation Orders By Length Number of probation orders commenced by length.
+
+DTP/Pol/Hib Immunisation Number, and percent, of children who have completed their primary immunisation course of the DTP/Pol/Hib vaccine by 24 months of age. Also known as the '5-in-1' vaccination. 
+
+Sites of Importance to Nature Conservation City-wide and local Sites of Importance for Nature Conservation within Glasgow City.
+
+Graffiti Incidences Graffiti incidences observed and logged by community enforcement patrols and by the public in Glasgow.
+
+LIDAR data LIDAR data is extremely accurate 3D data generated from sensors on the ground or on airplanes. This data was acquired in 2021.
+
+Accessibility {{description}}
+
+News We want to share the latest stories with our communities about developments in data and analysis.
+
+App Gallery Our open data is about more than the numbers – it relates to real people, places and issues. We want to bring the data to life by sharing some stories around what it tells us about the city and how we might use these insights to improve the lives of those who live and work in Glasgow.
+
+How do people move round our city during lockdown? {{description}}
+
+Operational Areas (historical 1999 to 2007) <p>The 8 historical Operational Areas from 1999-2007 - ie. Caithness, Sutherland, Ross &amp; Cromarty, Skye &amp; Lochalsh, Inverness, Nairn, Lochaber, Badenoch &amp; Strathspey.</p><p>Full dataset- ie. not simplified version.</p><p>Gemini metadata record is at <a href='https://www.spatialdata.gov.scot/geonetwork/srv/eng/catalog.search#/metadata/40bb2aba-98ee-4509-ae08-41badcdf9018' target='_blank' rel='nofollow ugc noopener noreferrer'>https://www.spatialdata.gov.scot/geonetwork/srv/eng/catalog.search#/metadata/40bb2aba-98ee-4509-ae08-41badcdf9018</a><br /></p><div>Created by uploading zipped .shp.</div>
+
+>>>>>>> 5c7ad750706c7c5cf786a8142d047fa75e7e6bac
