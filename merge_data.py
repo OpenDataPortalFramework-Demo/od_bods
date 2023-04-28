@@ -197,7 +197,7 @@ def clean_data(dataframe):
     ### Inconsistencies in casing for FileType
     data["FileType"] = data["FileType"].str.upper()
     ### Creating a dummy column
-    #data["AssetStatus"] = None
+    data["AssetStatus"] = None
 
     ### Cleaning dataset categories
     def tidy_categories(categories_string):
