@@ -1,5 +1,9 @@
 ---
-category: []
+category:
+- Education
+- Food and Environment
+- Planning and Development
+- Transportation
 date_created: '2022-11-07'
 date_updated: '2022-11-07'
 license: No licence

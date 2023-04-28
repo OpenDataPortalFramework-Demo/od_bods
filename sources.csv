@@ -1,13 +1,8 @@
 Name,Source URL,Processor
 renfrew,"https://opendata.arcgis.com/api/v3/search?catalog[groupIds]=any(79dc9ae7552e4782bf66dadbdf049a0d,bcaad01ef27a4457b9c9406818eaca5d)",arcgis
 
-glasgow,"https://open-data-design-glasgowgis.hub.arcgis.com/api/feed/dcat-ap/2.0.1.json",dcat
+Perth and Kinross Council,https://data.pkc.gov.uk/,ckan
 
-highland,"https://map-highland.opendata.arcgis.com/api/feed/dcat-ap/2.0.1.json",dcat
-
+Statistics Scottish Government, http://statistics.gov.scot/sparql,sparkql
 
 Dumfries and Galloway Council,"https://discovery.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/dcat/data.json",USMART
-
-Aberdeen City Council,https://data.aberdeencity.gov.uk/,ckan
-
-Statistics Scottish Government,http://statistics.gov.scot/sparql,sparkql

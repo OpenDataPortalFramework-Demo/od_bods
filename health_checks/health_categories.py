@@ -75,11 +75,7 @@ for cat in cat_set:
 
 
 ### Keywords not used in each category
-cat_set_unused = {}
-for cat in odp_categories:
-    cat_set_unused[cat] = [
-        k for k in odp_categories[cat] if k not in cat_set_aggregated[cat]
-    ]
+
 
 
 ### Duplicate keywords in each category
@@ -144,7 +140,7 @@ with open(output_filename, "w") as log_file:
 
     log_file.write("\n\n")
     log_file.write("### Keywords not used in each category ###\n")
-    log_file.write(json.dumps(cat_set_unused, indent=2))
+
 
     log_file.write("\n\n")
     log_file.write("### Duplicate keywords in each category ###\n")
