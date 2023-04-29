@@ -6,3 +6,6 @@ Perth and Kinross Council,https://data.pkc.gov.uk/,ckan
 Statistics Scottish Government, http://statistics.gov.scot/sparql,sparkql
 
 Dumfries and Galloway Council,"https://discovery.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/dcat/data.json",USMART
+
+highland,"https://map-highland.opendata.arcgis.com/api/feed/dcat-ap/2.0.1.json",dcat
+glasgow,"https://open-data-design-glasgowgis.hub.arcgis.com/api/feed/dcat-ap/2.0.1.json",dcat

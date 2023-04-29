@@ -394,6 +394,6 @@ if __name__ == "__main__":
 
     ## From DCAT
     source_dcat = load_dcat_data("data/dcat/")
-    ### From usmart api
-    merge_data(ckan_source=source_ckan, arcgis_source=source_arcgis, output_fold = "data")
+
+    merge_data(ckan_source=source_ckan, dcat_source= source_dcat, usmart_source=source_usmart, arcgis_source=source_arcgis, scotgov_source=source_scotgov, output_fold = "data")
     

@@ -45,12 +45,12 @@ def get_json(url):
 
 def clean_folder(folder):
     urls = get_urls()
-    
-    for file in os.listdir(folder):
-        if isfile(join(folder, file)):
-            filename = file.split(".")[0]
-            if filename not in urls.keys():
-                os.remove(join(folder,file))
+    if os.path.exists(folder):    
+        for file in os.listdir(folder):
+            if isfile(join(folder, file)):
+                filename = file.split(".")[0]
+                if filename not in urls.keys():
+                    os.remove(join(folder,file))
 
 
 def save_json(data, location):
@@ -72,6 +72,8 @@ def test_get_datasets(name, type):
             
     owner = "test_owner"
     outputdir = os.path.join("tests", "mock_data", type, "expected")
+    if not os.path.exists(outputdir):
+        os.makedirs(outputdir)
 
     clean_folder(outputdir)  
     
