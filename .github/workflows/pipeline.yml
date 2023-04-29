@@ -94,10 +94,6 @@ jobs:
       run: python merge_data.py
       working-directory: ${{env.odbodsPath}}
 
-    - name: Run Script health_checks/health_categories.py
-      run: python health_categories.py
-      working-directory: ${{env.odbodsPath}}/health_checks
-
     # Convert merged CSV to Markdown files 
     - name: Run Script export2jkan.py
       run: python export2jkan.py
