@@ -542,8 +542,8 @@ Arts / Culture / History  10
     "Housing and Estates"
   ],
   "boundaries": [
-    "Planning and Development",
-    "Council and Government"
+    "Council and Government",
+    "Planning and Development"
   ],
   "buildings": [
     "Planning and Development",
@@ -558,12 +558,12 @@ Arts / Culture / History  10
     "Business and Economy"
   ],
   "core paths": [
-    "Planning and Development",
-    "Transportation"
+    "Transportation",
+    "Planning and Development"
   ],
   "council area": [
-    "Planning and Development",
-    "Elections / Politics"
+    "Elections / Politics",
+    "Planning and Development"
   ],
   "council tax": [
     "Council and Government",
@@ -582,8 +582,8 @@ Arts / Culture / History  10
     "Housing and Estates"
   ],
   "employment land audit": [
-    "Planning and Development",
-    "Food and Environment"
+    "Food and Environment",
+    "Planning and Development"
   ],
   "energy": [
     "Planning and Development",
@@ -630,20 +630,20 @@ Arts / Culture / History  10
     "Housing and Estates"
   ],
   "public toilets": [
-    "Tourism",
-    "Food and Environment"
+    "Food and Environment",
+    "Tourism"
   ],
   "regeneration": [
     "Food and Environment",
     "Business and Economy"
   ],
   "road safety": [
-    "Public Safety",
-    "Transportation"
+    "Transportation",
+    "Public Safety"
   ],
   "school meals": [
-    "Education",
-    "Food and Environment"
+    "Food and Environment",
+    "Education"
   ],
   "sport": [
     "Sport and Leisure"
@@ -653,12 +653,12 @@ Arts / Culture / History  10
     "Business and Economy"
   ],
   "vacant and derelict land supply": [
-    "Planning and Development",
-    "Food and Environment"
+    "Food and Environment",
+    "Planning and Development"
   ],
   "woodland": [
-    "Parks / Recreation",
-    "Housing and Estates"
+    "Housing and Estates",
+    "Parks / Recreation"
   ]
 }
 

@@ -78,73 +78,6 @@
             "conformsTo": null,
             "contactPoint": {
                 "@type": "vcard:Contact",
-                "fn": "Louise Boyce",
-                "email": "louise.boyce@dumgal.gov.uk"
-            },
-            "coverageArea": "Dumfries and Galloway",
-            "createdAt": "2018-01-25T16:07:09.343Z",
-            "description": "Burial Grounds in Dumfries and Galloway",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "accessURL": "https://api.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/d8fe3886-406a-440a-b5f1-211ecef6cd73/1/urql",
-                    "mediaType": "application/json",
-                    "title": "API"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "accessURL": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/resource?resourceGUID=4ac6c7de-b05b-4dce-ab05-faab6ccff4e3",
-                    "mediaType": "text/csv",
-                    "title": "Burial_Grounds.csv"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "accessURL": "https://api.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/ac87ee48-ba3d-4742-938f-7f97269454c7/1/urql",
-                    "mediaType": "application/json",
-                    "title": "API"
-                }
-            ],
-            "identifier": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/dataset:viewDiscovery?datasetGUID=873818de-53dd-4008-ac1c-8cc0c6f74070",
-            "issued": "2018-01-25T16:07:09.343Z",
-            "issueDate": null,
-            "landingPage": "https://usmart.io/org/dumgal/discovery/discovery-view-detail/873818de-53dd-4008-ac1c-8cc0c6f74070",
-            "language": "en",
-            "lastModificationDate": "2011-10-27T23:00:00.000Z",
-            "licence": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-            "lineage": null,
-            "modified": "2018-08-23T14:19:56.887Z",
-            "notes": null,
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "https://usmart.io/org/dumgal"
-            },
-            "spatialReferenceSystem": "British National Grid",
-            "spatialResolution": null,
-            "status": "Published",
-            "targetDate": "2018-01-27T17:00:00.000Z",
-            "temporalCoverageEnd": null,
-            "temporalCoverageStart": null,
-            "temporalNotes": null,
-            "title": "Burial Grounds",
-            "accrualPeriodicity": "Irregular",
-            "verticalExtent": null,
-            "keyword": [
-                "Population"
-            ],
-            "theme": [
-                "Social / Community"
-            ]
-        },
-        {
-            "@type": "dcat:Dataset",
-            "accessLevel": "public",
-            "boundingBoxEast": "347000",
-            "boundingBoxNorth": "622000",
-            "boundingBoxSouth": "531000",
-            "boundingBoxWest": "195000",
-            "conformsTo": null,
-            "contactPoint": {
-                "@type": "vcard:Contact",
                 "fn": "Open Data",
                 "email": "opendata@dumgal.gov.uk"
             },
@@ -431,6 +364,73 @@
             "theme": [
                 "Social / Community",
                 "Geospatial"
+            ]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "accessLevel": "public",
+            "boundingBoxEast": "347000",
+            "boundingBoxNorth": "622000",
+            "boundingBoxSouth": "531000",
+            "boundingBoxWest": "195000",
+            "conformsTo": null,
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Louise Boyce",
+                "email": "louise.boyce@dumgal.gov.uk"
+            },
+            "coverageArea": "Dumfries and Galloway",
+            "createdAt": "2018-01-25T16:07:09.343Z",
+            "description": "Burial Grounds in Dumfries and Galloway",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://api.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/d8fe3886-406a-440a-b5f1-211ecef6cd73/1/urql",
+                    "mediaType": "application/json",
+                    "title": "API"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/resource?resourceGUID=4ac6c7de-b05b-4dce-ab05-faab6ccff4e3",
+                    "mediaType": "text/csv",
+                    "title": "Burial_Grounds.csv"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://api.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/ac87ee48-ba3d-4742-938f-7f97269454c7/1/urql",
+                    "mediaType": "application/json",
+                    "title": "API"
+                }
+            ],
+            "identifier": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/dataset:viewDiscovery?datasetGUID=873818de-53dd-4008-ac1c-8cc0c6f74070",
+            "issued": "2018-01-25T16:07:09.343Z",
+            "issueDate": null,
+            "landingPage": "https://usmart.io/org/dumgal/discovery/discovery-view-detail/873818de-53dd-4008-ac1c-8cc0c6f74070",
+            "language": "en",
+            "lastModificationDate": "2011-10-27T23:00:00.000Z",
+            "licence": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "lineage": null,
+            "modified": "2018-08-23T14:19:56.887Z",
+            "notes": null,
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "https://usmart.io/org/dumgal"
+            },
+            "spatialReferenceSystem": "British National Grid",
+            "spatialResolution": null,
+            "status": "Published",
+            "targetDate": "2018-01-27T17:00:00.000Z",
+            "temporalCoverageEnd": null,
+            "temporalCoverageStart": null,
+            "temporalNotes": null,
+            "title": "Burial Grounds",
+            "accrualPeriodicity": "Irregular",
+            "verticalExtent": null,
+            "keyword": [
+                "Population"
+            ],
+            "theme": [
+                "Social / Community"
             ]
         },
         {
@@ -757,81 +757,6 @@
                 "email": "opendata@dumgal.gov.uk"
             },
             "coverageArea": null,
-            "createdAt": "2017-11-29T11:05:07.274Z",
-            "description": "Primary school class sizes as at September 2016",
-            "distribution": [
-                {
-                    "@type": "dcat:Distribution",
-                    "accessURL": "https://api.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/55fbc78a-e9eb-46c9-94b1-13aa16ae2178/1/urql",
-                    "mediaType": "application/json",
-                    "title": "API"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "accessURL": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/resource?resourceGUID=74a0bbbf-55f8-4ccf-83f9-388b93b219e9",
-                    "mediaType": "application/json",
-                    "title": "Class Sizes.json"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "accessURL": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/resource?resourceGUID=e42a8889-9106-41ee-9d0c-cb22e81fe69d",
-                    "mediaType": "text/csv",
-                    "title": "Class Sizes.csv"
-                },
-                {
-                    "@type": "dcat:Distribution",
-                    "accessURL": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/resource?resourceGUID=b3f0b67b-7d62-4f94-a99b-e12105d36483",
-                    "mediaType": "application/xml",
-                    "title": "Class Sizes.xml"
-                }
-            ],
-            "identifier": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/dataset:viewDiscovery?datasetGUID=49492547-04d7-4dc8-b962-21c2c389be7a",
-            "issued": "2017-11-29T11:05:07.274Z",
-            "issueDate": null,
-            "landingPage": "https://usmart.io/org/dumgal/discovery/discovery-view-detail/49492547-04d7-4dc8-b962-21c2c389be7a",
-            "language": null,
-            "lastModificationDate": null,
-            "licence": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
-            "lineage": null,
-            "modified": "2018-03-01T11:56:13.034Z",
-            "notes": "Primary School Class Size Information, September 2016\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\nData on class sizes in primary schools are collected each year as part of the pupil census.\t\t\t\t\t\t\t\t\t\t\nThe attached data give the number of pupils in each class in September 2016.\t\t\t\t\t\t\t\t\t\t\n\"Class type\" gives the stage of pupils in the class or, where more than one stage is present\t\t\t\t\t\t\t\t\t\t\n\"Co\" denotes a composite class.\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\nA class size maxima for P1 pupils is 25 and 30 for single stage class P2 or P3 is set out in  The Education (Lower Class Sizes) (Scotland) Amendment Regulations 2010.  \t\t\t\t\t\t\t\t\t\t\nThese regulations allow certain exceptions such as pupils who join a class after the end of a placing round and Additional Support Needs pupils who only join a class for part of the \t\t\t\t\t\t\t\t\t\t\ntime.  For P4-P7 class size maxima are set out in teachers terms and conditions of service.  For these years there is a normal maximum of \t\t\t\t\t\t\t\t\t\t\n33.  Composite classes throughout primary have a class size maximum of 25.\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\nExcepted pupils in class-size legislation are-\t\t\t\t\t\t\t\t\t\t\n(a) children whose record of additional support needs specify that they should be educated at the school concerned, and who are placed in the school outside a normal placing round;\t\t\t\t\t\t\t\t\t\t\n(b) children initially refused a place at a school, but subsequently on appeal offered a place outside a normal placing round or because the education authority recognise that an error\t\t\t\t\t\t\t\t\t\t\nwas made in implementing their placing arrangements for the school;\t\t\t\t\t\t\t\t\t\t\n(c) children who cannot gain a place at any other suitable school within a reasonable distance of their home because they move into an area outside a normal placing round;\t\t\t\t\t\t\t\t\t\t\n(d) children who are pupils at special schools, but who receive part of their education at a mainstream school; and\t\t\t\t\t\t\t\t\t\t\n(e) children with additional support needs who are normally educated in a special unit in a mainstream school, but who receive part of their lessons in a non-special class.\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\nThese are National Statistics background data. National Statistics are produced to high professional standards set out in the National Statistics \t\t\t\t\t\t\t\t\t\t\nCode of Practice. They undergo regular quality assurance reviews to ensure that they meet customer needs. They are produced free from \t\t\t\t\t\t\t\t\t\t\nany political interference. \t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\nAnalysis of class size at a national level is available through the following link:\t\n\t\t\t\t\t\t\t\t\t\nhttp://www.gov.scot/Topics/Statistics/Browse/School-Education/ClassSizeDatasets/classsize2016",
-            "publisher": {
-                "@type": "org:Organization",
-                "name": "https://usmart.io/org/dumgal"
-            },
-            "spatialReferenceSystem": null,
-            "spatialResolution": null,
-            "status": "Published",
-            "targetDate": "2017-11-30T17:00:00.000Z",
-            "temporalCoverageEnd": null,
-            "temporalCoverageStart": null,
-            "temporalNotes": null,
-            "title": "Class Sizes",
-            "accrualPeriodicity": null,
-            "verticalExtent": null,
-            "keyword": [
-                "Children",
-                "Education",
-                "Schools"
-            ],
-            "theme": [
-                "Social / Community"
-            ]
-        },
-        {
-            "@type": "dcat:Dataset",
-            "accessLevel": "public",
-            "boundingBoxEast": null,
-            "boundingBoxNorth": null,
-            "boundingBoxSouth": null,
-            "boundingBoxWest": null,
-            "conformsTo": null,
-            "contactPoint": {
-                "@type": "vcard:Contact",
-                "fn": "Open Data",
-                "email": "opendata@dumgal.gov.uk"
-            },
-            "coverageArea": null,
             "createdAt": "2019-01-24T15:10:17.795Z",
             "description": "Secondry School Teachers FTE (Full Time Equivelnt) 2017",
             "distribution": [
@@ -1126,6 +1051,81 @@
             ],
             "theme": [
                 "Built environment"
+            ]
+        },
+        {
+            "@type": "dcat:Dataset",
+            "accessLevel": "public",
+            "boundingBoxEast": null,
+            "boundingBoxNorth": null,
+            "boundingBoxSouth": null,
+            "boundingBoxWest": null,
+            "conformsTo": null,
+            "contactPoint": {
+                "@type": "vcard:Contact",
+                "fn": "Open Data",
+                "email": "opendata@dumgal.gov.uk"
+            },
+            "coverageArea": null,
+            "createdAt": "2017-11-29T11:05:07.274Z",
+            "description": "Primary school class sizes as at September 2016",
+            "distribution": [
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://api.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/55fbc78a-e9eb-46c9-94b1-13aa16ae2178/1/urql",
+                    "mediaType": "application/json",
+                    "title": "API"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/resource?resourceGUID=74a0bbbf-55f8-4ccf-83f9-388b93b219e9",
+                    "mediaType": "application/json",
+                    "title": "Class Sizes.json"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/resource?resourceGUID=e42a8889-9106-41ee-9d0c-cb22e81fe69d",
+                    "mediaType": "text/csv",
+                    "title": "Class Sizes.csv"
+                },
+                {
+                    "@type": "dcat:Distribution",
+                    "accessURL": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/resource?resourceGUID=b3f0b67b-7d62-4f94-a99b-e12105d36483",
+                    "mediaType": "application/xml",
+                    "title": "Class Sizes.xml"
+                }
+            ],
+            "identifier": "https://data.usmart.io/org/9762f781-5c04-4759-a70b-afc585af1d12/dataset:viewDiscovery?datasetGUID=49492547-04d7-4dc8-b962-21c2c389be7a",
+            "issued": "2017-11-29T11:05:07.274Z",
+            "issueDate": null,
+            "landingPage": "https://usmart.io/org/dumgal/discovery/discovery-view-detail/49492547-04d7-4dc8-b962-21c2c389be7a",
+            "language": null,
+            "lastModificationDate": null,
+            "licence": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+            "lineage": null,
+            "modified": "2018-03-01T11:56:13.034Z",
+            "notes": "Primary School Class Size Information, September 2016\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\nData on class sizes in primary schools are collected each year as part of the pupil census.\t\t\t\t\t\t\t\t\t\t\nThe attached data give the number of pupils in each class in September 2016.\t\t\t\t\t\t\t\t\t\t\n\"Class type\" gives the stage of pupils in the class or, where more than one stage is present\t\t\t\t\t\t\t\t\t\t\n\"Co\" denotes a composite class.\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\nA class size maxima for P1 pupils is 25 and 30 for single stage class P2 or P3 is set out in  The Education (Lower Class Sizes) (Scotland) Amendment Regulations 2010.  \t\t\t\t\t\t\t\t\t\t\nThese regulations allow certain exceptions such as pupils who join a class after the end of a placing round and Additional Support Needs pupils who only join a class for part of the \t\t\t\t\t\t\t\t\t\t\ntime.  For P4-P7 class size maxima are set out in teachers terms and conditions of service.  For these years there is a normal maximum of \t\t\t\t\t\t\t\t\t\t\n33.  Composite classes throughout primary have a class size maximum of 25.\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\nExcepted pupils in class-size legislation are-\t\t\t\t\t\t\t\t\t\t\n(a) children whose record of additional support needs specify that they should be educated at the school concerned, and who are placed in the school outside a normal placing round;\t\t\t\t\t\t\t\t\t\t\n(b) children initially refused a place at a school, but subsequently on appeal offered a place outside a normal placing round or because the education authority recognise that an error\t\t\t\t\t\t\t\t\t\t\nwas made in implementing their placing arrangements for the school;\t\t\t\t\t\t\t\t\t\t\n(c) children who cannot gain a place at any other suitable school within a reasonable distance of their home because they move into an area outside a normal placing round;\t\t\t\t\t\t\t\t\t\t\n(d) children who are pupils at special schools, but who receive part of their education at a mainstream school; and\t\t\t\t\t\t\t\t\t\t\n(e) children with additional support needs who are normally educated in a special unit in a mainstream school, but who receive part of their lessons in a non-special class.\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\nThese are National Statistics background data. National Statistics are produced to high professional standards set out in the National Statistics \t\t\t\t\t\t\t\t\t\t\nCode of Practice. They undergo regular quality assurance reviews to ensure that they meet customer needs. They are produced free from \t\t\t\t\t\t\t\t\t\t\nany political interference. \t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\nAnalysis of class size at a national level is available through the following link:\t\n\t\t\t\t\t\t\t\t\t\nhttp://www.gov.scot/Topics/Statistics/Browse/School-Education/ClassSizeDatasets/classsize2016",
+            "publisher": {
+                "@type": "org:Organization",
+                "name": "https://usmart.io/org/dumgal"
+            },
+            "spatialReferenceSystem": null,
+            "spatialResolution": null,
+            "status": "Published",
+            "targetDate": "2017-11-30T17:00:00.000Z",
+            "temporalCoverageEnd": null,
+            "temporalCoverageStart": null,
+            "temporalNotes": null,
+            "title": "Class Sizes",
+            "accrualPeriodicity": null,
+            "verticalExtent": null,
+            "keyword": [
+                "Children",
+                "Education",
+                "Schools"
+            ],
+            "theme": [
+                "Social / Community"
             ]
         },
         {
