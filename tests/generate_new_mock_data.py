@@ -43,12 +43,15 @@ def get_json(url):
     req = request.Request(url)
     return json.loads(request.urlopen(req).read().decode())
 
+# a function to clean the folder from the unnecessary files
 def clean_folder(folder):
     urls = get_urls()
     if os.path.exists(folder):    
         for file in os.listdir(folder):
+            # checks each element in the provided folder and if it is a file exctracts its filename before the .
             if isfile(join(folder, file)):
                 filename = file.split(".")[0]
+                # if this name of this file is not in the urls list it is removed from the folder as it isn't necessary
                 if filename not in urls.keys():
                     os.remove(join(folder,file))
 
@@ -72,11 +75,12 @@ def test_get_datasets(name, type):
             
     owner = "test_owner"
     outputdir = os.path.join("tests", "mock_data", type, "expected")
-    if not os.path.exists(outputdir):
-        os.makedirs(outputdir)
-
-    clean_folder(outputdir)  
     
+    if os.path.exists(outputdir):
+        clean_folder(outputdir)
+    else:
+        os.makedirs(outputdir)
+      
     if type == "ckan":
         urls = get_urls()
         start_url = urls[name]["url"]        

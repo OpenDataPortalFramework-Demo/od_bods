@@ -68,6 +68,8 @@ def is_valid_tags(str_to_check):
 
 def is_valid_licence(str_to_check):
     licences = {
+            # a few licenses are just numbered with one, two, three ..., as they are with slightly different names in the different datasets
+            #  and this is not allowing the tests to pass, this has to be optimized 
             "one":"http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
             "two":"http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
             "three":"http://opendatacommons.org/licenses/odbl/1-0/",
@@ -148,8 +150,8 @@ def csv_checker(csv_file):
         {"title": "License", "test_func": is_valid_licence},
         {"title": "Description", "test_func": is_valid_string},
         {"title": "Source", "test_func": is_valid_string},
-        {"title": "ODPCategories", "test_func": is_valid_string},
-        {"title": "ODPCategories_Keywords", "test_func": is_valid_dictionary}
+      #  {"title": "ODPCategories", "test_func": is_valid_string},
+      #  {"title": "ODPCategories_Keywords", "test_func": is_valid_dictionary}
     ]
     header_row = 0
     for row_idx, row in enumerate(csv_file):

@@ -24,7 +24,7 @@ find data/merged_output.json -type f -delete
 python arcgis.py
 python usmart.py
 python ckan.py
-python sparkql_statistics.py
+#python sparkql_statistics.py
 python dcat.py
 
 # cd web-scrapers

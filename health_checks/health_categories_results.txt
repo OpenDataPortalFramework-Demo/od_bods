@@ -1,238 +1,208 @@
 ### Number of categories assigned to assets (out of 16) ###
-1    316
-2    116
-3     83
-4     38
+1    117
+2     50
+3     52
+4     31
 5      6
 6      5
 7      2
 9      1
 
 ### Number of datasets in each category ###
-Planning and Development 165
-    Business and Economy 139
-  Council and Government 112
-     Housing and Estates  85
-  Health and Social Care  75
-    Elections / Politics  69
-    Food and Environment  66
-               Education  63
-           Uncategorised  57
-          Transportation  56
-        Budget / Finance  33
-       Sport and Leisure  31
-       Law and Licensing  23
-           Public Safety  23
-      Parks / Recreation  14
-                 Tourism  11
+Planning and Development 114
+  Council and Government  84
+    Food and Environment  51
+    Elections / Politics  48
+     Housing and Estates  43
+          Transportation  42
+               Education  40
+    Business and Economy  36
+           Uncategorised  25
+       Sport and Leisure  18
+  Health and Social Care  17
+       Law and Licensing  14
+        Budget / Finance  12
+           Public Safety  12
+      Parks / Recreation  10
 Arts / Culture / History  10
+                 Tourism   4
 
 ### Keywords used in each category ###
 {
   "Food and Environment": {
-    "land": 33,
+    "land": 27,
     "employment land audit": 7,
-    "greenhouse gas": 5,
-    "emissions": 5,
     "air quality": 4,
-    "waste": 4,
-    "landscape": 3,
     "environment": 3,
-    "preservation": 2,
-    "carbon": 2,
+    "landscape": 3,
+    "toilets": 2,
     "contaminated": 2,
     "tree": 2,
+    "preservation": 2,
     "recycling": 2,
-    "toilets": 2,
     "wildlife": 2,
+    "public toilets": 1,
+    "terrain": 1,
+    "rivers": 1,
     "tree preservation order": 1,
     "pollution": 1,
-    "public toilets": 1,
-    "dog fouling": 1,
-    "terrain": 1,
-    "regeneration": 1,
-    "rivers": 1,
-    "biodiversity": 1,
     "forest woodland strategy": 1,
+    "dog fouling": 1,
+    "waste": 1,
+    "regeneration": 1,
     "food": 1,
-    "renewable electricity": 1,
-    "household waste": 1
+    "biodiversity": 1
   },
   "Business and Economy": {
-    "population": 26,
-    "business": 19,
-    "employment": 18,
-    "deprivation": 18,
-    "scottish index of multiple deprivation": 15,
-    "simd": 14,
-    "expenditure": 13,
-    "income": 9,
-    "financial": 8,
-    "social security": 8,
-    "poverty": 8,
-    "economic": 7,
-    "industry": 7,
-    "economy": 3,
-    "insolvency": 2,
+    "business": 9,
+    "employment": 9,
+    "population": 6,
+    "simd": 5,
+    "financial": 4,
+    "deprivation": 3,
+    "scottish index of multiple deprivation": 3,
+    "industry": 3,
+    "income": 2,
     "commercial": 2,
-    "welfare fund": 2,
-    "gross domestic product": 2,
-    "child benefit": 2,
-    "economic development": 1,
-    "exports": 1,
-    "unemployment": 1,
-    "job seeker's allowance": 1,
-    "underemployment": 1,
+    "economic": 2,
     "regeneration": 1,
-    "pollution": 1,
     "business and economy": 1,
     "estimated population": 1,
+    "pollution": 1,
+    "economic development": 1,
+    "expenditure": 1,
     "contracts": 1,
-    "economic activity": 1
+    "economy": 1
   },
   "Law and Licensing": {
     "licence": 9,
-    "police": 6,
-    "crime": 5,
     "licensing": 3,
     "law": 1,
+    "crime": 1,
     "regulations": 1,
     "licenses": 1,
-    "fixed penalty notices": 1,
-    "policing": 1,
-    "court": 1
+    "police": 1,
+    "fixed penalty notices": 1
   },
   "Council and Government": {
-    "council": 80,
-    "boundaries": 18,
-    "census": 9,
-    "council tax": 6,
-    "benefits": 5,
+    "council": 68,
+    "boundaries": 15,
+    "census": 6,
     "councils": 4,
-    "grants": 2,
-    "data zone lookup": 2,
-    "migration": 2,
-    "disability living allowance": 2,
+    "council tax": 3,
+    "benefits": 2,
+    "grants": 1,
     "council buildings": 1,
     "committee areas": 1
   },
   "Transportation": {
-    "transport": 13,
-    "travel": 9,
-    "road": 9,
-    "car": 8,
-    "roads": 7,
+    "transport": 7,
+    "roads": 6,
     "station": 6,
-    "bus": 5,
-    "traffic": 5,
+    "road": 5,
+    "traffic": 4,
+    "car": 4,
     "core paths": 4,
-    "walking": 3,
-    "cycling": 3,
+    "travel": 4,
+    "parking": 3,
     "pedestrian": 3,
     "active travel": 3,
     "cycle": 3,
-    "parking": 3,
-    "footfall": 2,
-    "road safety": 2,
-    "electric vehicle": 2,
-    "passenger": 2,
+    "cycling": 2,
     "rail": 2,
+    "road safety": 2,
+    "bus": 2,
+    "footfall": 2,
+    "electric vehicle": 2,
     "car parks": 2,
-    "train": 2,
     "walk": 1,
     "electric vehicle charging points": 1,
+    "passenger": 1,
     "bike": 1,
     "scotrail": 1,
     "transportation": 1,
-    "salt bins": 1,
-    "commuting": 1
+    "salt bins": 1
   },
   "Housing and Estates": {
-    "housing": 25,
-    "buildings": 16,
-    "dwellings": 12,
-    "neighbourhood": 11,
-    "property": 9,
-    "vacant and derelict land": 8,
+    "buildings": 13,
+    "housing": 9,
     "scottish vacant and derelict land": 8,
-    "energy": 6,
-    "accommodation": 4,
-    "council housing": 3,
-    "multiple occupation": 3,
+    "vacant and derelict land": 8,
+    "neighbourhood": 6,
+    "property": 6,
     "parking": 3,
+    "energy": 3,
+    "dwellings": 2,
     "garages": 2,
-    "postcodes": 2,
+    "accommodation": 2,
+    "multiple occupation": 2,
+    "council housing": 2,
     "burial": 2,
     "burial grounds": 2,
-    "lettings": 2,
-    "rent": 1,
     "woodland": 1,
-    "homelessness": 1
+    "postcodes": 1,
+    "rent": 1
   },
   "Parks / Recreation": {
-    "parks": 7,
     "community centres": 5,
+    "parks": 4,
     "recreation": 4,
-    "features of interest": 2,
+    "features of interest": 1,
     "woodland": 1
   },
   "Sport and Leisure": {
-    "groups": 12,
-    "parks": 7,
     "libraries": 5,
     "sports": 5,
     "community centres": 5,
+    "parks": 4,
     "heritage": 4,
+    "groups": 2,
     "indoor venues": 1
   },
   "Planning and Development": {
-    "council area": 31,
-    "housing": 25,
+    "council area": 26,
     "city development plan": 23,
-    "boundaries": 18,
-    "buildings": 16,
-    "planning": 15,
-    "dwellings": 12,
+    "boundaries": 15,
+    "planning": 14,
+    "buildings": 13,
     "local development plan": 9,
-    "property": 9,
-    "urban": 9,
+    "housing": 9,
     "land audit": 8,
     "employment land audit": 7,
-    "energy": 6,
+    "property": 6,
     "address": 5,
-    "broadband": 4,
-    "rural": 4,
+    "urban": 5,
     "core paths": 4,
-    "heating": 3,
+    "broadband": 3,
+    "energy": 3,
     "green belt": 3,
     "built environment": 2,
     "non-domestic properties": 2,
-    "postcodes": 2,
+    "dwellings": 2,
+    "postcodes": 1,
     "planning permission": 1,
     "addresses": 1
   },
   "Public Safety": {
-    "safety": 6,
-    "police": 6,
-    "crime": 5,
-    "fire": 3,
+    "safety": 5,
     "cctv": 3,
+    "fire": 2,
     "road safety": 2,
     "community safety": 1,
+    "crime": 1,
     "street lighting": 1,
+    "police": 1,
     "public safety": 1,
-    "smoke": 1,
-    "policing": 1,
-    "reconviction": 1
+    "smoke": 1
   },
   "Elections / Politics": {
-    "council area": 31,
-    "local authority": 21,
-    "polling": 7,
+    "council area": 26,
+    "polling": 8,
     "electoral": 6,
     "community councils": 4,
+    "local authority": 4,
+    "elections": 4,
     "election": 4,
-    "elections": 3,
     "community council": 2,
     "democracy": 2,
     "polling places": 2,
@@ -246,64 +216,42 @@ Arts / Culture / History  10
     "events": 1
   },
   "Health and Social Care": {
-    "health": 20,
-    "care homes": 11,
-    "covid": 6,
-    "covid-19": 6,
-    "deaths": 6,
-    "hospital": 6,
-    "social work": 5,
-    "smoking": 5,
-    "drug": 5,
-    "hospitals": 4,
-    "alcohol": 4,
-    "health board": 4,
-    "inpatient": 3,
-    "life expectancy": 3,
-    "body mass index": 2,
-    "gp": 2,
-    "pregnancy": 2,
+    "health": 8,
     "nhs": 2,
-    "birth": 2,
-    "cancer": 2,
-    "alcoholic": 1,
-    "hospital admissions": 1,
-    "bmi": 1,
+    "covid": 2,
+    "covid-19": 2,
     "defibrillators": 1,
-    "mental health": 1,
-    "health and social care partnership": 1,
     "health and social care": 1,
-    "stillbirth": 1
+    "health and social care partnership": 1,
+    "birth": 1,
+    "life expectancy": 1,
+    "hospitals": 1,
+    "alcohol": 1,
+    "care homes": 1,
+    "deaths": 1,
+    "drug": 1
   },
   "Budget / Finance": {
-    "payment": 8,
-    "funded": 7,
-    "council tax": 6,
-    "financial year": 4,
-    "grants": 2,
-    "tax credits": 2,
-    "earnings": 2,
-    "pension": 2,
-    "budget": 1
+    "funded": 6,
+    "council tax": 3,
+    "financial year": 2,
+    "budget": 1,
+    "grants": 1
   },
   "Education": {
-    "school": 39,
-    "schools": 29,
-    "education": 10,
-    "pupil": 8,
-    "scqf": 4,
-    "early learning": 4,
+    "school": 26,
+    "schools": 21,
+    "education": 6,
+    "pupil": 4,
     "primary schools": 3,
     "library": 2,
-    "childcare": 2,
     "nurseries": 1
   },
   "Tourism": {
-    "tourism": 7,
-    "hotels": 3,
+    "hotels": 2,
+    "tourism": 2,
     "public toilets": 1,
-    "hotel": 1,
-    "accomodation": 1
+    "hotel": 1
   }
 }
 
@@ -327,7 +275,11 @@ Arts / Culture / History  10
     "theatre"
   ],
   "Budget / Finance": [
+    "earnings",
     "finance",
+    "payment",
+    "pension",
+    "tax credits",
     "tenders"
   ],
   "Business and Economy": [
@@ -335,22 +287,33 @@ Arts / Culture / History  10
     "business awards",
     "business grants",
     "business rates",
+    "child benefit",
     "city centre management",
     "cooling tower",
     "crofting",
+    "economic activity",
     "economic information",
+    "exports",
     "farming",
     "food safety",
+    "gross domestic product",
     "health and safety",
+    "insolvency",
+    "job seeker's allowance",
     "labour force",
     "markets",
+    "poverty",
     "shop",
     "shopping",
     "shopping centres",
     "shops",
+    "social security",
     "tenders",
     "town centre management",
-    "trading standards"
+    "trading standards",
+    "underemployment",
+    "unemployment",
+    "welfare fund"
   ],
   "Council and Government": [
     "asylum",
@@ -366,20 +329,26 @@ Arts / Culture / History  10
     "council policies",
     "councillors",
     "data protection",
+    "data zone lookup",
+    "disability living allowance",
     "elected members",
     "foi",
     "freedom of information",
     "immigration",
+    "migration",
     "mps",
     "msps",
     "politicians"
   ],
   "Education": [
+    "childcare",
+    "early learning",
     "early years",
     "eductional",
     "learning campus",
     "playgroups",
     "school meals",
+    "scqf",
     "sqa",
     "student"
   ],
@@ -395,13 +364,18 @@ Arts / Culture / History  10
     "allotment",
     "bin",
     "biodiversity sites",
+    "carbon",
     "commercial waste",
     "cooling tower",
     "drains",
+    "emissions",
     "flyposting",
     "flytipping",
     "grafitti",
+    "greenhouse gas",
+    "household waste",
     "litter",
+    "renewable electricity",
     "renewable energy",
     "rights of way",
     "school meals",
@@ -414,7 +388,11 @@ Arts / Culture / History  10
   "Health and Social Care": [
     "abortion",
     "adoption",
+    "alcoholic",
+    "bmi",
+    "body mass index",
     "breast feeding",
+    "cancer",
     "carers",
     "cervical",
     "chi",
@@ -426,21 +404,31 @@ Arts / Culture / History  10
     "echocardiographic",
     "elderly",
     "fostering",
+    "gp",
     "health and fitness",
+    "health board",
+    "hospital",
+    "hospital admissions",
     "human services",
     "implant",
     "induced abortion",
+    "inpatient",
     "intensive care",
     "medical",
     "medicine",
+    "mental health",
     "mortality",
     "neonatal",
     "nhs24",
     "outpatient",
     "pharmacy",
+    "pregnancy",
     "prescribing",
     "sexual health",
+    "smoking",
+    "social work",
     "stage of treatment",
+    "stillbirth",
     "substance use",
     "surgery"
   ],
@@ -448,6 +436,7 @@ Arts / Culture / History  10
     "adaptations",
     "allotment",
     "cemeteries",
+    "homelessness",
     "housing advice",
     "housing associations",
     "housing data supply",
@@ -455,6 +444,7 @@ Arts / Culture / History  10
     "land records",
     "landlord",
     "landlord registration",
+    "lettings",
     "real estate",
     "rent arrears",
     "repairs",
@@ -462,9 +452,11 @@ Arts / Culture / History  10
     "tenancy"
   ],
   "Law and Licensing": [
+    "court",
     "courts",
     "permit",
     "permits",
+    "policing",
     "regulation",
     "tribunal",
     "tribunals"
@@ -475,6 +467,8 @@ Arts / Culture / History  10
   "Planning and Development": [
     "building control",
     "development briefs",
+    "heating",
+    "rural",
     "vacant and derelict land supply",
     "wifi",
     "wind turbine applications",
@@ -482,7 +476,9 @@ Arts / Culture / History  10
   ],
   "Public Safety": [
     "crime and justice",
-    "emergency planning"
+    "emergency planning",
+    "policing",
+    "reconviction"
   ],
   "Sport and Leisure": [
     "archives",
@@ -501,6 +497,7 @@ Arts / Culture / History  10
     "sports facilities"
   ],
   "Tourism": [
+    "accomodation",
     "attractions",
     "cafes",
     "historic buildings",
@@ -511,6 +508,7 @@ Arts / Culture / History  10
   "Transportation": [
     "bikehangars",
     "community transport",
+    "commuting",
     "cycles",
     "footpaths",
     "grit",
@@ -524,7 +522,9 @@ Arts / Culture / History  10
     "salt bin",
     "speed limits",
     "taxi",
-    "tram"
+    "train",
+    "tram",
+    "walking"
   ]
 }
 
@@ -538,28 +538,28 @@ Arts / Culture / History  10
 ### Keywords in multiple categories (31) ###
 {
   "allotment": [
-    "Food and Environment",
-    "Housing and Estates"
+    "Housing and Estates",
+    "Food and Environment"
   ],
   "boundaries": [
     "Council and Government",
     "Planning and Development"
   ],
   "buildings": [
-    "Planning and Development",
-    "Housing and Estates"
+    "Housing and Estates",
+    "Planning and Development"
   ],
   "community centres": [
     "Sport and Leisure",
     "Parks / Recreation"
   ],
   "cooling tower": [
-    "Food and Environment",
-    "Business and Economy"
+    "Business and Economy",
+    "Food and Environment"
   ],
   "core paths": [
-    "Transportation",
-    "Planning and Development"
+    "Planning and Development",
+    "Transportation"
   ],
   "council area": [
     "Elections / Politics",
@@ -570,40 +570,40 @@ Arts / Culture / History  10
     "Budget / Finance"
   ],
   "councillors": [
-    "Council and Government",
-    "Elections / Politics"
+    "Elections / Politics",
+    "Council and Government"
   ],
   "crime": [
     "Public Safety",
     "Law and Licensing"
   ],
   "dwellings": [
-    "Planning and Development",
-    "Housing and Estates"
-  ],
-  "employment land audit": [
-    "Food and Environment",
+    "Housing and Estates",
     "Planning and Development"
   ],
-  "energy": [
+  "employment land audit": [
     "Planning and Development",
-    "Housing and Estates"
+    "Food and Environment"
+  ],
+  "energy": [
+    "Housing and Estates",
+    "Planning and Development"
   ],
   "grants": [
     "Council and Government",
     "Budget / Finance"
   ],
   "housing": [
-    "Planning and Development",
-    "Housing and Estates"
+    "Housing and Estates",
+    "Planning and Development"
   ],
   "open spaces": [
     "Sport and Leisure",
     "Parks / Recreation"
   ],
   "parking": [
-    "Transportation",
-    "Housing and Estates"
+    "Housing and Estates",
+    "Transportation"
   ],
   "parks": [
     "Sport and Leisure",
@@ -618,43 +618,43 @@ Arts / Culture / History  10
     "Law and Licensing"
   ],
   "pollution": [
-    "Food and Environment",
-    "Business and Economy"
+    "Business and Economy",
+    "Food and Environment"
   ],
   "postcodes": [
-    "Planning and Development",
-    "Housing and Estates"
+    "Housing and Estates",
+    "Planning and Development"
   ],
   "property": [
-    "Planning and Development",
-    "Housing and Estates"
+    "Housing and Estates",
+    "Planning and Development"
   ],
   "public toilets": [
-    "Food and Environment",
-    "Tourism"
+    "Tourism",
+    "Food and Environment"
   ],
   "regeneration": [
-    "Food and Environment",
-    "Business and Economy"
+    "Business and Economy",
+    "Food and Environment"
   ],
   "road safety": [
-    "Transportation",
-    "Public Safety"
+    "Public Safety",
+    "Transportation"
   ],
   "school meals": [
-    "Food and Environment",
-    "Education"
+    "Education",
+    "Food and Environment"
   ],
   "sport": [
     "Sport and Leisure"
   ],
   "tenders": [
-    "Budget / Finance",
-    "Business and Economy"
+    "Business and Economy",
+    "Budget / Finance"
   ],
   "vacant and derelict land supply": [
-    "Food and Environment",
-    "Planning and Development"
+    "Planning and Development",
+    "Food and Environment"
   ],
   "woodland": [
     "Housing and Estates",
@@ -662,7 +662,7 @@ Arts / Culture / History  10
   ]
 }
 
-### Uncategorised datasets (57) ###
+### Uncategorised datasets (25) ###
 OS Linked Data Linked Data is a growing part of the Web where data is published on the Web and then linked to other published data in much the same way that web pages are interlinked using hypertext.  OS Linked Data site takes some of the OS OpenData products and produces them in machine readable languages and publishes them in this easy to use website for all users to enjoy.
 
 Sites of Importance to Nature Conservation City-wide and local Sites of Importance for Nature Conservation within Glasgow City.
@@ -712,68 +712,4 @@ WeaversCottageKilbarchan
 War Memorials "First and Second World War Memorials In Dumfries and Galloway"
 
 Building Conservation Areas "Building Conservation Areas"
-
-Attitudes to family formation in Scotland data tables 
-
-National Islands Plan Survey 
-
-Residential Properties Sales and Price 
-
-Young Carer Grant Applications and Payments Applications received and authorised, and total value of payments for Young Carer Grant.
-
-Local Service Satisfaction - Scottish Surveys Core Questions 
-
-6-in-1 Immunisation Number and percent of children who have completed their primary immunisation course of the 6-in-1 vaccine by 24 months of age. The 6-in-1 vaccine replaced the 5-in-1 vaccine in the routine childhood immunisation schedule from 1 October 2017.
-
-Community Payback Orders: Commenced Community payback orders commenced in each year from 2011-12 by age group and gender.
-
-Community Payback Orders: Breach Applications Breach applications during the life of Community Payback Orders which were completed/terminated in each year from 2012-13, by gender. 
-
-Feeling safe when alone at home - Scottish Household Survey How safe adults in Scotland feel when alone in their home at night, from the Scottish Household Survey (SHS)
-
-Community Ownership – Number of Assets Number of assets in community ownership
-
-Drinking behaviour and emotional and behavioural problems (SALSUS) Emotional and behavioural problems, by drinking behaviour, age, and gender
-
-Household Type The number of households of different types in Scotland (i.e. 2 adult household)
-
-Organisations A dataset with all of the organisations involved in creating and publishing statistics on this site.
-
-Age of First Time Mothers Number and percentage of first time mothers who are aged 19 and under, or 35 and over. 
-
-Low Birthweight Number, and percent, of low birthweight (less than 2500g) babies (single births).
-
-Mental Wellbeing - Scottish Surveys Core Questions Mental wellbeing by tenure, household type, age, sex and disability. The Scottish Survey Core Questions is an innovative project drawing together multiple household surveys to provide a large sample for subnational analysis.
-
-Unpaid Care Provision - Scottish Surveys Core Questions Unpaid care provision by tenure, household type, age, sex and disability. The Scottish Survey Core Questions is an innovative project drawing together multiple household surveys to provide a large sample for subnational analysis. 
-
-Never Worked Number, and percent, of people aged 16+ who have never had a paid or unpaid job
-
-Intensive Home Care Percent of people aged 65+ with high levels of care needs who are cared for at home
-
-Qualifications of working age adults Percent of people with a given highest qualification level.
-
-Attendance Allowance Number of people claiming Attendance Allowance by age, gender and rate of award
-
-Job Related Training Number, and percent, of people receiving job related training in the last 3 months.
-
-Palliative and End of Life Care The percentage of last 6 months of life spent at home or in a community setting
-
-Measles Mumps Rubella (MMR) Immunisation Number, and percent of, children who were immunised against measles, mumps and rubella by 5 years of age
-
-Looked After Children Information about the number of looked after children by type of care setting.
-
-House Sales Number of house sales
-
-Terrestrial Breeding Birds Index of abundance of terrestrial breeding birds (1994=100)
-
-Supervised Attendance Orders By Length Number of supervised attendance orders commenced by length
-
-Births Number of births by gender that were registered in a calendar year, or occurred in a mid-year period (1 July to 30 June). 
-
-Breastfeeding Number, and percentage of, babies being breastfed or exclusively breastfed by review stage.
-
-Probation Orders By Length Number of probation orders commenced by length.
-
-DTP/Pol/Hib Immunisation Number, and percent, of children who have completed their primary immunisation course of the DTP/Pol/Hib vaccine by 24 months of age. Also known as the '5-in-1' vaccination. 
 
