@@ -9,8 +9,6 @@ on:
         default: true
         type: boolean
 
-  schedule:
-    - cron: '0 12 * * FRI'
 
 jobs:
   Pull_datasets:
